@@ -15,6 +15,7 @@ function changeTheme() {
         }`,
     ),
   )
+
   document.head.appendChild(css)
 
   if (theme === "dark") {
@@ -24,19 +25,20 @@ function changeTheme() {
   }
 
   window.getComputedStyle(css).opacity
+
   document.head.removeChild(css)
-  localStorage.theme = theme
+  // localStorage.theme = theme
 }
 
 function preloadTheme() {
   const theme = (() => {
-    const userTheme = localStorage.theme
+    // const userTheme = localStorage.theme
 
-    if (userTheme === "light" || userTheme === "dark") {
-      return userTheme
-    } else {
-      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
-    }
+    // if (userTheme === "light" || userTheme === "dark") {
+    //   return userTheme
+    // } else {
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+    // }
   })()
 
   const element = document.documentElement
@@ -56,8 +58,8 @@ window.onload = () => {
     const drawerThemeButton = document.getElementById("drawer-theme-button")
     headerThemeButton?.addEventListener("click", changeTheme)
     drawerThemeButton?.addEventListener("click", changeTheme)
-  } 
-  
+  }
+
   document.addEventListener("astro:after-swap", initializeThemeButtons)
   initializeThemeButtons()
 }
