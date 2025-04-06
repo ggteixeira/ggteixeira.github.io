@@ -1,5 +1,5 @@
 ---
-title: Minha casa ex-inteligente
+title: Minha ex-casa inteligente
 summary: Tecnopessimismo, tecnologia ruim e ingenuidade
 draft: false
 date: 06 apr 2025
