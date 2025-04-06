@@ -1,13 +1,12 @@
 ---
-title: "O que a série You pode te ensinar sobre segurança digital"
-summary: "Um guia contextual sobre segurança digital pessoal"
+title: O que a série You pode te ensinar sobre segurança digital
+summary: Um guia de iniciantes sobre segurança digital
 draft: false
-date: "20 dec 2020"
+date: 20 dec 2020
 tags:
   - sec
   - evergreen
 ---
-
 #### (Atenção: Este texto pode conter _spoilers_ da primeira temporada de “You”)
 
 ![Joe Goldberg olhando com um semblante sério para frente, usando um boné sóbrio e segurano um smartphone no ouvido com a mão
