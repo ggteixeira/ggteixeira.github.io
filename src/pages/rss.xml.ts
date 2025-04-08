@@ -13,7 +13,11 @@ export async function GET(context: Context) {
   const posts = await getCollection("blog")
   // const projects = await getCollection("projects")
 
-  const items = [...posts]
+  const publishedPosts = posts.filter((post) => {
+    return post.data.draft === false
+  })
+
+  const items = [...publishedPosts]
 
   items.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
