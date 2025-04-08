@@ -11,14 +11,10 @@
             "id": "98bbd18fe219b657",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09-desativei-minhas-alexas/Desativei minhas Alexas.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Desativei minhas Alexas"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "09-desativei-minhas-alexas/Desativei minhas Alexas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Desativei minhas Alexas"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "09-desativei-minhas-alexas/Desativei minhas Alexas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Desativei minhas Alexas"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09-desativei-minhas-alexas/Desativei minhas Alexas.md",
+                "file": "Curso SQL Alura.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Desativei minhas Alexas"
+              "title": "Outline of Curso SQL Alura"
             }
           }
         ]
@@ -168,14 +162,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98bbd18fe219b657",
+  "active": "2a94a681b66b01c2",
   "lastOpenFiles": [
+    "desativei-minhas-alexas/Desativei minhas Alexas.md",
+    "desativei-minhas-alexas",
+    "historia-do-frontend/A História do Front-End.md",
+    "historia-do-frontend",
+    "serie-you-seguranca-digital/O que a série You pode te ensinar sobre segurança digital.md",
+    "serie-you-seguranca-digital",
+    "03-desativei-minhas-alexas/Desativei minhas Alexas.md",
+    "03-desativei-minhas-alexas",
+    "02-historia-do-frontend/A História do Front-End.md",
+    "02-historia-do-frontend",
+    "01-serie-you-seguranca-digital/O que a série You pode te ensinar sobre segurança digital.md",
+    "01-serie-you-seguranca-digital",
+    "09-desativei-minhas-alexas/Desativei minhas Alexas.md",
+    "Curso SQL Alura.md",
     "08-historia-do-frontend/A História do Front-End.md",
     "07-serie-you-seguranca-digital/O que a série You pode te ensinar sobre segurança digital.md",
-    "09-desativei-minhas-alexas/Desativei minhas Alexas.md",
     "2025-04-06.md",
     "09-desativei-minhas-alexas",
-    "Untitled.md",
     "Untitled 1.md",
     "templates/blog-post-template.md",
     "templates"
