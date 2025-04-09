@@ -7,7 +7,7 @@ tags:
   - seedling
 ---
 
-Com a desapontadora, porém não surpreendente novidade de que todas as interações com a Alexa [passaram a ser enviadas para o Jeff Bezos](https://arstechnica.com/gadgets/2025/03/everything-you-say-to-your-echo-will-be-sent-to-amazon-starting-on-march-28/) a partir de 28 de março de 2025, decidi que era hora de abandonar o barco da casa inteligente.
+Com a desapontadora — porém não surpreendente — novidade de que todas as interações com a Alexa [passaram a ser enviadas para o Jeff Bezos](https://arstechnica.com/gadgets/2025/03/everything-you-say-to-your-echo-will-be-sent-to-amazon-starting-on-march-28/) a partir de 28 de março de 2025, decidi que era hora de abandonar o barco da casa inteligente.
 
 E logo após retirar todas da tomada, concluí que eu não preciso delas, nem nunca precisei. Todos os usos que encontrei para ela são, ou inúteis, ou substituíveis por automações ou botões no celular.
 
