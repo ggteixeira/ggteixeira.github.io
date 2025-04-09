@@ -1,7 +1,7 @@
 ---
 title: Eu decidi abandonar o YouTube
 summary: Por que abandonei o YouTube
-draft: false
+draft: true
 date: 08 apr 2025
 tags:
   - seedling
