@@ -15,3 +15,9 @@ Quem perde é só a gente. Nós, os não nascidos nos Estados Unidos, pessoas qu
 Como se não bastasse essa feature, além de mequetrefe, não pode ser desabilitada permanentemente. A opção de reverter a tradução — e que vale apenas para o vídeo que você está assistindo — está escondida sob 3 cliques.
 
 É essa a nova experiência “*powered by AI*” do YouTube para quem quiser assistir vídeos como um não americano.
+
+---
+Por mais que "sejam só 3 cliques", o problema nem é a quantidade. A verdadeira questão é: por que os *toggles* de maximizar/restaurar a tela cheia e de ativar/desativar legendas estão a 1 clique de distância e possuem até atalhos de teclado, enquanto o *auto-dubbing* fica muito bem escondido? É um _[dark pattern](https://en.wikipedia.org/wiki/Dark_pattern)_ puro e simples. 
+
+Novamente, a questão é: por quê? A pergunta é mais interessante que a resposta porque a resposta é se chama o hype das IAs.
+
