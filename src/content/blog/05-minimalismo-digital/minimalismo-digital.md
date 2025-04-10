@@ -42,6 +42,7 @@ Minimalismo não é seguir páginas ✨ a e s t h e t i c s ✨ no Instagram, 
     - a ideia é deixar na barra de favoritos apenas os links indispensáveis referentes a projetos que sejam ao mesmo tempo atuais e temporários (por exemplo a tabela do front-end month, o classroom da disciplina da Carol etc.)
     - Todo o restante pode ir para dentro de pastas
 
+![favoritos-antes](src/content/blog/05-minimalismo-digital/media/favoritos-antes.png)
 
 ![favoritos-depois](src/content/blog/05-minimalismo-digital/media/favoritos-depois.png)
 
@@ -54,6 +55,7 @@ Minimalismo não é seguir páginas ✨ a e s t h e t i c s ✨ no Instagram, 
 
 - Em casos limítrofes, quando o navegador se confunde ao tentar entender qual página (ou estado dela) está para trás ou para frente no tempo, a ferramenta de histórico do navegador está sempre à mão. No meu caso, basta usar `Command+Shift+H`.
 
+![logitech-mouse](src/content/blog/05-minimalismo-digital/media/logitech-mouse.png)
 ## Inbox zero
 
 - O Inbox Zero é uma prática que consiste em sentar para ler e organizar todos os seus e-mails, fazendo com que a sua caixa de entrada possua literalmente zero e-mails. Longe de ser um ideal, eu faço isso a cada três meses. Crie etiquetas/pastas, crie filtros inteligentes, visite as páginas de configurações dos apps que te mandam e-mails e impeça-os. Se não parar de receber dentro de alguns dias ou semanas, bloqueie o remetente ou marque-o como spammer. Eu fiz isso com a minha faculdade, que me enviava duas vezes o mesmo e-mail com as notícias principais do campus porque eu era aluno e ex-estagiário da universidade. Solicitei a remoção do meu e-mail de uma das listas e o setor de informática respondeu que isso não era possível. Bloqueei o remetente redundante e segui a vida.
