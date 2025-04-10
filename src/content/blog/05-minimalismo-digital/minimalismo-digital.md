@@ -7,7 +7,7 @@ tags:
   - seedling
 ---
 
-![fifteen million merits](https://github.com/ggteixeira/ggteixeira.github.io/blob/master/src/content/blog/05-minimalismo-digital/media/pedala-robinho.png)
+![fifteen million merits](src/content/blog/05-minimalismo-digital/media/pedala-robinho.png)
 
 Depois que peguei COVID-19 no Réveillon, senti uma notável diferença na minha capacidade de concentração. Não sei se é um _brain fog_ como sequela da Ômicron ou se é apenas uma coincidência e há outros fatores envolvidos — como o fato de recentemente eu ter me mudado para uma cidade nova e ter começado a morar sozinho pela primeira vez. De qualquer forma, nos últimos dias voltei a pensar sobre como implementar no dia a dia o minimalismo digital de forma estruturada e séria.
 
@@ -23,8 +23,8 @@ Após esse choque amargo de realidade, de constatar no que essa filosofia se tor
 
 Introduzido o assunto, vamos definir então o que **não** é minimalismo.
 
+![arch](src/content/blog/05-minimalismo-digital/media/arch-desktop.png)
 
-![[arch-desktop.png]]
 Meu desktop Linux, BTW.
 ## O que não é minimalismo
 
@@ -42,9 +42,8 @@ Minimalismo não é seguir páginas ✨ a e s t h e t i c s ✨ no Instagram, 
     - a ideia é deixar na barra de favoritos apenas os links indispensáveis referentes a projetos que sejam ao mesmo tempo atuais e temporários (por exemplo a tabela do front-end month, o classroom da disciplina da Carol etc.)
     - Todo o restante pode ir para dentro de pastas
 
-![[favoritos-antes.png]]
 
-![[favoritos-depois.png]]
+![favoritos-depois](src/content/blog/05-minimalismo-digital/media/favoritos-depois.png)
 
 - No tipo de uso do computador que pretendo atingir enquanto desenvolvedor e enquanto uma pessoa que gosta de escrever, o mouse é um item secundário. Isso significa que atalhos de teclado são muito importantes no meu dia a dia. Por isso, customizei o CSS presente no Firefox (o chamado FirefoxCSS) para remover itens desnecessários da UI do navegador. Por exemplo, os botões de “_back_” e “_forward_” são na maior parte do tempo inúteis. Há vários atalhos de teclado diferentes perfeitamente capazes de executar essas ações:
     
@@ -52,8 +51,7 @@ Minimalismo não é seguir páginas ✨ a e s t h e t i c s ✨ no Instagram, 
     - Usando a extensão Vimium, basta usar `Shift+H` (_back_) ou `Shift+L` (_forward_)
     - Usando o Logitech MX Anywhere 2S, basta customizar qualquer botão usando o Logi Options
     
-    ![[logitech-mouse.png]]
-    
+
 - Em casos limítrofes, quando o navegador se confunde ao tentar entender qual página (ou estado dela) está para trás ou para frente no tempo, a ferramenta de histórico do navegador está sempre à mão. No meu caso, basta usar `Command+Shift+H`.
 
 ## Inbox zero
