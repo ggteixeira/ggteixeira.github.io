@@ -4,7 +4,7 @@ summary: Minimalismo Digital
 draft: false
 date: 09 apr 2025
 tags:
-  - seedling
+  - buddling 
 ---
 
 ![fifteen million merits](src/content/blog/05-minimalismo-digital/media/pedala-robinho.png)
