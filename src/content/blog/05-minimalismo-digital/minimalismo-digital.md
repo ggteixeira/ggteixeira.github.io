@@ -1,34 +1,48 @@
 ---
 title: Minimalismo Digital
-summary: Minimalismo Digital
+summary: O Minimalismo Digital não está no Digital
 draft: false
 date: 09 apr 2025
 tags:
-  - buddling 
+  - buddling
 ---
 
 ![fifteen million merits](src/content/blog/05-minimalismo-digital/media/pedala-robinho.png)
 
-Depois que peguei COVID-19 no Réveillon, senti uma notável diferença na minha capacidade de concentração. Não sei se é um _brain fog_ como sequela da Ômicron ou se é apenas uma coincidência e há outros fatores envolvidos — como o fato de recentemente eu ter me mudado para uma cidade nova e ter começado a morar sozinho pela primeira vez. De qualquer forma, nos últimos dias voltei a pensar sobre como implementar no dia a dia o minimalismo digital de forma estruturada e séria.
+# Introdução
+Neste texto, eu apresento o que é e o que **não é** Minimalismo Digital, faço um resumo de algumas partes importantes de um livro importante e, por fim, listarei dicas de como aplicar esses princípios no digital para uma vida mais intencional e menos dependente de telas.
 
-Relembrei um vídeo que já tem uns bons anos chamado “Digital Minimalism” de um videomaker chamado Kraig Adams. As táticas de levar ao extremo o minimalismo e eliminar qualquer poluição visual são assustadoras. Infelizmente hoje só é possível acessá-lo através de um membership no canal do autor que custa R$ 39,90. Por sorte, tenho anotados alguns dos pontos levantados no vídeo, alguns inclusive que apliquei à minha rotina desde então.
+---
+Depois que peguei COVID-19 no Réveillon de 2022, senti uma notável piora na minha capacidade de concentração. Não sei se é um _brain fog_ como sequela da Ômicron ou se é apenas uma coincidência e há outros fatores envolvidos — como o fato de eu ter me mudado para uma cidade nova e ter começado a morar sozinho pela primeira vez. De qualquer forma, nos últimos dias voltei a pensar sobre como implementar no dia a dia o minimalismo digital de forma estruturada e séria.
 
-Nessa busca por conteúdos no YouTube especificamente sobre minimalismo digital relacionados a sistemas mobile e de desktop, observei um comportamento irritante a ponto de eu sentir vontade de abandonar a internet e ir morar numa caverna. Antes de decidir se irei ou não, resolvi escrever este texto.
+Relembrei um vídeo chamado “Digital Minimalism” de um videomaker chamado Kraig Adams. As táticas de levar ao extremo o minimalismo e eliminar qualquer poluição visual são brutais. Infelizmente hoje só é possível acessá-lo através de um *membership* no canal do autor. Por sorte, tenho anotados alguns dos pontos mostrados, muitos dos quais apliquei à minha rotina desde então.
 
-Os influencers digitais do YouTube distorceram o conceito até ele chegar no patamar do irreconhecível. Quase todos os vídeos são de iPhones com suas _home screens_ repletos de apps supérfluos, como os de redes sociais. Nos vídeos, eles te ensinam a deixar a tela inicial com ícones monocromáticos, combinando com a paleta do papel de parede.
+---
+### O problema do YouTube é o problema da internet
+Minimalismo não é seguir páginas *✨ a e s t h e t i c s ✨* no Instagram, não é decoração escandinava em tons monocromáticos e cafés coados na V60. 
 
-Em vez de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, gente autodeclarada minimalista ensina o público a instalar mais apps, sob a alegação de que eles “te ajudam a tornar a vida melhor”. Talvez as coisas tenham mudado ou eu tenha entendido tudo errado desde o início, mas até onde eu sei a grande pauta do minimalismo digital é aprender a usar gadgets com propósito. Tem a ver com precisar de cada vez menos apps, não mais. Um minimalista digital, ironicamente vai te sugerir passar mais tempo no mundo físico.
+Na busca por conteúdos no YouTube especificamente sobre minimalismo digital relacionados a sistemas mobile e de desktop, observei um comportamento irritante a ponto de eu sentir vontade de abandonar a internet e ir morar numa caverna. Antes de decidir se irei ou não, resolvi escrever este texto.
 
-Após esse choque amargo de realidade, de constatar no que essa filosofia se tornou, pelo menos no YouTube — filosofia essa que me é tão importante enquanto late-millennial que passa a maior parte do dia na frente do computador —, decidi compilar as mudanças que eu mesmo venho colocando em prática há anos e trazer uma reflexão inevitável sobre como os campos de distorção da realidade pertencentes às mídias digitais são poderosos a ponto de deformar tudo o que está dentro dela, incluindo filosofias como o próprio minimalismo, que em seu cerne nos ajudaria a viver uma vida menos dependente da Big Tech. É a vida imitando o episódio “15 Million Merits” do Black Mirror (S01E2).
+Os influencers digitais do YouTube distorceram o conceito até ele chegar no patamar do irreconhecível. Os vídeos sobre celulares são iPhones com _home screens_ repletas de apps supérfluos. Os youtubers te ensinam a deixar a tela inicial lotada de ícones monocromáticos, combinando com a paleta do papel de parede. 
+
+Em vez de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, gente autodeclarada minimalista digital ensina o público a usar mais apps, passar mais tempo olhando para telas e luzes, perdendo tempo com distrações, sob a alegação de que essas coisas tornam sua vida melhor. Pode ser que eu tenha aprendido tudo errado, mas até onde eu sei a grande pauta do minimalismo digital é aprender a preencher nosso tempo online com propósito. Tem a ver com precisar de cada vez menos apps, não mais. Ironicamente, o minimalista passa a maior parte do seu tempo no mundo físico porque o minimalismo digital é não estar no digital.
+
+---
+
+Após esse choque amargo de realidade de constatar no que essa filosofia se tornou, decidi buscar a melhor fonte sobre o tema: o livro [Digital Minimalism, do Cal Newport](https://calnewport.com/writing/). Consumir qualquer outra fonte seria me tornar o protagonista de *15 Million Merits* (Black Mirror, S01E02).
+
+compilar as mudanças que eu mesmo venho colocando em prática há anos e trazer uma reflexão inevitável sobre como os campos de distorção da realidade pertencentes às mídias digitais são poderosos a ponto de deformar tudo o que está dentro dela, incluindo filosofias como o próprio minimalismo, que em seu cerne nos ajudaria a viver uma vida menos dependente da Big Tech. É a vida imitando o episódio “15 Million Merits” do Black Mirror (S01E2).
 
 Introduzido o assunto, vamos definir então o que **não** é minimalismo.
 
+
+
+---
+# Como eu aplico os conceitos
+
 ![arch](src/content/blog/05-minimalismo-digital/media/arch-desktop.png)
+\[Meu desktop Linux, BTW\]
 
-Meu desktop Linux, BTW.
-## O que não é minimalismo
-
-Minimalismo não é seguir páginas ✨ a e s t h e t i c s ✨ no Instagram, não é decoração em tons monocromáticos e cafés coados na V60. Minimalismo é sinônimo de propósito, significa remover distrações para focar naquilo que realmente importa. O Minimalismo Digital nada mais é que a aplicação desses conceitos à vida digital através dos gadgets que usamos no dia a dia.
 ## Remova distrações visuais
 - No seu navegador, você pode remover os ícones de extensões que não utiliza todos os dias. Se a extensão que você utiliza diariamente possui atalhos, você pode aprendê-los ao contrário de perder tempo todos os dias clicando em botões.
 - Esconda o Dock do MacOS, a Superbar do Windows, a barra de ícones da sua distribuição Linux. Tudo que necessita da sua atenção está na sua frente, não na barra de ícones no canto da tela.
