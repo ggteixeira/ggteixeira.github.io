@@ -27,7 +27,7 @@ Na busca por conteúdos no YouTube especificamente sobre minimalismo digital rel
 
 Os influencers digitais do YouTube distorceram o conceito até ele chegar no patamar do irreconhecível. Os vídeos sobre celulares são iPhones com _home screens_ repletas de apps supérfluos. Os youtubers te ensinam a deixar a tela inicial lotada de ícones monocromáticos, combinando com a paleta do papel de parede.
 
-Em vez de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, essa gente ensina o público a usar mais apps, passar mais tempo olhando para telas e luzes, perdendo tempo com distrações, sob a alegação de que essas coisas tornam sua vida melhor. Pode ser que eu tenha aprendido tudo errado, mas até onde eu sei a grande pauta do minimalismo digital é aprender a preencher nosso tempo online com propósito. Tem a ver com precisar de cada vez menos apps, não mais. Ironicamente, o minimalista passa a maior parte do seu tempo no mundo físico <mark> porque o minimalismo digital é não estar no digital </mark>.
+Em vez de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, essa gente ensina o público a usar mais apps, passar mais tempo olhando para telas e luzes, perdendo tempo com distrações, sob a alegação de que essas coisas tornam sua vida melhor. Pode ser que eu tenha aprendido tudo errado, mas até onde eu sei a grande pauta do minimalismo digital é aprender a preencher nosso tempo online com propósito. Tem a ver com precisar de cada vez menos apps, não mais. Ironicamente, o minimalista passa a maior parte do seu tempo no mundo físico porque o minimalismo digital é não estar no digital.
 
 ---
 Após esse choque amargo de realidade de constatar no que essa filosofia se tornou, decidi buscar a melhor fonte sobre o tema: o livro [Digital Minimalism, do Cal Newport](https://calnewport.com/writing/). Consumir qualquer outra coisa senão a fonte seria me tornar o protagonista de *15 Million Merits*  da série Black Mirror.
@@ -50,11 +50,11 @@ Segundo Cal Newport,
 - Nosso cérebro é inclinado a realizar atividades que consomem menos energia no curto prazo, mesmo que elas sejam danosas no longo prazo. E o celular é uma máquina incrivelmente otimizada de pseudointerações de baixa energia e de baixa qualidade.
 - Os *tech bros* que inventaram a Economia da Atenção estão lucrando bilhões à custa da deterioração dos nossos relacionamentos pessoais, da nossa incapacidade de focar nas coisas que realmente importam no longo prazo (p. 199)
 
-> O poder de um computador de propósito geral está em todas as coisas que ele permite o usuário de executar, não nas coisas que ele permite que o usuário executa todas ao mesmo tempo (p. 228). 
+> O poder de um computador de propósito geral está em todas as coisas que ele permite o usuário de executar, não nas coisas que ele permite que o usuário executa todas ao mesmo tempo (p. 228)
 
-> O minimalismo digital definitivamente não rejeita as inovações da era da internet, apenas rejeita a forma com a qual muitas pessoas engajam com tais ferramentas (p. 253)
+> O minimalismo digital definitivamente não rejeita as inovações da era da internet, apenas rejeita a forma com a qual muitas pessoas engajam com essas ferramentas (p. 253)
 
-É parecido com a metáfora do Bastter sobre tratar o mercado financeiro como um supermercado. Você entra lá, compra o que falta e volta para sua casa. Você não se importa se o mercado está indo financeiramente bem, você não se interessa em saber o nome do gerente do supermercado. Assim como o supermercado, o mercado financeiro é um mal necessário através do qual você compra ações na Bolsa. Com tudo que existe na internet, é muito similar. 
+É parecido com a metáfora do Bastter sobre tratar o mercado financeiro como um supermercado. Você entra lá, compra o que falta e volta para sua casa. Você não se importa se o mercado está indo financeiramente bem, você não se interessa em saber o nome do gerente do supermercado. Assim como o supermercado, o mercado financeiro é um mal necessário através do qual você compra ações na Bolsa. Com tudo que existe na internet, é uma experiência similar. 
 
 Não é uma decisão revolucionária ou brutal escolher a dedo aquilo que você aceita trazer para a sua vida, a partir da quantidade virtualmente infinita de distrações que a internet oferece. Após perceber que existe uma máquina inacreditavelmente sofisticada chamada Algoritmo de Recomendação apontada para o seu cérebro e cujo propósito é te fazer passar todas as horas possíveis do seu dia o mais longe possível de uma vida intencional, passar a utilizar a internet de forma tática é uma consequência natural. 
 
@@ -74,19 +74,13 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
 - No seu navegador, você pode remover os ícones de extensões que não utiliza todos os dias. Se a extensão que você utiliza diariamente possui atalhos, você pode aprendê-los ao contrário de perder tempo todos os dias clicando em botões.
 
 - Esconda o Dock do MacOS, a Superbar do Windows, a barra de ícones da sua distribuição Linux. Tudo que necessita da sua atenção está na sua frente, não na barra de ícones no canto da tela.
-
 - Remova wallpapers: tela preta. Simples.
-
 - Remova apps desnecessários da sua tray bar. No MacOS eu uso o Hidden Bar; no Linux eu escolho quais ícones aparecem na Polybar
-
 - Remova da sua dock/barra de ícones todos os apps que não utiliza todos os dias. Simplesmente remova. Você sabe de cor o nome de todos os apps que utiliza diariamente e pode acessá-los através do Spotlight no Mac, do Windows Search no Windows e do Rofi, dmenu ou do Cerebro no Linux.
   
   ## Navegador
-
 - Tela inicial: remover todos os ícones desnecessários, papeis de parede, links etc. Cada nova aba é uma folha em branco e a forma como você irá usá-la precisa se tornar um processo ativo. Não se deixe levar passivamente pelo conteúdo que o seu browser sugere. Em vez disso, tome as rédeas da sua presença online e digite na caixa de URL (como é o nome disso?) com propósito.
-
 - Organização da barra de favoritos:
-  
   - a ideia é deixar na barra de favoritos apenas os links indispensáveis referentes a projetos que sejam ao mesmo tempo atuais e temporários (por exemplo a tabela do front-end month, o classroom da disciplina da Carol etc.)
   - Todo o restante pode ir para dentro de pastas
 
@@ -99,7 +93,6 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
   - Usando o MacOS, basta usar `Command+[` (_back_) ou `Command+]` (_forward_)
   - Usando a extensão Vimium, basta usar `Shift+H` (_back_) ou `Shift+L` (_forward_)
   - Usando o Logitech MX Anywhere 2S, basta customizar qualquer botão usando o Logi Options
-
 - Em casos limítrofes, quando o navegador se confunde ao tentar entender qual página (ou estado dela) está para trás ou para frente no tempo, a ferramenta de histórico do navegador está sempre à mão. No meu caso, basta usar `Command+Shift+H`.
 
 ![logitech-mouse](src/content/blog/05-minimalismo-digital/media/logitech-mouse.png)
@@ -121,3 +114,4 @@ remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede
 - [ ] Falar sobre o Vimium (antes da seção de favoritos, onde ele é mencionado sem contexto)
 
 # Bibliografia
+
