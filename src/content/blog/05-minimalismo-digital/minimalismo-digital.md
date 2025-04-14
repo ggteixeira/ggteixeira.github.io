@@ -29,38 +29,31 @@ Os influencers digitais do YouTube distorceram o conceito até ele chegar no pat
 
 Em vez de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, essa gente ensina o público a usar mais apps, passar mais tempo olhando para telas e luzes, perdendo tempo com distrações, sob a alegação de que essas coisas tornam sua vida melhor. Pode ser que eu tenha aprendido tudo errado, mas até onde eu sei a grande pauta do minimalismo digital é aprender a preencher nosso tempo online com propósito. Tem a ver com precisar de cada vez menos apps, não mais. Ironicamente, o minimalista passa a maior parte do seu tempo no mundo físico porque o minimalismo digital é não estar no digital.
 
----
-Após esse choque amargo de realidade de constatar no que essa filosofia se tornou, decidi buscar a melhor fonte sobre o tema: o livro [Digital Minimalism, do Cal Newport](https://calnewport.com/writing/). Consumir qualquer outra coisa senão a fonte seria me tornar o protagonista de *15 Million Merits*  da série Black Mirror.
+Após esse choque amargo de realidade de constatar no que essa filosofia se tornou, percebi que buscar qualquer fonte senão o livro que organiza o pensamento a respeito seria me tornar o protagonista de *15 million merits* de Black Mirror[^1]. A seção abaixo é um compilado de algumas das ideias centrais de *Digital Minimalism*, do Cal Newport.
 ## O livro Digital Minimalism
-Segundo Cal Newport, 
 
-> o Minimalismo Digital é uma filosofia sobre o uso da tecnologia na qual você foca o seu tempo online em um pequeno número de atividades cuidadosamente selecionadas e otimizadas que fortalecem as coisas que você valoriza. Todo o restante, você ignora. 
+> O Minimalismo Digital é uma filosofia sobre o uso da tecnologia na qual você foca o seu tempo online em um pequeno número de atividades cuidadosamente selecionadas e otimizadas que fortalecem as coisas que você valoriza. Todo o restante, você ignora. \[Newport, Cal., p. 28. *Tradução livre\]*
 
-\[Newport, Cal., p. 28. *Tradução livre, minha\]*
+Diminuir consideravelmente o tempo que passamos olhando para telas pode parecer uma decisão brutal. A verdadeira mentalidade chocante é aceitar como normal a quantidade de tempo que desperdiçamos consumindo a maior parte dos conteúdos disponíveis online. Não é sobre fazer concessões, não é sobre estética; é sobre romper com uma verdade que nos foi apresentada como o processo de inovação em direção ao futuro da tecnologia. Inovação essa trazida pelos mesmos *tech bros* que inventaram a Economia da Atenção e que lucram bilhões à custa da deterioração dos nossos relacionamentos pessoais e da nossa incapacidade de focar nas coisas que importam (Newport, p. 199).
 
-- Passar menos tempo conectado é percebido como um estilo de vida brutal, quando na verdade o único extremo é passar tanto tempo olhando para telas
-- Nesse processo, há uma redescoberta de atividades novas, presentes no mundo analógico, baseadas em atenção verdadeira
-- A filosofia maximalista é aquela na qual qualquer benefício em potencial de determinada tecnologia é suficiente para você aderir a ela — e esse é o padrão de comportamento da maioria das pessoas
-- Identificar atividades que possuem pouco valor, mas que nos tomam tempo e atenção, trazendo mais atrasos do que benefícios
-- Não se trata de neoludismo. Nós somos, na verdade, pró-tecnologia. 
-- Substituir todas as vantagens da tecnologia que carregam em si um malefício ao nosso propósito de vida, como por exemplo substituir a leitura desenfreada de notícias ao longo do dia por assinar um podcast contendo um resumo diário das notícias mais importantes.
-- O livro também ressalta a importância da solitude, que consiste em "isolar a sua mente do *input* de outras mentes" (Newport, Cal., p. 93). 
-- Nossos smartphones criam em nós um senso de urgência irreal. Tememos não estar presentes quando algo acontecer, porém o problema é que nada nunca acontece em 90% do tempo. O smartphone é apenas *marginalmente conveniente*, para parafrasear o Newport.
-- A experiência de dar likes e comentar emojis em posts e fotos substituem relações lastreadas na realidade. O resultado disso, segundo Cal, é a tendência a acreditar que é suficiente mandar mensagem pra sua mãe em vez de telefonar; ou que é suficiente dar um like na foto do bebê da sua amiga em vez de fazer uma visita (p. 142). 
-- Nosso cérebro é inclinado a realizar atividades que consomem menos energia no curto prazo, mesmo que elas sejam danosas no longo prazo. E o celular é uma máquina incrivelmente otimizada de pseudointerações de baixa energia e de baixa qualidade.
-- Os *tech bros* que inventaram a Economia da Atenção estão lucrando bilhões à custa da deterioração dos nossos relacionamentos pessoais, da nossa incapacidade de focar nas coisas que realmente importam no longo prazo (p. 199)
+O minimalismo digital é a ferramenta para nossa libertação. 
 
-> O poder de um computador de propósito geral está em todas as coisas que ele permite o usuário de executar, não nas coisas que ele permite que o usuário executa todas ao mesmo tempo (p. 228)
+E o curioso é que você vai percebendo que o caminho não é em direção a uma internet melhor. O livro "Dez argumentos para você deletar agora suas redes sociais[^2]", do Jared Lanier, passa a soar menos radical. Você se convence de que o caminho é um retorno a um estilo de vida onde a internet possui um papel nada mais do que secundário e instrumental.
 
-> O minimalismo digital definitivamente não rejeita as inovações da era da internet, apenas rejeita a forma com a qual muitas pessoas engajam com essas ferramentas (p. 253)
+> O poder de um computador de propósito geral está em todas as coisas que ele permite o usuário de executar, não nas coisas que ele permite que o usuário executa todas ao mesmo tempo (Newport, p. 228)
 
-É parecido com a metáfora do Bastter sobre tratar o mercado financeiro como um supermercado. Você entra lá, compra o que falta e volta para sua casa. Você não se importa se o mercado está indo financeiramente bem, você não se interessa em saber o nome do gerente do supermercado. Assim como o supermercado, o mercado financeiro é um mal necessário através do qual você compra ações na Bolsa. Com tudo que existe na internet, é uma experiência similar. 
+Abandonar o comportamento padrão da maioria das pessoas, que é o de adotar novas tecnologias considerando apenas seus benefícios, significa abandonar o que o autor chama de maximalismo. Isso também significa ser pró-tecnologia; apenas de uma maneira mais tática.
 
-Não é uma decisão revolucionária ou brutal escolher a dedo aquilo que você aceita trazer para a sua vida, a partir da quantidade virtualmente infinita de distrações que a internet oferece. Após perceber que existe uma máquina inacreditavelmente sofisticada chamada Algoritmo de Recomendação apontada para o seu cérebro e cujo propósito é te fazer passar todas as horas possíveis do seu dia o mais longe possível de uma vida intencional, passar a utilizar a internet de forma tática é uma consequência natural. 
+> O minimalismo digital definitivamente não rejeita as inovações da era da internet, apenas rejeita a forma com a qual muitas pessoas engajam com essas ferramentas (Newport, p. 253)
 
-O minimalismo digital não é uma revolução contra o digital. A forma como o digital nos é entregue é que é uma violência contra uma vida com propósito.
+Nesse processo de reflexão, usualmente há uma descoberta de atividades — novas ou antigas — fincadas no mundo analógico, baseadas em atenção verdadeira, que deixamos para trás há anos ou que acreditamos nunca ter tempo suficiente para dedicar a elas. Essa reflexão é possível a partir do momento em que identificamos atividades de pouco valor que nos tomam tempo e atenção e as enxotamos, abandonando o maximalismo.
 
-O livro é excelente e eu recomendo a todos a leitura. Eu acabei lendo a versão original e não conheço a pessoa que traduziu para o português brasileiro, mas imagino que deva valer a pena igualmente caso você prefira a versão traduzida.
+---
+É parecido com a metáfora do Bastter[^3] sobre tratar o mercado financeiro como um supermercado. Você entra lá, compra o que falta e volta para sua casa. Você não se importa se o mercado está indo financeiramente bem, você não se interessa em saber o nome do gerente do supermercado. Assim como o supermercado, o mercado financeiro é um mal necessário através do qual você compra ações na Bolsa. Com tudo que existe na internet, é uma experiência similar. 
+
+Não é uma decisão brutal escolher a dedo aquilo que você **ativamente aceita** trazer para a sua vida, considerando a quantidade de distrações que a internet oferece. Após perceber que existe uma máquina inacreditavelmente sofisticada chamada Algoritmo de Recomendação apontada para o seu cérebro e cujo propósito é te fazer passar todas as horas possíveis do seu dia o mais longe possível de uma vida intencional, tratar a internet também como um mal necessário parece uma consequência lógica. A forma como o digital nos é entregue é uma violência contra uma vida com propósito.
+
+O livro do Cal Newport é excelente e eu recomendo a todos a leitura. Eu acabei lendo a versão original e não conheço a pessoa que traduziu para o português brasileiro, mas imagino que deva valer a pena igualmente caso você prefira a versão traduzida.
 
 Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mudanças na forma como uso ferramentas digitais que transformaram a minha experiência para melhor ao longo dos anos.
 
@@ -114,4 +107,11 @@ remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede
 - [ ] Falar sobre o Vimium (antes da seção de favoritos, onde ele é mencionado sem contexto)
 
 # Bibliografia
+- Newport, C. (2019). _Digital Minimalism: Choosing a focused life in a Noisy World_. Portfolio/Penguin.
+---
 
+[^1]: No episódio S01E02 da série Black Mirror, o protagonista dá um jeito de subverter o sistema no qual é aprisionado apenas para descobrir mais tarde que sua revolução foi tão inócua que se tornou mais uma das muitas propagandas mostradas aos outros trabalhadores.
+
+[^2]: LANIER, J. **Dez argumentos para você deletar agora suas redes sociais**. [s.l.] Editora Intrínseca, 2018.
+
+[^3]: Consultor financeiro
