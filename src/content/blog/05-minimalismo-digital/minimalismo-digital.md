@@ -7,7 +7,8 @@ tags:
   - buddling
 ---
 
-![fifteen million merits](src/content/blog/05-minimalismo-digital/media/pedala-robinho.png)
+![fifteen million merits](src/content/blog/05-minimalismo-digital/media/fifteen-million.jpg)
+
 
 ## Introdução
 
