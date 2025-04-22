@@ -9,29 +9,25 @@ tags:
 
 ![fifteen million merits](src/content/blog/05-minimalismo-digital/media/fifteen-million.jpg)
 
-
-## Introdução
-
-Neste texto, eu apresento o que é e o que **não é** Minimalismo Digital, faço um resumo de algumas partes importantes de um livro importante e, por fim, listarei dicas de como aplicar esses princípios no digital para uma vida mais intencional e menos dependente de telas.
+Neste texto, eu apresento o que é Minimalismo Digital e o que não é. Em seguida, faço um resumo de partes importantes de um livro importante. Por fim, listo dicas de como aplicar princípios práticos para uma vida mais intencional e menos dependente de telas.
 
 ---
-Depois que peguei COVID-19 no Réveillon de 2022, senti uma notável piora na minha capacidade de concentração. Não sei se é um _brain fog_ como sequela da Ômicron ou se é apenas uma coincidência e há outros fatores envolvidos — como o fato de eu ter me mudado para uma cidade nova e ter começado a morar sozinho pela primeira vez. De qualquer forma, nos últimos dias voltei a pensar sobre como implementar no dia a dia o minimalismo digital de forma estruturada e séria.
+Após ter Covid-19, percebi uma deterioração da minha capacidade de concentração. Talvez fosse um *brain fog* como sequela, talvez fosse coincidência por ter acontecido ao mesmo tempo em que me mudei de cidade e passei a morar sozinho pela primeira vez. 
 
-Relembrei um vídeo chamado “Digital Minimalism” de um videomaker chamado Kraig Adams. As táticas de levar ao extremo o minimalismo e eliminar qualquer poluição visual são brutais. Infelizmente hoje só é possível acessá-lo através de um *membership* no canal do autor. Por sorte, tenho anotados alguns dos pontos mostrados, muitos dos quais apliquei à minha rotina desde então.
+De qualquer forma, ao procurar formas de minimizar os estímulos vindos das telas do *smartphone* e do computador, me senti fascinado pela ideia de controlar as distrações por meio do aprimoramento dos meus ambientes digitais. Assisti a dezenas (talvez centenas) de vídeos sobre o tema, a maioria sugerindo dicas como esconder viciantes apps da página inicial, diminuir a quantidade de apps instalados, diminuir a quantidade de notificações etc.
+
+Por bastante tempo me utilizei desse tipo de **concessões**, até perceber que elas **eram parte do problema**. É como num rodízio de comida japonesa pedir canudos de papel porque contribuem para salvar a fauna marinha[^4]. 
 
 ---
+Um desses vídeos era diferente. Ele se chamava *Digital Minimalism*[^5] e nele o autor mostra como organiza seu laptop e seu smartphone. Foi brutal. Papéis de parede pretos, desktops sem ícones, com a barra de ícones escondida; o explorador de arquivos sem ícones, o navegador sem favoritos, sem *speed dial*. Havia algo diferente na forma como o autor do vídeo buscava utilizar o computador e o celular **apenas** para cumprir seus objetivos, nada mais. Não era para parecer minimalista, era para ser minimalista no sentido do computador e do celular serem usados estritamente para cumprir seus objetivos enquanto ferramentas de trabalho, nada mais. 
 ## O problema do YouTube é o problema da internet
 
-Minimalismo não é seguir páginas *✨ a e s t h e t i c s ✨* no Instagram, não é decoração escandinava em tons monocromáticos e cafés coados na V60. 
+Minimalismo não é seguir conteúdo ✨ *ae*sthetics ✨ no Instagram, não é Pinterest de decoração escandinava em tons monocromáticos, não é praticar Yoga e *Mindfulness*. Não é sobre parecer.
 
-Na busca por conteúdos no YouTube especificamente sobre minimalismo digital relacionados a sistemas mobile e de desktop, observei um comportamento irritante a ponto de eu sentir vontade de abandonar a internet e ir morar numa caverna. Antes de decidir se irei ou não, resolvi escrever este texto.
+Naquela busca inicial via YouTube, observei um comportamento irritante a ponto de eu sentir vontade de abandonar a internet e ir morar numa caverna. Antes de fazer as malas, decidi escrever este texto. Os influencers digitais do YouTube distorceram o conceito até ele chegar no patamar do irreconhecível. Os vídeos sobre celulares são basicamente iPhones com _home screens_ repletas de apps supérfluos. Os youtubers te ensinam a deixar a tela inicial lotada de ícones monocromáticos, combinando com a paleta do papel de parede. No lugar de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, essa gente ensina o público a usar mais apps, a passar mais tempo olhando para telas, perdendo tempo com distrações, sob a alegação de que essas coisas tornam sua vida melhor. 
 
-Os influencers digitais do YouTube distorceram o conceito até ele chegar no patamar do irreconhecível. Os vídeos sobre celulares são iPhones com _home screens_ repletas de apps supérfluos. Os youtubers te ensinam a deixar a tela inicial lotada de ícones monocromáticos, combinando com a paleta do papel de parede.
-
-Em vez de refletir sobre como o uso excessivo do smartphone tornou nossa vida **pior**, essa gente ensina o público a usar mais apps, passar mais tempo olhando para telas e luzes, perdendo tempo com distrações, sob a alegação de que essas coisas tornam sua vida melhor. Pode ser que eu tenha aprendido tudo errado, mas até onde eu sei a grande pauta do minimalismo digital é aprender a preencher nosso tempo online com propósito. Tem a ver com precisar de cada vez menos apps, não mais. Ironicamente, o minimalista passa a maior parte do seu tempo no mundo físico porque o minimalismo digital é não estar no digital.
-
-Após esse choque amargo de realidade de constatar no que essa filosofia se tornou, percebi que buscar qualquer fonte senão o livro que organiza o pensamento a respeito seria me tornar o protagonista de *15 million merits* de Black Mirror[^1]. A seção abaixo é um compilado de algumas das ideias centrais de *Digital Minimalism*, do Cal Newport.
-## O livro Digital Minimalism
+Após esse choque amargo de realidade, percebi que buscar qualquer fonte senão o livro que organiza esse pensamento seria me tornar o protagonista de *15 million merits* de Black Mirror[^1]. A seção abaixo é um compilado de algumas das ideias centrais de um livro que eu li chamado *Digital Minimalism*, do Cal Newport.
+## O minimalismo digital é não estar no digital
 
 > O Minimalismo Digital é uma filosofia sobre o uso da tecnologia na qual você foca o seu tempo online em um pequeno número de atividades cuidadosamente selecionadas e otimizadas que fortalecem as coisas que você valoriza. Todo o restante, você ignora. \[Newport, Cal., p. 28. *Tradução livre\]*
 
@@ -115,4 +111,10 @@ remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede
 
 [^2]: LANIER, J. **Dez argumentos para você deletar agora suas redes sociais**. [s.l.] Editora Intrínseca, 2018.
 
-[^3]: Consultor financeiro
+[^3]: Educador financeiro
+
+[^4]: O Leandro Karnal utiliza esse exemplo no episódio do podcast "Platitudes" sobre Cultura Woke.
+
+[^5]: É impossível linká-lo na Bibliografia, pois o vídeo hoje encontra-se não listado/oculto.
+
+[^6]: Finder é o Windows Explorer do Mac
