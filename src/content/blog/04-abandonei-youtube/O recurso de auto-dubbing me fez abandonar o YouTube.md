@@ -2,7 +2,7 @@
 title: O recurso de auto-dubbing me fez abandonar o YouTube
 summary: Por que abandonei o YouTube
 draft: false
-date: 08 apr 2025
+date: 23 apr 2025
 tags:
   - buddling
 ---
