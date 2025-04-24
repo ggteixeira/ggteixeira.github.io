@@ -18,3 +18,9 @@ export type Socials = {
   TEXT: string
   HREF: string
 }[]
+
+export type Disclaimer = {
+  NAME: string
+  TITLE: string
+  DESCRIPTION: string
+}
