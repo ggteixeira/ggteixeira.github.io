@@ -1,4 +1,4 @@
-import type { Site, Page, Links, Socials } from "@types";
+import type { Site, Page, Links, Socials, Disclaimer } from "@types";
 
 // Global
 export const SITE: Site = {
@@ -58,7 +58,7 @@ export const LINKS: Links = [
   {
     TEXT: "About",
     HREF: "/about"
-  }
+  },
 ];
 
 // Socials
@@ -88,3 +88,10 @@ export const SOCIALS: Socials = [
     HREF: "https://bsky.app/profile/guiteixeira.dev",
   },
 ];
+
+// Disclaimer
+export const DISCLAIMER: Disclaimer = {
+    NAME: "Disclaimer",
+    TITLE: "Disclaimer",
+    DESCRIPTION: "Disclaimer"
+  }
