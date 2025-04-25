@@ -42,14 +42,20 @@ function formatWorkDate(input: Date | string) {
       {
         work.map((entry) => (
           <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
-            <div class="text-sm uppercase mb-4">
-              {formatWorkDate(entry.data.dateStart)} -{" "}
-              {formatWorkDate(entry.data.dateEnd)}
-            </div>
-            <div class="text-black dark:text-white font-semibold">
+            <div class="font-semibold">{entry.data.role}</div>
+
+            <div class="text-black dark:text-white text-sm font-semibold uppercase">
               {entry.data.company}
             </div>
-            <div class="text-sm font-semibold">{entry.data.role}</div>
+
+            <div class="text-sm mb-4">
+              {formatWorkDate(entry.data.dateStart)} -{" "}
+              {formatWorkDate(entry.data.dateEnd)} ·{" "}
+              <span>
+                <i>{entry.data.city}</i>
+              </span>
+            </div>
+
             <article class="prose dark:prose-invert">
               <entry.Content />
             </article>
