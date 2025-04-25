@@ -7,6 +7,7 @@ tags:
   - sec
   - evergreen
 ---
+
 #### (Atenção: Este texto pode conter _spoilers_ da primeira temporada de “You”)
 
 ![Joe Goldberg olhando com um semblante sério para frente, usando um boné sóbrio e segurano um smartphone no ouvido com a mão
