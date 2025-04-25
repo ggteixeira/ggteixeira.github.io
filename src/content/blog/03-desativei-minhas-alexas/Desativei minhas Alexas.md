@@ -25,4 +25,3 @@ O meu ponto aqui é a facilidade com a qual vários produtos pseudo-úteis entra
 - Nos mesmos moldes, estamos nos deixando encantar com a promessa de que Geradores de Lero-Lero glorificados são a maior revolução da humanidade desde a invenção da internet.
 
 O Vale do Silício está dobrando a aposta e quem paga somos nós porque fomos ensinados a aceitar produtos ruins. Coisas que, muitas vezes, [nem produtos são](https://www.wired.com/story/apple-intelligence-ai-feature-not-product/).
-

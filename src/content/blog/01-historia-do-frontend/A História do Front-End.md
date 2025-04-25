@@ -8,6 +8,7 @@ tags:
   - evergreen
 # Use a ratio of 100:42 for best results.
 ---
+
 # Introdução
 
 A história do front-end se confunde com a história da web, então para contar como o desenvolvimento front-end começou é preciso primeiro contar como Tim Berners-Lee inventou o HTML num laboratório do CERN em 1989.

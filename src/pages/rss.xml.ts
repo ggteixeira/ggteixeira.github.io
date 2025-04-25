@@ -1,25 +1,27 @@
-import rss from "@astrojs/rss"
-import { getCollection } from "astro:content"
-import { SITE } from "@consts"
-import sanitizeHtml from 'sanitize-html';
-import MarkdownIt from 'markdown-it';
+import rss from "@astrojs/rss";
+import { getCollection } from "astro:content";
+import { SITE } from "@consts";
+import sanitizeHtml from "sanitize-html";
+import MarkdownIt from "markdown-it";
 const parser = new MarkdownIt();
 
 type Context = {
-  site: string
-}
+  site: string;
+};
 
 export async function GET(context: Context) {
-  const posts = await getCollection("blog")
+  const posts = await getCollection("blog");
   // const projects = await getCollection("projects")
 
   const publishedPosts = posts.filter((post) => {
-    return post.data.draft === false
-  })
+    return post.data.draft === false;
+  });
 
-  const items = [...publishedPosts]
+  const items = [...publishedPosts];
 
-  items.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  items.sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+  );
 
   return rss({
     title: SITE.TITLE,
@@ -29,12 +31,12 @@ export async function GET(context: Context) {
       title: item.data.title,
       description: item.data.summary,
       content: sanitizeHtml(parser.render(item.body), {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
       link: item.slug.startsWith("blog")
         ? `/blog/${item.slug}/`
         : `/projects/${item.slug}/`,
     })),
-  })
+  });
 }
