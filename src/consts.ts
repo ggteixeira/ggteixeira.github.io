@@ -16,8 +16,8 @@ export const WORK: Page = {
 // About Page
 export const ABOUT: Page = {
   TITLE: "About",
-  DESCRIPTION: "About me"
-}
+  DESCRIPTION: "About me",
+};
 
 // Blog Page
 export const BLOG: Page = {
@@ -57,7 +57,7 @@ export const LINKS: Links = [
   // },
   {
     TEXT: "About",
-    HREF: "/about"
+    HREF: "/about",
   },
 ];
 
@@ -91,7 +91,7 @@ export const SOCIALS: Socials = [
 
 // Disclaimer
 export const DISCLAIMER: Disclaimer = {
-    NAME: "Disclaimer",
-    TITLE: "Disclaimer",
-    DESCRIPTION: "Disclaimer"
-  }
+  NAME: "Disclaimer",
+  TITLE: "Disclaimer",
+  DESCRIPTION: "Disclaimer",
+};
