@@ -15,15 +15,6 @@ import { DISCLAIMER } from "@consts";
 
 <PageLayout title={DISCLAIMER.TITLE} description={DISCLAIMER.DESCRIPTION}>
   <TopLayout>
-    <div class="animate page-heading">
-      {DISCLAIMER.TITLE}
-    </div>
-  </TopLayout>
-  <BottomLayout>
-    <div class="animate mb-4">
-      <p>Este site não utiliza AI.</p>
-    </div>
-    <div>
       <div
         class="animate w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
       >
@@ -57,10 +48,17 @@ import { DISCLAIMER } from "@consts";
           <div
             class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
           >
-            Back to blog
+            Back to article
           </div>
         </a>
       </div>
+
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate mb-4">
+      <p>Este site não utiliza AI.</p>
+    </div>
+    <div>
     </div>
   </BottomLayout>
 </PageLayout>
