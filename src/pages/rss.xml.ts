@@ -11,10 +11,9 @@ type Context = {
 
 export async function GET(context: Context) {
   const posts = await getCollection("blog");
-  // const projects = await getCollection("projects")
 
   const publishedPosts = posts.filter((post) => {
-    return post.data.draft === false;
+    return post.data.draft === false && post.data.tags.includes("evergreen");
   });
 
   const items = [...publishedPosts];
