@@ -60,13 +60,13 @@ Nesse processo de reflexão, usualmente há uma descoberta de atividades — nov
 
 Não é uma decisão tão brutal assim escolher a dedo aquilo que você **ativamente aceita** trazer para a sua vida, considerando a quantidade de distrações que a internet oferece. Ao perceber que existe um maquinário inacreditavelmente sofisticado apontado para o seu cérebro e cujo propósito é te fazer passar todas as horas possíveis do seu dia o mais longe possível de uma vida intencional, passar a tratar a internet também como um mal necessário se torna uma consequência lógica. A forma como o digital nos é entregue é uma violência contra uma vida focada.
 
-O livro do Cal Newport é excelente e eu recomendo a todos a leitura. Eu acabei lendo a versão original e não conheço a pessoa que traduziu para o português brasileiro, mas imagino que deva valer a pena igualmente caso você prefira a versão traduzida.
+O livro do Cal Newport é excelente e eu recomendo a leitura. Eu acabei lendo a versão original e não conheço a pessoa que traduziu para o português brasileiro, mas imagino que deva valer a pena igualmente caso você prefira a versão traduzida.
 
 Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mudanças na forma como uso ferramentas digitais que transformaram a minha experiência para melhor ao longo dos anos.
 
 ---
 
-# Como aplicar os conceitos
+# Aplicando os conceitos
 
 ![arch](src/content/blog/05-minimalismo-digital/media/arch-desktop.png)
 \[Meu desktop Linux, BTW\]

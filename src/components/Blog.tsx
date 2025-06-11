@@ -82,7 +82,7 @@ export default function Blog({ data, tags, gardenTags }: Props) {
         </div>
 
         {/* <Show when={tags.includes("evergreen")}> */}
-        <div class="sticky top-24">
+        <div class="sticky top-56">
           <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">
             Digital Garden Tags
           </div>
