@@ -4,7 +4,7 @@ summary: Um guia de iniciantes sobre segurança digital
 draft: false
 date: 20 dec 2020
 tags:
-  - sec
+  - infosec
   - evergreen
 ---
 
