@@ -6,20 +6,27 @@ date: 11 jun 2025
 tags:
   - seedling
 ---
+
 # Artigos
+
+## Artigos em português
+
 - [Até onde vai a bolha da inteligência artificial?](https://www.victorhg.com/post/ate-onde-vai-a-bolha-da-inteligancia-artificial)
+- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
+- [Por que não usar inteligência artificial?](https://www.iedamarcondes.com/por-que-nao-usar-ia/)
+- [IA não é inteligência e sim marketing para explorar trabalho humano, diz Nicolelis](https://marreta.pcdomanual.com/p/https://wwzw1.folha.uol.com.br/tec/2023/07/ia-nao-e-inteligencia-e-sim-marketing-para-explorar-trabalho-humano-diz-nicolelis.shtml)
+- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
+
+## Artigos em inglês
+
 - [How AI generated code compounds technical deb](https://leaddev.com/software-quality/how-ai-generated-code-accelerates-technical-debt)
 - [An epidemic of weirdly precise AI butt facts](https://garymarcus.substack.com/p/an-epidemic-of-weirdly-precise-ai)
-- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
 - [77% Of Employees Report AI Has Increased Workloads And Hampered Productivity, Study Finds](https://www.forbes.com/sites/bryanrobinson/2024/07/23/employees-report-ai-increased-workload/)
-- [Por que não usar inteligência artificial?](https://www.iedamarcondes.com/por-que-nao-usar-ia/)
 - [ChatGPT Isn't Coming for Your Coding Job](https://www.wired.com/story/chatgpt-coding-software-crisis/)
 - [How AI reduces the world to stereotypes](https://restofworld.org/2023/ai-image-stereotypes/?utm_source=ManualdoUsuarioNet&utm_medium=Newsletter)
 - [Is the AI boom already over?](https://www.vox.com/technology/2023/8/19/23837705/openai-chatgpt-microsoft-bing-google-generating-less-interest)
 - [Ugly Numbers from Microsoft and ChatGPT Reveal that AI Demand is Already Shrinking](https://www.honest-broker.com/p/ugly-numbers-from-microsoft-and-chatgpt)
 - [Tech experts are starting to doubt that ChatGPT and A.I. ‘hallucinations’ will ever go away: ‘This isn’t fixable’](https://fortune.com/2023/08/01/can-ai-chatgpt-hallucinations-be-fixed-experts-doubt-altman-openai/)
-- [IA não é inteligência e sim marketing para explorar trabalho humano, diz Nicolelis](https://marreta.pcdomanual.com/p/https://www1.folha.uol.com.br/tec/2023/07/ia-nao-e-inteligencia-e-sim-marketing-para-explorar-trabalho-humano-diz-nicolelis.shtml)
-- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
 - [ChatGPT Is a Blurry JPEG of the Web](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web)
 - [There Is No A.I.](https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai)
 - [AI Expert Says ChatGPT Is Way Stupider Than People Realize](https://futurism.com/the-byte/ai-expert-chatgpt-way-stupider)
@@ -33,7 +40,13 @@ tags:
 - [Scholars: AI isn’t “hallucinating” — it’s bullshitting](https://www.psypost.org/scholars-ai-isnt-hallucinating-its-bullshitting/)
 
 ---
+
 # Vídeos
+
+## Vídeos em Português
+
+## Vídeos em Inglês
+
 - [25% of Google's Code Is Now AI Generated??](https://www.youtube.com/watch?v=onhbj0Nvi9A)
 - [Being Competent With Coding Is More Fun](https://www.youtube.com/watch?v=qLC2pHw3tHM) (ThePrimeagen)
 - [AI Hype is completely out of control - especially since ChatGPT-4o](https://www.youtube.com/watch?v=VctsqOo8wsc)
