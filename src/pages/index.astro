@@ -8,7 +8,7 @@ import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 // import About from "@components/About.tsx"
 
-const homeTitle = "and I am a Software Developer"
+const homeTitle = "and I am a Software"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -89,7 +89,7 @@ const posts = (await getCollection("blog"))
             Guilherme Teixeira
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            {homeTitle}
+            {homeTitle} <span class="line-through">Developer</span>{' '}<span>Artisan</span>
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
             <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
