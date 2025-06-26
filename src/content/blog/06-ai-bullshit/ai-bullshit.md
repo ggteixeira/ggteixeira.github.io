@@ -38,6 +38,7 @@ tags:
 - [What If AI Is Making Us Softer Than We Can Afford to Be?](https://francoisxaviermorgand.substack.com/p/what-if-ai-is-making-us-softer-than)
 - [You Are Not a Parrot And a chatbot is not a human](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)
 - [Scholars: AI isn’t “hallucinating” — it’s bullshitting](https://www.psypost.org/scholars-ai-isnt-hallucinating-its-bullshitting/)
+- [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/)
 
 ---
 
