@@ -4,9 +4,9 @@ export default function About({
   numberOfParagraphs?: number;
 }) {
   const textArray = [
-    "Software Developer with experience in front-end systems. Currently interested in back-end development with .NET and C#.",
+    "Software Developer with experience with Python and Front-End Development. Currently interested in back-end development with .NET and C#.",
 
-    "Besides programming I'm also interested in Generative Syntax, Formal Semantics, Natural Language Processing and Analytic Philosophy.",
+    "I am also interested in Generative Syntax, Formal Semantics, Natural Language Processing (NLP) and Analytic Philosophy, since I am also a bachelor in Linguistics.",
   ];
 
   return (
