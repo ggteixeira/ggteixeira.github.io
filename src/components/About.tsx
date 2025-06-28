@@ -4,8 +4,9 @@ export default function About({
   numberOfParagraphs?: number;
 }) {
   const textArray = [
-    "Software Engineer interested in Front-End Development and Back-End Development",
-    "Other topics I am passionate about are Functional Programming, Open-Source, and Security and Privacy.",
+    "Software Developer with experience in front-end systems. Currently interested in back-end development with .NET and C#.",
+
+    "Besides programming I'm also interested in Generative Syntax, Formal Semantics, Natural Language Processing and Analytic Philosophy.",
   ];
 
   return (
