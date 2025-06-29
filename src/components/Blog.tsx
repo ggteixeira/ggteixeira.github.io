@@ -79,13 +79,12 @@ export default function Blog({ data, tags, gardenTags }: Props) {
               )}
             </For>
           </ul>
-        </div>
 
-        {/* <Show when={tags.includes("evergreen")}> */}
-        <div class="sticky top-56">
+          {/* <Shnow when={tags.includes("evergreen")}> */}
           <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">
             Digital Garden Tags
           </div>
+
           <ul class="flex flex-wrap sm:flex-col gap-1.5">
             <For each={gardenTags}>
               {(tag) => (
@@ -125,6 +124,7 @@ export default function Blog({ data, tags, gardenTags }: Props) {
             </For>
           </ul>
         </div>
+
         {/* </Show> */}
       </div>
       <div class="col-span-3 sm:col-span-2">
