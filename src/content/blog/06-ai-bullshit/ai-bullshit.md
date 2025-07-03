@@ -39,6 +39,8 @@ tags:
 - [You Are Not a Parrot And a chatbot is not a human](https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html)
 - [Scholars: AI isn’t “hallucinating” — it’s bullshitting](https://www.psypost.org/scholars-ai-isnt-hallucinating-its-bullshitting/)
 - [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/)
+- [The AI Backlash Keeps Growing Stronger
+](https://www.wired.com/story/generative-ai-backlash/)
 
 ---
 
