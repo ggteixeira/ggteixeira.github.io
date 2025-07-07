@@ -1,6 +1,6 @@
 ---
 title: AI Bullshit
-summary: AI Bullshit
+summary: There is no Generative AI 
 draft: false
 date: 11 jun 2025
 tags:
