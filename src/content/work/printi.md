@@ -6,9 +6,9 @@ dateEnd: "08/12/2024"
 city: "São Carlos, SP / Pirassununga, SP"
 ---
 
-#### Mid-Level Front-End Developer
+#### Front-End Developer
 
-As a mid-level front-end developer, I have worked on the most important projects we had, like Printi's website, Decora Printi, InBox Printi, and the internal systems that gives support to our factory throughout the whole production process.
+As a front-end developer, I have worked on the most important projects we had, like Printi's website, Decora Printi, InBox Printi, and the internal systems that gives support to our factory throughout the whole production process.
 
 Since I am proficient in English (C2), all the teams I have worked with for 4 years were multinational.
 
