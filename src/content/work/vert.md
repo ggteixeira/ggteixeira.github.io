@@ -6,10 +6,10 @@ dateEnd: "08/10/2020"
 city: "São Paulo, SP"
 ---
 
-As a software developer intern, I've worked on an application written in Python/Django which main goal was to automate our team's tasks in the financial capital market.
+As a software developer intern, I've worked on an in-house web application built with Django (Python), which main goal was to help our team of analysts to automate securitization tasks for the capital market.
 
-In my first job as a software developer, I could review my first PRs, do pair programming with my peers, work with non-relational databases (PostgreSQL), with, Django's ORM and its template language, its components, and its architecture.
+I've built CRUDs with Django for internal applications, worked using fundamental algorithms, solved problems using Django, Python, JS, HTML, and CSS, as well as Jinja, Boostrap, Miligram, Ajax, and JQuery.
 
-I also had the opportunity of creating from the scratch a CRUD built in Django for an internal application. I've worked with some of the fundamental algorithms, as well as with tasks that demanded knowledge about HTML (vanilla and Jinja), CSS (vanilla, Boostrap and Miligram), and JavaScript (vanilla, Ajax, jQuery)
+I also had the opportunity of reviewing pull requests, doing pair programming, working with relational databases (such as PostgreSQL).
 
-I took the first steps towards web scraping using Beautiful Soup, I learned how UML database representations work, I wrote docs using Markdown, and improved my knowledge about Git and LinuxAs a software developer intern, I've worked on an application written in Python/Django which main goal was to automate our team's tasks in the financial capital market. In my first job as a software developer, I could review my first PRs, do pair programming with my peers, work with non-relational databases (PostgreSQL), with, Django's ORM and its template language, its components, and its architecture. I also had the opportunity of creating from the scratch a CRUD built in Django for an internal application. I've worked with some of the fundamental algorithms, as well as with tasks that demanded knowledge about HTML (vanilla and Jinja), CSS (vanilla, Boostrap and Miligram), and JavaScript (vanilla, Ajax, jQuery) I took the first steps towards web scraping using Beautiful Soup, I learned how UML database representations work, I wrote docs using Markdown, and improved my knowledge about Git and Linux
+In addition to that, I have worked with web scraping (Beautiful Soup), UML database representations, documentation with Markdown, always relying on git as a version control solution and Linux (Ubuntu and Manjaro) as the main operating system.
