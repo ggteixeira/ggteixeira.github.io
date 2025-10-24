@@ -19,8 +19,8 @@ export const ABOUT: Page = {
   DESCRIPTION: "About me",
 };
 
-// Blog Page
-export const BLOG: Page = {
+// GARDEN Page
+export const GARDEN: Page = {
   TITLE: "Digital Garden",
   DESCRIPTION: "Writing on topics I am passionate about.",
 };
@@ -49,7 +49,7 @@ export const LINKS: Links = [
   },
   {
     TEXT: "Garden",
-    HREF: "/blog",
+    HREF: "/garden",
   },
   // {
   //   TEXT: "Projects",

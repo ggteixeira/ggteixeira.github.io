@@ -6,12 +6,12 @@ import { cn } from "@lib/utils";
 type Props = {
   tags: string[];
   gardenTags: string[];
-  data: CollectionEntry<"blog">[];
+  data: CollectionEntry<"garden">[];
 };
 
-export default function Blog({ data, tags, gardenTags }: Props) {
+export default function Garden({ data, tags, gardenTags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>());
-  const [posts, setPosts] = createSignal<CollectionEntry<"blog">[]>([]);
+  const [posts, setPosts] = createSignal<CollectionEntry<"garden">[]>([]);
 
   createEffect(() => {
     setPosts(

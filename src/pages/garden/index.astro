@@ -3,10 +3,10 @@ import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
-import Blog from "@components/Blog";
-import { BLOG } from "@consts";
+import Garden from "@components/Garden";
+import { GARDEN } from "@consts";
 
-const posts = (await getCollection("blog"))
+const posts = (await getCollection("garden"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
@@ -19,15 +19,15 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
   });
 ---
 
-<PageLayout title={BLOG.TITLE} description={BLOG.DESCRIPTION}>
+<PageLayout title={GARDEN.TITLE} description={GARDEN.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {BLOG.TITLE}
+      {GARDEN.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Blog client:load tags={tags} data={posts} gardenTags={gardenTags} />
+      <Garden client:load tags={tags} data={posts} gardenTags={gardenTags} />
     </div>
   </BottomLayout>
 </PageLayout>

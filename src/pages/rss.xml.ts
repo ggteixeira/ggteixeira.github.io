@@ -10,7 +10,7 @@ type Context = {
 };
 
 export async function GET(context: Context) {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("garden");
 
   const publishedPosts = posts.filter((post) => {
     return post.data.draft === false && post.data.tags.includes("evergreen");
@@ -33,8 +33,8 @@ export async function GET(context: Context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
-      link: item.slug.startsWith("blog")
-        ? `/blog/${item.slug}/`
+      link: item.slug.startsWith("garden")
+        ? `/garden/${item.slug}/`
         : `/projects/${item.slug}/`,
     })),
   });
