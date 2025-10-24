@@ -7,7 +7,7 @@ tags:
   - buddling
 ---
 
-![fifteen million merits](src/content/blog/05-minimalismo-digital/media/fifteen-million.jpg)
+![fifteen million merits](src/content/garden/05-minimalismo-digital/media/fifteen-million.jpg)
 
 Neste texto, eu apresento o que é Minimalismo Digital e o que não é. Em seguida, faço um resumo de partes importantes de um livro importante. Por fim, listo dicas de como aplicar princípios práticos para uma vida mais intencional e menos dependente de telas.
 
@@ -63,7 +63,7 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
 
 # Aplicando os conceitos
 
-![arch](src/content/blog/05-minimalismo-digital/media/arch-desktop.png)
+![arch](src/content/garden/05-minimalismo-digital/media/arch-desktop.png)
 \[Meu desktop Linux, BTW\]
 
 ## Remova distrações visuais
@@ -82,9 +82,9 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
   - a ideia é deixar na barra de favoritos apenas os links indispensáveis referentes a projetos que sejam ao mesmo tempo atuais e temporários (por exemplo a tabela do front-end month, o classroom da disciplina da Carol etc.)
   - Todo o restante pode ir para dentro de pastas
 
-![favoritos-antes](src/content/blog/05-minimalismo-digital/media/favoritos-antes.png)
+![favoritos-antes](src/content/garden/05-minimalismo-digital/media/favoritos-antes.png)
 
-![favoritos-depois](src/content/blog/05-minimalismo-digital/media/favoritos-depois.png)
+![favoritos-depois](src/content/garden/05-minimalismo-digital/media/favoritos-depois.png)
 
 - No tipo de uso do computador que pretendo atingir enquanto desenvolvedor e enquanto uma pessoa que gosta de escrever, o mouse é um item secundário. Isso significa que atalhos de teclado são muito importantes no meu dia a dia. Por isso, customizei o CSS presente no Firefox (o chamado FirefoxCSS) para remover itens desnecessários da UI do navegador. Por exemplo, os botões de “_back_” e “_forward_” são na maior parte do tempo inúteis. Há vários atalhos de teclado diferentes perfeitamente capazes de executar essas ações:
 
@@ -94,7 +94,7 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
 
 - Em casos limítrofes, quando o navegador se confunde ao tentar entender qual página (ou estado dela) está para trás ou para frente no tempo, a ferramenta de histórico do navegador está sempre à mão. No meu caso, basta usar `Command+Shift+H`.
 
-![logitech-mouse](src/content/blog/05-minimalismo-digital/media/logitech-mouse.png)
+![logitech-mouse](src/content/garden/05-minimalismo-digital/media/logitech-mouse.png)
 
 ## Inbox zero
 
