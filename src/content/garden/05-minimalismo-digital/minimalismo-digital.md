@@ -21,14 +21,9 @@ Por bastante tempo me utilizei desse tipo de **concessões**, até perceber que 
 
 ---
 
-Um desses vídeos era diferente. Ele se chamava _Digital Minimalism_[^5] e nele o autor mostra como organiza seu laptop e seu smartphone. Foi brutal.
+Um desses vídeos era diferente. Ele se chamava _Digital Minimalism_[^5] e nele o autor mostra como organiza seu laptop e seu smartphone. Foi brutal: Área de trabalho e _home screen_ sem papéis de parede e sem ícones, dock do Mac escondida, explorador de arquivos com apenas os ícones que parecem essenciais, navegador sem favoritos, sem _speed dial_.
 
-- Área de trabalho e _home screen_ sem papéis de parede e sem ícones,
-- Dock do Mac escondida
-- Explorador de arquivos com apenas os ícones que parecem essenciais
-- Navegador sem favoritos, sem _speed dial_
-
-Havia algo diferente na forma como o autor do vídeo buscava utilizar o computador e o celular **apenas** para cumprir seus objetivos, nada mais. Não era para _parecer minimalista_, era para tornar computador e celular ferramentas de trabalho, usadas estritamente para cumprir os objetivos para os quais foram designadas.
+Havia algo diferente na forma como o autor do vídeo buscava utilizar o computador e o celular **apenas** para cumprir seus objetivos, nada mais. Não era para _parecer minimalista_, era para tornar computador e celular ferramentas, usadas estritamente para cumprir os objetivos para os quais foram designadas.
 
 ## O problema do YouTube é o problema da internet
 
@@ -113,7 +108,7 @@ remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede
 
 - O Arch Linux, ao lado de outras distros, pertence ao extremo do minimalismo no Linux. A ISO de instalação vem com algumas poucas ferramentas além do próprio kernel, que permitam ao usuário instalar apenas os pacotes de que precisará. O Arch não conta nem mesmo com uma interface gráfica, cabendo a você decidir livremente entre todas as DEs disponíveis no Linux. Optando pela conveniência da simplicidade, utilizo o Linux sem interface e sem botões, através de um gerenciador de janelas chamado i3wm.
 
-# To-do:
+# To-do
 
 - [ ] Falar sobre o Vimium (antes da seção de favoritos, onde ele é mencionado sem contexto)
 
@@ -133,5 +128,3 @@ remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede
 [^4]: O Leandro Karnal utiliza esse exemplo no episódio do podcast "Platitudes" sobre Cultura Woke.
 
 [^5]: É impossível linká-lo na Bibliografia, pois o vídeo hoje encontra-se não listado/oculto.
-
-[^6]: Finder é o Windows Explorer do Mac
