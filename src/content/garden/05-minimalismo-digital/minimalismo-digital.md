@@ -61,56 +61,31 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
 
 ---
 
-# Aplicando os conceitos
+# Aplicando na prática
 
 ![arch](src/content/garden/05-minimalismo-digital/media/arch-desktop.png)
 \[Meu desktop Linux, BTW\]
 
-## Remova distrações visuais
+## Distrações visuais
 
-- No seu navegador, você pode remover os ícones de extensões que não utiliza todos os dias. Se a extensão que você utiliza diariamente possui atalhos, você pode aprendê-los ao contrário de perder tempo todos os dias clicando em botões.
-
-- Esconda o Dock do MacOS, a Superbar do Windows, a barra de ícones da sua distribuição Linux. Tudo que necessita da sua atenção está na sua frente, não na barra de ícones no canto da tela.
-- Remova wallpapers: tela preta. Simples.
-- Remova apps desnecessários da sua tray bar. No MacOS eu uso o Hidden Bar; no Linux eu escolho quais ícones aparecem na Polybar
-- Remova da sua dock/barra de ícones todos os apps que não utiliza todos os dias. Simplesmente remova. Você sabe de cor o nome de todos os apps que utiliza diariamente e pode acessá-los através do Spotlight no Mac, do Windows Search no Windows e do Rofi, dmenu ou do Cerebro no Linux.
+- No seu navegador, você pode remover os ícones de extensões que não utiliza todos os dias. De tempos em tempos, é interessante checar as extensões não usadas, que ficam esquecidas ali, e desinstalá-las.
+- Eu escondo a dock do MacOS — até por uma questão de espaço. Nela ficam apenas meu navegador, meu editor de código e um atalho para as pastas Applications, Downloads e Screenshots
+- Na menubar do Mac, uso um app chamado ICE para esconder itens que, ou não preciso ver, ou não são usados diariamente.
+- O Finder do Mac é
 
   ## Navegador
 
-- Tela inicial: remover todos os ícones desnecessários, papeis de parede, links etc. Cada nova aba é uma folha em branco e a forma como você irá usá-la precisa se tornar um processo ativo. Não se deixe levar passivamente pelo conteúdo que o seu browser sugere. Em vez disso, tome as rédeas da sua presença online e digite na caixa de URL (como é o nome disso?) com propósito.
-- Organização da barra de favoritos:
-  - a ideia é deixar na barra de favoritos apenas os links indispensáveis referentes a projetos que sejam ao mesmo tempo atuais e temporários (por exemplo a tabela do front-end month, o classroom da disciplina da Carol etc.)
-  - Todo o restante pode ir para dentro de pastas
+  - Meu navegador não possui barra de favoritos. Organizo meus links salvos em duas grandes categorias: _ler depois_ e _salvar para referência_. Os para ler depois são enviados para o [Instapaper](https://www.instapaper.com/); os salvos para referência futura, para o [Raindrop](https://raindrop.io/).
+  - No computador do trabalho há uma exceção: o navegador possui uma barra de favoritos com pastas contendo itens de acesso rápido que utilizo diariamente. É similar à lógica da tela principal do smartphone.
+  - Minha tela inicial é uma tela em branco, vazia. Nada nela pode me induzir/distrair a fazer qualquer coisa diferente daquela que me motivou a abrir uma nova aba ou janela.
 
-![favoritos-antes](src/content/garden/05-minimalismo-digital/media/favoritos-antes.png)
+## E-mail: Inbox zero
 
-![favoritos-depois](src/content/garden/05-minimalismo-digital/media/favoritos-depois.png)
+Como o nome já, diz a técnica do Inbox Zero significa não ter nenhum e-mail na Caixa de Entrada. Eu tenho uma tarefa no Todoist que me lembra a cada três meses de organizar e limpar e-mails.
 
-- No tipo de uso do computador que pretendo atingir enquanto desenvolvedor e enquanto uma pessoa que gosta de escrever, o mouse é um item secundário. Isso significa que atalhos de teclado são muito importantes no meu dia a dia. Por isso, customizei o CSS presente no Firefox (o chamado FirefoxCSS) para remover itens desnecessários da UI do navegador. Por exemplo, os botões de “_back_” e “_forward_” são na maior parte do tempo inúteis. Há vários atalhos de teclado diferentes perfeitamente capazes de executar essas ações:
+Aliado a isso, também uso aliases de e-mails temporários que podem ser facilmente deletados se algum serviço tentar te enviar spam ou e-mail marketing.
 
-  - Usando o MacOS, basta usar `Command+[` (_back_) ou `Command+]` (_forward_)
-  - Usando a extensão Vimium, basta usar `Shift+H` (_back_) ou `Shift+L` (_forward_)
-  - Usando o Logitech MX Anywhere 2S, basta customizar qualquer botão usando o Logi Options
-
-- Em casos limítrofes, quando o navegador se confunde ao tentar entender qual página (ou estado dela) está para trás ou para frente no tempo, a ferramenta de histórico do navegador está sempre à mão. No meu caso, basta usar `Command+Shift+H`.
-
-![logitech-mouse](src/content/garden/05-minimalismo-digital/media/logitech-mouse.png)
-
-## Inbox zero
-
-- O Inbox Zero é uma prática que consiste em sentar para ler e organizar todos os seus e-mails, fazendo com que a sua caixa de entrada possua literalmente zero e-mails. Longe de ser um ideal, eu faço isso a cada três meses. Crie etiquetas/pastas, crie filtros inteligentes, visite as páginas de configurações dos apps que te mandam e-mails e impeça-os. Se não parar de receber dentro de alguns dias ou semanas, bloqueie o remetente ou marque-o como spammer. Eu fiz isso com a minha faculdade, que me enviava duas vezes o mesmo e-mail com as notícias principais do campus porque eu era aluno e ex-estagiário da universidade. Solicitei a remoção do meu e-mail de uma das listas e o setor de informática respondeu que isso não era possível. Bloqueei o remetente redundante e segui a vida.
-
-No vídeo ele mostra como zerou distrações visuais do sistema operacional e de todos os apps que utiliza para trabalhar. Há táticas como
-
-remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede completamente preto, remover todos os
-
-## Arch Linux
-
-- O Arch Linux, ao lado de outras distros, pertence ao extremo do minimalismo no Linux. A ISO de instalação vem com algumas poucas ferramentas além do próprio kernel, que permitam ao usuário instalar apenas os pacotes de que precisará. O Arch não conta nem mesmo com uma interface gráfica, cabendo a você decidir livremente entre todas as DEs disponíveis no Linux. Optando pela conveniência da simplicidade, utilizo o Linux sem interface e sem botões, através de um gerenciador de janelas chamado i3wm.
-
-# To-do
-
-- [ ] Falar sobre o Vimium (antes da seção de favoritos, onde ele é mencionado sem contexto)
+Uma outra tática é criar filtros, para que e-mails de um mesmo remetente sejam motivos automaticamente da Caixa de Entrada para uma pasta específica. No meu e-mail do trabalho, por exemplo, mensagens do RH caem automaticamente em uma pasta chamada RH.
 
 # Bibliografia
 
@@ -128,3 +103,10 @@ remover todos os botões do Finder e do Safari no MacOS, usar um papel de parede
 [^4]: O Leandro Karnal utiliza esse exemplo no episódio do podcast "Platitudes" sobre Cultura Woke.
 
 [^5]: É impossível linká-lo na Bibliografia, pois o vídeo hoje encontra-se não listado/oculto.
+
+---
+
+# TODO
+
+- [ ] Atualizar os screenshots no texto e apagar os não usados/antigos/depreciados.
+
