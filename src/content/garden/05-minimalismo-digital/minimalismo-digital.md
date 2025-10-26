@@ -4,7 +4,7 @@ summary: O minimalismo digital não está no digital
 draft: false
 date: 09 apr 2025
 tags:
-  - buddling
+  - seedling
 ---
 
 ![fifteen million merits](src/content/garden/05-minimalismo-digital/media/fifteen-million.jpg)
