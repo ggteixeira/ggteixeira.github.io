@@ -7,6 +7,18 @@ tags:
   - seedling
 ---
 
+<!--toc:start-->
+
+- [O problema do YouTube é o problema da internet](#o-problema-do-youtube-é-o-problema-da-internet)
+- [O minimalismo digital é não estar no digital](#o-minimalismo-digital-é-não-estar-no-digital)
+- [Aplicando na prática](#aplicando-na-prática)
+  - [Distrações visuais](#distrações-visuais)
+  - [Navegador](#navegador)
+  - [E-mail: Inbox zero](#e-mail-inbox-zero)
+- [Bibliografia](#bibliografia)
+- [TODO](#todo)
+<!--toc:end-->
+
 ![fifteen million merits](src/content/garden/05-minimalismo-digital/media/fifteen-million.jpg)
 
 Neste texto, eu apresento o que é Minimalismo Digital e o que não é. Em seguida, faço um resumo de partes importantes de um livro importante. Por fim, listo dicas de como aplicar princípios práticos para uma vida mais intencional e menos dependente de telas.
@@ -71,7 +83,6 @@ Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mu
 - No seu navegador, você pode remover os ícones de extensões que não utiliza todos os dias. De tempos em tempos, é interessante checar as extensões não usadas, que ficam esquecidas ali, e desinstalá-las.
 - Eu escondo a dock do MacOS — até por uma questão de espaço. Nela ficam apenas meu navegador, meu editor de código e um atalho para as pastas Applications, Downloads e Screenshots
 - Na menubar do Mac, uso um app chamado ICE para esconder itens que, ou não preciso ver, ou não são usados diariamente.
-- O Finder do Mac é
 
   ## Navegador
 
@@ -109,4 +120,3 @@ Uma outra tática é criar filtros, para que e-mails de um mesmo remetente sejam
 # TODO
 
 - [ ] Atualizar os screenshots no texto e apagar os não usados/antigos/depreciados.
-
