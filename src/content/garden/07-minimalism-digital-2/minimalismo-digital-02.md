@@ -17,5 +17,7 @@ Se você nunca ouviu falar em Minimalismo Digital, seja pelo livro do Cal Newpor
 
 Após topar com um episódio recente chamado [_This is your brain on phones_](https://podcasts.apple.com/br/podcast/deep-questions-with-cal-newport/id1515786216?l=en-GB&i=1000731580317) do podcast do Cal Newport, o _Deep Questions_, me peguei refletindo sobre quantas das coisas que aprendi no livro ainda eram presentes na rotina. É surpreendente perceber que o fato de que momentos de devaneios terem se tornado raros significa que tempo demais se passou. Assim que termine de reler o capítulo que ensina o processo de _declutter_, senti a necessidade de reaplicar os 30 dias sem redes sociais para desafogar o cérebro novamente.
 
-Se tudo acontecer conforme o esperado, daqui a 30 dias este texto será um relato do detalhado de como foi a experiência.
+Se tudo acontecer conforme o esperado, vou relatando aqui neste Jardim Digital como será a experiência.
+
+---
 
