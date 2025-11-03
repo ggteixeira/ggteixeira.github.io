@@ -15,9 +15,13 @@ Se você nunca ouviu falar em Minimalismo Digital, seja pelo livro do Cal Newpor
 
 ---
 
-Após topar com um episódio recente chamado [_This is your brain on phones_](https://podcasts.apple.com/br/podcast/deep-questions-with-cal-newport/id1515786216?l=en-GB&i=1000731580317) do podcast do Cal Newport, o _Deep Questions_, me peguei refletindo sobre quantas das coisas que aprendi no livro ainda eram presentes na rotina. É surpreendente perceber que o fato de que momentos de devaneios terem se tornado raros significa que tempo demais se passou. Assim que termine de reler o capítulo que ensina o processo de _declutter_, senti a necessidade de reaplicar os 30 dias sem redes sociais para desafogar o cérebro novamente.
+Após topar com um episódio recente chamado [_This is your brain on phones_](https://podcasts.apple.com/br/podcast/deep-questions-with-cal-newport/id1515786216?l=en-GB&i=1000731580317) do podcast do Cal Newport, o _Deep Questions_, me peguei refletindo sobre quantas das coisas que aprendi no livro ainda eram presentes na rotina. É surpreendente perceber que o fato de que momentos de devaneios terem se tornado raros significa que tempo demais se passou. Assim que terminei de reler o capítulo que ensina o processo de _declutter_, senti a necessidade de reaplicar os 30 dias sem redes sociais para desafogar o cérebro novamente e ver o que acontece.
 
-Se tudo acontecer conforme o esperado, vou relatando aqui neste Jardim Digital como será a experiência.
+Se tudo ocorrer conforme o esperado, vou relatando aqui neste Jardim Digital como será a experiência.
 
 ---
 
+## Coisas que mudaram de lá pra cá
+O post começou falando que o YouTube se disfarça de rede social educativa. Eu, me achando o minimalistão livre de distrações desnecessárias, que seguia e acompanhava apenas 5-6 criadores de conteúdo (idôneos e comprometidos com a saúde mental dos seus seguidores e a vida plena fora das redes), me vi dono de uma lista de mais de 80 canais seguidos. 
+
+A lista agora tem zero.
