@@ -7,6 +7,14 @@ tags:
   - buddling
 ---
 
+<!--toc:start-->
+- [Introdução](#introdução)
+- [O que mudou desde a primeira experiência](#o-que-mudou-desde-a-primeira-experiência)
+- [Diário](#diário)
+<!--toc:end-->
+
+# Introdução
+
 Às vezes é saudável admitir a derrota. Após um experimento de _declutter_ bem-sucedido, se com o tempo você afrouxa algumas regras, velhos hábitos ruins podem retornar em nome da conveniência.
 
 Meus pontos fracos são Reddit e YouTube, especificamente esses dois por serem ótimas distrações disfarçadas de entretenimento que gera conhecimento. Eu tenho o péssimo hábito de tentar convencer a todos — a mim mesmo também — de que possuo um conjunto produtivo de entretenimentos: os canais no YouTube trazem conhecimento sobre computação, tecnologia, ciência, produtividade etc. YouTube e Reddit são um prato cheio para quem opta por deixar distrações disfarçadas de conhecimento se esgueirarem aos pouquinhos na rotina, até que num belo dia você está lá, sentado no sofá, segurando um prato de comida esfriando com uma mão e com a outra, segurando o controle da TV, procurando freneticamente o vídeo com a temática e a duração certas que combinem com o jantar entregue via Ifood.
