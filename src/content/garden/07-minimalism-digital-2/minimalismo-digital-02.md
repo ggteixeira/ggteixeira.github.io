@@ -51,3 +51,10 @@ Dia 3: Terminei um livro. A bem da verdade, já estava na última hora de leitur
 
 Dia 4: até ontem eu ainda estava abrindo o YouTube sob o pretexto de que os vídeos salvos no "Assistir Depois" eram importantes para mim. Decidi não abrir essa exceção. A única exceção possível para mim é usar o YouTube quando precisar conferir algum tutorial relacionado ao meu trabalho como desenvolvedor de software.
 
+Dia 5: organizei as listas de compras e rememorei a quantidade bizarra de livros que quero E VOU ler. Escolhi ler o "Flow: A psicologia do alto desempenho e da felicidade" do Mihaly C.
+
+Dia 6: estou na semana 5/6 de um programa de corrida, que segue mais ou menos a filosofia do C25K (*From Couch to 5K*). Hoje eu corri 5 quilômetros (2 x 2.5km). Se tudo correr bem, dia 16/nov eu vou me "graduar", que é correr 5km ininterruptos.
+
+Já faz um tempo que não tenho mais problemas com foco no trabalho. Realmente não sei precisar quando começou; se foi quando comecei a trabalhar no projeto no qual estou agora — que é muito importante para a minha carreira; ou se foi quando removi as redes sociais do celular. Só sei que hoje em dia, celular e computador são tão chatos que mal me interesso por saber o que está acontecendo para além dos assuntos profissionais que lido diariamente.
+
+Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo menos uma voltinha em Nürburgring ou em Interlagos no Gran Turismo 7. Recentemente recomecei Shadow Tactics e também queria voltar a jogar Diablo IV.
