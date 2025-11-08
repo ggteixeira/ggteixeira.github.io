@@ -39,7 +39,7 @@ Como o Cal Newport bem fala no livro, se você quer realmente saber como alguém
 
 ---
 
-Quais são nossos objetivos imediatos principais? Desde que me graduei, o meu tem sido sentir prazer por leitura não técnica, tentar me interessar por ficção; mas, sobretudo — e antes disso —, retomar o hábito de ler. É sempre um desafio começar a ler porque sempre tem alguma discussão mais interessante no Reddit, um vídeo no YouTube que será diferente de todos os outros, um criador de conteúdo que não faz clickbait de olhos esbugalhados na thumb e que certamente merece que eu aposte nele as fichas do meu tempo. O que é que está servindo de barreira entre o seu tempo e aquilo que você deseja conquistar? Se meu objetivo é ler mais, eu preciso dar um passo atrás para poder enxergar enxergar, para que só assim seja possível tirar da frente tudo aquilo que me tira do foco do que importa.
+Quais são nossos objetivos imediatos principais? Desde que me graduei, o meu tem sido sentir prazer por leitura não técnica, tentar me interessar por ficção; mas, sobretudo — e antes disso —, retomar o hábito de ler. É sempre um desafio começar a ler porque sempre tem alguma discussão mais interessante no Reddit, um vídeo no YouTube que será diferente de todos os outros, um criador de conteúdo que não faz clickbait de olhos esbugalhados na thumb e que certamente merece que eu aposte nele as fichas do meu tempo. O que é que está servindo de barreira entre o seu tempo e aquilo que você deseja conquistar? Se meu objetivo é ler mais, eu preciso dar um passo atrás para poder enxergar, para que só assim seja possível tirar da frente tudo aquilo que me tira do foco do que importa.
 
 Eu fico repetindo a ideia de focar nas coisas que importam, e não acredito que seja por falta de um vocabulário mais extenso. É que é uma ideia-chave nessa filosofia.
 
@@ -47,18 +47,18 @@ Eu fico repetindo a ideia de focar nas coisas que importam, e não acredito que 
 
 # Diário
 
-Dia 3: Terminei um livro. A bem da verdade, já estava na última hora de leitura, então dei um gás. Foi uma releitura do "História sua vida e outros contos" do Ted Chiang. Agora estou decidindo se começo o livro sobre o Flow (a teoria do Mihaly Csikszentmihalyi, não alguma biografia do Igor 3K) ou se retomo o "_Language Truth and Logic_" (A.J. Ayer). Ontem também comprei uma coletânea de contos do Asimov porque a minha namorada disse que nunca tinha lido o conto "A Última Pergunta".
+**Dia 3**: Terminei um livro. A bem da verdade, já estava na última hora de leitura, então dei um gás. Foi uma releitura do "História sua vida e outros contos" do Ted Chiang. Agora estou decidindo se começo o livro sobre o Flow (a teoria do Mihaly Csikszentmihalyi, não alguma biografia do Igor 3K) ou se retomo o "_Language Truth and Logic_" (A.J. Ayer). Ontem também comprei uma coletânea de contos do Asimov porque a minha namorada disse que nunca tinha lido o conto "A Última Pergunta".
 
-Dia 4: até ontem eu ainda estava abrindo o YouTube sob o pretexto de que os vídeos salvos no "Assistir Depois" eram importantes para mim. Decidi não abrir essa exceção. A única exceção possível para mim é usar o YouTube quando precisar conferir algum tutorial relacionado ao meu trabalho como desenvolvedor de software.
+**Dia 4**: até ontem eu ainda estava abrindo o YouTube sob o pretexto de que os vídeos salvos no "Assistir Depois" eram importantes para mim. Decidi não abrir essa exceção. A única exceção possível para mim é usar o YouTube quando precisar conferir algum tutorial relacionado ao meu trabalho como desenvolvedor de software.
 
-Dia 5: organizei as listas de compras e rememorei a quantidade bizarra de livros que quero E VOU ler. Escolhi ler o "Flow: A psicologia do alto desempenho e da felicidade" do Mihaly C.
+**Dia 5**: organizei as listas de compras e rememorei a quantidade bizarra de livros que quero E VOU ler. Escolhi ler o "Flow: A psicologia do alto desempenho e da felicidade" do Mihaly C.
 
-Dia 6: estou na semana 5/6 de um programa de corrida, que segue mais ou menos a filosofia do C25K (*From Couch to 5K*). Hoje eu corri 5 quilômetros (2 x 2.5km). Se tudo correr bem, dia 16/nov eu vou me "graduar", que é correr 5km ininterruptos.
+**Dia 6**: estou na semana 5/6 de um programa de corrida, que segue mais ou menos a filosofia do C25K (*From Couch to 5K*). Hoje eu corri 5 quilômetros (2 x 2.5km). Se tudo correr bem, dia 16/nov eu vou me "graduar", que é correr 5km ininterruptos.
 
 Já faz um tempo que não tenho mais problemas com foco no trabalho. Realmente não sei precisar quando começou; se foi quando comecei a trabalhar no projeto no qual estou agora — que é muito importante para a minha carreira; ou se foi quando removi as redes sociais do celular. Só sei que hoje em dia, celular e computador são tão chatos que mal me interesso por saber o que está acontecendo para além dos assuntos profissionais que lido diariamente.
 
 Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo menos uma voltinha em Nürburgring ou em Interlagos no Gran Turismo 7. Recentemente recomecei Shadow Tactics e também queria voltar a jogar Diablo IV.
 
-Dia 7: hoje, na falta do que fazer, sentei pra ler depois do trabalho. E lá passei algumas horas. É tão curioso fazer isso novamente em vez de automaticamente abrir qualquer coisa no YouTube pra passar o tempo. Pra passar a vida.
+**Dia 7**: hoje, na falta do que fazer, sentei pra ler depois do trabalho. E lá passei algumas horas. É tão curioso fazer isso novamente em vez de automaticamente abrir qualquer coisa no YouTube pra passar o tempo. Pra passar a vida.
 
 É muito doido não ter rede social no celular. Você não sabe como se distrair. Você desbloqueia o celular e se pergunta "e agora, o que eu faço aqui?". 
