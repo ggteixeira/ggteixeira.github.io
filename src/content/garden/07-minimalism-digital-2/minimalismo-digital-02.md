@@ -61,4 +61,6 @@ Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo
 
 **Dia 7**: hoje, na falta do que fazer, sentei pra ler depois do trabalho. E lá passei algumas horas. É tão curioso fazer isso novamente em vez de automaticamente abrir qualquer coisa no YouTube pra passar o tempo. Pra passar a vida.
 
-É muito doido não ter rede social no celular. Você não sabe como se distrair. Você desbloqueia o celular e se pergunta "e agora, o que eu faço aqui?". 
+É muito doido não ter rede social no celular. Você não sabe como se distrair. Você desbloqueia o celular e se pergunta "e agora, o que eu faço aqui?".
+
+**Dia 8**:

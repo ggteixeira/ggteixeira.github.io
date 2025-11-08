@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "packageManager": "pnpm@9.14.2",
   "scripts": {
-    "dev": "astro dev --open",
+    "dev": "BROWSER=firefox astro dev --open",
     "dev:network": "astro dev --host",
     "start": "astro dev",
     "build": "astro check && astro build",
