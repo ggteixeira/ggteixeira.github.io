@@ -58,3 +58,7 @@ Dia 6: estou na semana 5/6 de um programa de corrida, que segue mais ou menos a 
 Já faz um tempo que não tenho mais problemas com foco no trabalho. Realmente não sei precisar quando começou; se foi quando comecei a trabalhar no projeto no qual estou agora — que é muito importante para a minha carreira; ou se foi quando removi as redes sociais do celular. Só sei que hoje em dia, celular e computador são tão chatos que mal me interesso por saber o que está acontecendo para além dos assuntos profissionais que lido diariamente.
 
 Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo menos uma voltinha em Nürburgring ou em Interlagos no Gran Turismo 7. Recentemente recomecei Shadow Tactics e também queria voltar a jogar Diablo IV.
+
+Dia 7: hoje, na falta do que fazer, sentei pra ler depois do trabalho. E lá passei algumas horas. É tão curioso fazer isso novamente em vez de automaticamente abrir qualquer coisa no YouTube pra passar o tempo. Pra passar a vida.
+
+É muito doido não ter rede social no celular. Você não sabe como se distrair. Você desbloqueia o celular e se pergunta "e agora, o que eu faço aqui?". 
