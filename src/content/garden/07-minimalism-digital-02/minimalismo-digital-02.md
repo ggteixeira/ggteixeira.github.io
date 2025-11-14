@@ -63,4 +63,6 @@ Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo
 
 É muito doido não ter rede social no celular. Você não sabe como se distrair. Você desbloqueia o celular e se pergunta "e agora, o que eu faço aqui?".
 
-**Dia 8**:
+**Dia 14**: continuo sentindo falta de jogar videogame. Acho que ao final vou criar alguma regra que se relacione a foco, do tipo "ter apenas 2-3 jogos instalados por vez". Quanto ao tempo gasto jogando videogame, não costuma ser muito. Sempre fico entediado após 1-2 horas jogando.
+
+Aqui em casa estamos usando parte do tempo ocioso para assistir filmes ruins de Natal — uma tradição anual. Também estamos relendo juntos o Guia do Mochileiro da Galáxia. Diferentemente da outra vez, não senti nenhuma vontade de encostar na minha guitarra empoeirada, mesmo tendo um setup perfeito para tocar guitarra em apartamentos, que é um laptop, headphones cabeados e uma interface de áudio.
