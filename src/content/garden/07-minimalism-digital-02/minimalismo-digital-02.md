@@ -66,3 +66,11 @@ Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo
 **Dia 14**: continuo sentindo falta de jogar videogame. Acho que ao final vou criar alguma regra que se relacione a foco, do tipo "ter apenas 2-3 jogos instalados por vez". Quanto ao tempo gasto jogando videogame, não costuma ser muito. Sempre fico entediado após 1-2 horas jogando.
 
 Aqui em casa estamos usando parte do tempo ocioso para assistir filmes ruins de Natal — uma tradição anual. Também estamos relendo juntos o Guia do Mochileiro da Galáxia. Diferentemente da outra vez, não senti nenhuma vontade de encostar na minha guitarra empoeirada, mesmo tendo um setup perfeito para tocar guitarra em apartamentos, que é um laptop, headphones cabeados e uma interface de áudio.
+
+**Dia 15**: sabadão com o tempo querendo virar pra chuva e eu em casa sem nada pra fazer. Joguei videogame? Não, eu almocei em pé, com o prato apoiado na pia da cozinha. Depois lavei louça e fui ler. Depois de ler, dormi. Depois de acordar, fui estudar. 
+
+Eu mal me reconheço, fazendo coisas espontâneas, sem nenhum objetivo específico em mente.
+
+**Dia 22**: sinto que tem sido um mês único por aqui — e por outras questões pessoais que não pertencem ao _declutter_. 
+
+**Dia 30**: é impossível saber quais das coisas novas que me aconteceram foram resultado direto do *declutter* ou não; só gostaria de mencionar que corri 5km ininterruptos pela primeira vez, e num evento de corrida oficial, com medalha, tempo oficial etc. Coincidentemente ou não, a partir de hoje me considero oficialmente um corredor amador.
