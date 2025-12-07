@@ -8,10 +8,13 @@ tags:
 ---
 
 <!--toc:start-->
-
 - [Introdução](#introdução)
 - [O que mudou desde a primeira experiência](#o-que-mudou-desde-a-primeira-experiência)
 - [Diário](#diário)
+- [Conclusão e reflexões finais](#conclusão-e-reflexões-finais)
+  - [Instagram](#instagram)
+  - [YouTube](#youtube)
+- [Bibliografia, Referências e Notas de Rodapé](#bibliografia-referências-e-notas-de-rodapé)
 <!--toc:end-->
 
 # Introdução
@@ -92,13 +95,18 @@ Não senti falta do Instagram, então nada muda na política em vigor: instalo o
 
 Ao longo do _declutter_ pensei em muitas formas de como voltar ao YouTube sem causar retrocessos. Quando os 30 dias acabaram, ao abrir um vídeo qualquer, percebi que estava mais sensível à minha ansiedade e à minha impeciência, que aumentaram imediatamente. Até os batimentos cardíacos se elevaram, inexplicavelmente. Decidi que não posso voltar, e nem é apenas por isso.
 
-Pensar um pouco mais na natureza do YouTube te permite conceber a distinção entre informar-se e saber. No contexto que estamos adotando aqui, informação é qualquer fato sobre o mundo cujo qual você conhece e do qual você se recorda. Estar informado, portanto, é lembrar-se de uma parte dos fatos sobre o mundo aos quais você foi exposto.
+Pensar um pouco mais na natureza do YouTube te permite conceber a distinção entre informar-se e saber. No contexto que estamos adotando aqui, informação é qualquer fato sobre o mundo cujo qual você conhece e do qual você se recorda. Estar informado, portanto, é lembrar-se de parte dos fatos sobre o mundo aos quais você foi exposto.
 
-A definição de saber se baseia na definição de informação, porém ambas jamais devem ser confundidas uma com a outra, porque sabedoria é a capacidade de interconectar informações de categorias diferentes a fim de que seja produzido um entendimento novo sobre um fato sobre o mundo (ou uma "entidade do mundo", se estivermos sendo minimamente rigososos aqui do ponto de vista linguístico aqui).
+A definição de saber se baseia na definição de informação, porém ambas jamais devem ser confundidas uma com a outra, porque sabedoria é a capacidade de interconectar informações de categorias diferentes a fim de que seja produzido um entendimento novo a respeito de determinadas coisas do mundo.
 
-O que quero dizer aqui é que estar a par de algo (estar informado) é diferente de saber algo, porque enquanto a aquisição de informação exige apenas o ato passivo de receber dados trazidos por determinada mídia, o saber (conhecer) exige a ação da reflexão, do estudo, do confronto de ideias — consigo próprio ou com outras pessoas —, da compreensão de novos fatos, ou da apresentação de novos pontos de vista acerta de coisas já conhecidas.
+O que quero dizer aqui é que estar a par (estar informado) é diferente de saber, porque enquanto a aquisição de informação exige apenas o ato passivo de receber dados trazidos por determinada mídia, o saber (conhecer) requer a ação da reflexão, do estudo, do confronto de ideias — consigo próprio ou com outras pessoas —, da compreensão de novos fatos, ou da apresentação de novos pontos de vista acerta de fatos já conhecidos.
 
-Todos os vídeos do YouTube foram criados para te informar, e informação é entretenimento. O problema é que o Jornal Nacional também é. Para de fato aprender, saber, conhecer coisas novas, é necessário que o nosso cérebro se desvencilhe de qualquer artifício arquitetado para prender nossa atenção em atividades passivas. Aprender é uma atividade que demanda nossa total energia para que sejamos capazes de superar o incômodo que é fazer novas associações entre informações até então distintas. Esse incômodo é a "dor de aprender", termo cunhado pelo Fábio Akita.
+Todos os vídeos do YouTube foram criados para te informar, e informação é entretenimento. O problema é que o Jornal Nacional também é. Para de fato aprender, saber, conhecer coisas novas, é necessário que o nosso cérebro se desvencilhe de qualquer artifício arquitetado para prender nossa atenção em atividades passivas. Aprender é uma atividade que demanda nossa total energia para que sejamos capazes de superar o incômodo que é fazer novas associações entre informações até então distintas. Esse incômodo é a "[dor de aprender](https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/)"[^1].
 
 Ultimamente tomei a decisão de me informar menos para dar mais espaço à atividade de saber mais sobre as coisas que me interessam. Por esse motivo, o YouTube não fará parte da minha vida de minimalista digital, pós-_declutter_.
 
+---
+
+# Bibliografia, Referências e Notas de Rodapé
+
+[^1]: <https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/>
