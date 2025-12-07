@@ -8,6 +8,7 @@ tags:
 ---
 
 <!--toc:start-->
+
 - [Introdução](#introdução)
 - [O que mudou desde a primeira experiência](#o-que-mudou-desde-a-primeira-experiência)
 - [Diário](#diário)
@@ -53,7 +54,7 @@ Eu fico repetindo a ideia de focar nas coisas que importam, e não acredito que 
 
 **Dia 5**: organizei as listas de compras e rememorei a quantidade bizarra de livros que quero E VOU ler. Escolhi ler o "Flow: A psicologia do alto desempenho e da felicidade" do Mihaly C.
 
-**Dia 6**: estou na semana 5/6 de um programa de corrida, que segue mais ou menos a filosofia do C25K (*From Couch to 5K*). Hoje eu corri 5 quilômetros (2 x 2.5km). Se tudo correr bem, dia 16/nov eu vou me "graduar", que é correr 5km ininterruptos.
+**Dia 6**: estou na semana 5/6 de um programa de corrida, que segue mais ou menos a filosofia do C25K (_From Couch to 5K_). Hoje eu corri 5 quilômetros (2 x 2.5km). Se tudo correr bem, dia 16/nov eu vou me "graduar", que é correr 5km ininterruptos.
 
 Já faz um tempo que não tenho mais problemas com foco no trabalho. Realmente não sei precisar quando começou; se foi quando comecei a trabalhar no projeto no qual estou agora — que é muito importante para a minha carreira; ou se foi quando removi as redes sociais do celular. Só sei que hoje em dia, celular e computador são tão chatos que mal me interesso por saber o que está acontecendo para além dos assuntos profissionais que lido diariamente.
 
@@ -67,10 +68,37 @@ Estou sentindo falta é do meu videogame. Estou acostumado a, todo dia, dar pelo
 
 Aqui em casa estamos usando parte do tempo ocioso para assistir filmes ruins de Natal — uma tradição anual. Também estamos relendo juntos o Guia do Mochileiro da Galáxia. Diferentemente da outra vez, não senti nenhuma vontade de encostar na minha guitarra empoeirada, mesmo tendo um setup perfeito para tocar guitarra em apartamentos, que é um laptop, headphones cabeados e uma interface de áudio.
 
-**Dia 15**: sabadão com o tempo querendo virar pra chuva e eu em casa sem nada pra fazer. Joguei videogame? Não, eu almocei em pé, com o prato apoiado na pia da cozinha. Depois lavei louça e fui ler. Depois de ler, dormi. Depois de acordar, fui estudar. 
+**Dia 15**: sabadão com o tempo querendo virar pra chuva e eu em casa sem nada pra fazer. Joguei videogame? Não, eu almocei em pé, com o prato apoiado na pia da cozinha. Depois lavei louça e fui ler. Depois de ler, dormi. Depois de acordar, fui estudar.
 
 Eu mal me reconheço, fazendo coisas espontâneas, sem nenhum objetivo específico em mente.
 
-**Dia 22**: sinto que tem sido um mês único por aqui — e por outras questões pessoais que não pertencem ao _declutter_. 
+**Dia 22**: sinto que tem sido um mês único por aqui — e por outras questões pessoais que não pertencem ao _declutter_.
 
-**Dia 30**: é impossível saber quais das coisas novas que me aconteceram foram resultado direto do *declutter* ou não; só gostaria de mencionar que corri 5km ininterruptos pela primeira vez, e num evento de corrida oficial, com medalha, tempo oficial etc. Coincidentemente ou não, a partir de hoje me considero oficialmente um corredor amador.
+**Dia 30**: é impossível saber quais das coisas novas que me aconteceram foram resultado direto do _declutter_ ou não; só gostaria de mencionar que corri 5km ininterruptos pela primeira vez, e num evento de corrida oficial, com medalha, tempo oficial etc. Coincidentemente ou não, a partir de hoje me considero oficialmente um corredor amador.
+
+---
+
+# Conclusão e reflexões finais
+
+O dia 0 pós-declutter não é o final da experiência do Minimalismo Digital, é o dia 0 para vários novos hábitos, somados à consequente eliminação permanente de outros.
+
+- Gostaria de ter lido muito mais. Consegui ler apenas 40% de um livro que eu considero médio-grande, mas que se eu tivesse me organizado melhor, teria terminado de ler. Isso vai se tornar uma meta a partir de agora
+
+## Instagram
+
+Não senti falta do Instagram, então nada muda na política em vigor: instalo o app uma vez por mês, posto um dump e respondo mensagens. Desinstalo novamente. Por ora é o bastante.
+
+## YouTube
+
+Ao longo do _declutter_ pensei em muitas formas de como voltar ao YouTube sem causar retrocessos. Quando os 30 dias acabaram, ao abrir um vídeo qualquer, percebi que estava mais sensível à minha ansiedade e à minha impeciência, que aumentaram imediatamente. Até os batimentos cardíacos se elevaram, inexplicavelmente. Decidi que não posso voltar, e nem é apenas por isso.
+
+Pensar um pouco mais na natureza do YouTube te permite conceber a distinção entre informar-se e saber. No contexto que estamos adotando aqui, informação é qualquer fato sobre o mundo cujo qual você conhece e do qual você se recorda. Estar informado, portanto, é lembrar-se de uma parte dos fatos sobre o mundo aos quais você foi exposto.
+
+A definição de saber se baseia na definição de informação, porém ambas jamais devem ser confundidas uma com a outra, porque sabedoria é a capacidade de interconectar informações de categorias diferentes a fim de que seja produzido um entendimento novo sobre um fato sobre o mundo (ou uma "entidade do mundo", se estivermos sendo minimamente rigososos aqui do ponto de vista linguístico aqui).
+
+O que quero dizer aqui é que estar a par de algo (estar informado) é diferente de saber algo, porque enquanto a aquisição de informação exige apenas o ato passivo de receber dados trazidos por determinada mídia, o saber (conhecer) exige a ação da reflexão, do estudo, do confronto de ideias — consigo próprio ou com outras pessoas —, da compreensão de novos fatos, ou da apresentação de novos pontos de vista acerta de coisas já conhecidas.
+
+Todos os vídeos do YouTube foram criados para te informar, e informação é entretenimento. O problema é que o Jornal Nacional também é. Para de fato aprender, saber, conhecer coisas novas, é necessário que o nosso cérebro se desvencilhe de qualquer artifício arquitetado para prender nossa atenção em atividades passivas. Aprender é uma atividade que demanda nossa total energia para que sejamos capazes de superar o incômodo que é fazer novas associações entre informações até então distintas. Esse incômodo é a "dor de aprender", termo cunhado pelo Fábio Akita.
+
+Ultimamente tomei a decisão de me informar menos para dar mais espaço à atividade de saber mais sobre as coisas que me interessam. Por esse motivo, o YouTube não fará parte da minha vida de minimalista digital, pós-_declutter_.
+
