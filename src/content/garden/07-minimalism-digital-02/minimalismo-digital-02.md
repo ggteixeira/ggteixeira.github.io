@@ -93,7 +93,7 @@ Não senti falta do Instagram, então nada muda na política em vigor: instalo o
 
 ## YouTube
 
-Ao longo do _declutter_ pensei em muitas formas de como voltar ao YouTube sem causar retrocessos. Quando os 30 dias acabaram, ao abrir um vídeo qualquer, percebi que estava mais sensível à minha ansiedade e à minha impeciência, que aumentaram imediatamente. Até os batimentos cardíacos se elevaram, inexplicavelmente. Decidi que não posso voltar, e nem é apenas por isso.
+Ao longo do _declutter_ pensei em muitas formas de como voltar ao YouTube sem causar retrocessos. Quando os 30 dias acabaram, ao abrir um vídeo qualquer, percebi que estava mais sensível à minha ansiedade e à minha impaciência, que aumentaram imediatamente. Até os batimentos cardíacos se elevaram, inexplicavelmente. Decidi que não posso voltar, e nem é apenas por isso.
 
 Pensar um pouco mais na natureza do YouTube te permite conceber a distinção entre informar-se e saber. No contexto que estamos adotando aqui, informação é qualquer fato sobre o mundo cujo qual você conhece e do qual você se recorda. Estar informado, portanto, é lembrar-se de parte dos fatos sobre o mundo aos quais você foi exposto.
 
