@@ -33,9 +33,10 @@ export async function GET(context: Context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
-      link: item.slug.startsWith("garden")
-        ? `/garden/${item.slug}/`
-        : `/projects/${item.slug}/`,
+      link: `/garden/${item.slug}/`,
+      // link: item.slug.startsWith("garden")
+      //   ? `/garden/${item.slug}/`
+      //   : `/projects/${item.slug}/`,
     })),
   });
 }
