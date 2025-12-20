@@ -10,7 +10,7 @@ const posts = (await getCollection("garden"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-const gardenTags = ["seedling", "buddling", "evergreen"];
+const gardenTags = ["seedling", "budding", "evergreen"];
 
 const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
   .sort((a, b) => a.localeCompare(b))

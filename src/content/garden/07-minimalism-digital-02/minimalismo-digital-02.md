@@ -4,7 +4,7 @@ summary: Uma revisão do aprendizado
 draft: false
 date: 26 oct 2025
 tags:
-  - buddling
+  - budding
 ---
 
 <!--toc:start-->
