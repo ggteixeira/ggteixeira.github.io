@@ -4,7 +4,7 @@ summary: Por que abandonei o YouTube
 draft: false
 date: 23 apr 2025
 tags:
-  - buddling
+  - budding
 ---
 
 Claro que o YouTube nos dá diversos motivos diariamente para nunca mais o acessarmos. O recurso de dublagem feita por IA (chamado de “_auto-dubbing_”), que aparentemente foi liberado para uma quantidade mais abrangente de criadores, foi a gota d’água para mim.
