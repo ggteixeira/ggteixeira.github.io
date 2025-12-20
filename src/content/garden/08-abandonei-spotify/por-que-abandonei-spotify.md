@@ -16,3 +16,8 @@ Após a repercussão de notícias denunciando que Daniek Ek, o CEO e fundador do
 Antes do Spotify existir no Brasil, meus amigos e eu já fazíamos streaming de música dele através da VPN gratuita do Tunnelbear. Era tentadora demais a ideia de substituir a biblioteca de música guardada nos nossos velhos e lentos HDDs por um app de streaming para desktop. Era redundante. Migrar para o Spotify parecia natural, era o avanço tecnológico a favor da comodidade da humanidade.
 
 Mais de 10 anos depois, decidi migrar para o Apple Music, um app pior, sem integração nativa com o moribundo Lastfm, sem integração simultânea entre app de desktop e smartphone, e cuja interface parou no tempo. A Apple não é uma ONG e tampouco merece qualquer reconhecimento como heroína de história alguma; mas, enfim, essa contradição é um problema para ser resolvido em outro momento. Por ora, é suficiente o fato de que abandonar o Spotify é um caminho sem volta. 
+
+# Bibliografia e Referências
+- Quando o play financia a guerra: Spotify, society-centered design e o investimento bélico do seu CEO ([Blog da Boitempo](https://blogdaboitempo.com.br/2025/09/24/quando-o-play-financia-a-guerra-spotify-society-centered-design-e-o-investimento-belico-do-seu-ceo/))
+- Com €600 milhões do fundador do Spotify, Helsing vira maior aposta da Europa para defesa com IA ([Exame](https://exame.com/inteligencia-artificial/com-e600-milhoes-do-fundador-do-spotify-helsing-vira-maior-aposta-da-europa-para-defesa-com-ia/))
+- Spotify boycott: Artists leave ‘garbage hole’ platform after CEO invests in AI weapons ([Los Angeles Times](https://www.latimes.com/entertainment-arts/music/story/2025-07-31/spotifys-ceo-owns-an-ai-weapons-company-some-musicians-say-its-time-to-leave))
