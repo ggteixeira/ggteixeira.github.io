@@ -2,7 +2,7 @@
   "name": "astro-sphere",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@10.26.1",
   "scripts": {
     "dev": "BROWSER=firefox astro dev --open",
     "dev:network": "astro dev --host",
