@@ -40,6 +40,7 @@ tags:
 - [Scholars: AI isn’t “hallucinating” — it’s bullshitting](https://www.psypost.org/scholars-ai-isnt-hallucinating-its-bullshitting/)
 - [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/)
 - [The AI Backlash Keeps Growing Stronger](https://www.wired.com/story/generative-ai-backlash/)
+- [AI image generators have just 12 generic templates](https://pivot-to-ai.com/2025/12/22/ai-image-generators-have-just-12-generic-templates/)
 
 ---
 
