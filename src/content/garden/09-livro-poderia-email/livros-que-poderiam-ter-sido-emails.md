@@ -1,6 +1,6 @@
 ---
-title: ' O livro "Flow" poderia ter sido um e-mail'
-summary:
+title: 'O livro "Flow" poderia ter sido um e-mail'
+summary: ""
 draft: false
 date: 02 jan 2026
 tags:
