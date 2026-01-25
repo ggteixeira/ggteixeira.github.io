@@ -54,3 +54,4 @@ tags:
 - [Being Competent With Coding Is More Fun](https://www.youtube.com/watch?v=qLC2pHw3tHM) (ThePrimeagen)
 - [AI Hype is completely out of control - especially since ChatGPT-4o](https://www.youtube.com/watch?v=VctsqOo8wsc)
 - [AI Has Us Between a Rock and a Hard Place](https://www.youtube.com/watch?v=fJGNqnq-aCA)
+- [They Said AI Would Replace You By Now](https://www.youtube.com/watch?v=dH_UvWmvny0)
