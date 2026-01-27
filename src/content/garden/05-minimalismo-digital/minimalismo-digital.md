@@ -102,17 +102,12 @@ Uma outra tática é criar filtros, para que e-mails de um mesmo remetente sejam
 
 - Newport, C. (2019). _Digital Minimalism: Choosing a focused life in a Noisy World_. Portfolio/Penguin.
 - Antiminimalist. _Minimalists don’t want you to be content_. Disponível em: <https://medium.com/@antiminimalista/minimalists-dont-want-you-to-be-content-11adadbd5f1d>. Acesso em: 23 abr. 2025.
-
 ---
-
 [^1]: No episódio S01E02 da série Black Mirror, o protagonista dá um jeito de subverter o sistema no qual é aprisionado apenas para descobrir mais tarde que sua revolução foi tão inócua que se tornou mais uma das muitas propagandas mostradas aos outros trabalhadores.
 
 [^2]: LANIER, J. **Dez argumentos para você deletar agora suas redes sociais**. [s.l.] Editora Intrínseca, 2018.
-
 [^3]: Educador financeiro
-
 [^4]: O Leandro Karnal utiliza esse exemplo no episódio do podcast "Platitudes" sobre Cultura Woke.
-
 [^5]: É impossível linká-lo na Bibliografia, pois o vídeo hoje encontra-se não listado/oculto.
 
 ---
