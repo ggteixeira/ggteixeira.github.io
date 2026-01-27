@@ -55,3 +55,4 @@ tags:
 - [AI Hype is completely out of control - especially since ChatGPT-4o](https://www.youtube.com/watch?v=VctsqOo8wsc)
 - [AI Has Us Between a Rock and a Hard Place](https://www.youtube.com/watch?v=fJGNqnq-aCA)
 - [They Said AI Would Replace You By Now](https://www.youtube.com/watch?v=dH_UvWmvny0)
+- [After two years of vibecoding, I’m back to writing by hand](https://youtu.be/SKTsNV41DYg?si=pzOHtIVoQg4KJwVy)
