@@ -41,6 +41,7 @@ tags:
 - [The Copilot Delusion](https://deplet.ing/the-copilot-delusion/)
 - [The AI Backlash Keeps Growing Stronger](https://www.wired.com/story/generative-ai-backlash/)
 - [AI image generators have just 12 generic templates](https://pivot-to-ai.com/2025/12/22/ai-image-generators-have-just-12-generic-templates/)
+- [AI companies will fail. We can salvage something from the wreckage (Cory Doctorow)](https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur)
 
 ---
 
