@@ -9,14 +9,6 @@ tags:
 
 # Artigos
 
-## Artigos em Português
-
-- [Até onde vai a bolha da inteligência artificial?](https://www.victorhg.com/post/ate-onde-vai-a-bolha-da-inteligancia-artificial)
-- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
-- [Por que não usar inteligência artificial?](https://www.iedamarcondes.com/por-que-nao-usar-ia/)
-- [IA não é inteligência e sim marketing para explorar trabalho humano, diz Nicolelis](https://marreta.pcdomanual.com/p/https://wwzw1.folha.uol.com.br/tec/2023/07/ia-nao-e-inteligencia-e-sim-marketing-para-explorar-trabalho-humano-diz-nicolelis.shtml)
-- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
-
 ## Artigos em Inglês
 
 - [How AI generated code compounds technical deb](https://leaddev.com/software-quality/how-ai-generated-code-accelerates-technical-debt)
@@ -42,6 +34,13 @@ tags:
 - [The AI Backlash Keeps Growing Stronger](https://www.wired.com/story/generative-ai-backlash/)
 - [AI image generators have just 12 generic templates](https://pivot-to-ai.com/2025/12/22/ai-image-generators-have-just-12-generic-templates/)
 - [AI companies will fail. We can salvage something from the wreckage (Cory Doctorow)](https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur)
+
+## Artigos em Português
+
+- [Até onde vai a bolha da inteligência artificial?](https://www.victorhg.com/post/ate-onde-vai-a-bolha-da-inteligancia-artificial)
+- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
+- [Por que não usar inteligência artificial?](https://www.iedamarcondes.com/por-que-nao-usar-ia/)
+- [IA não é inteligência e sim marketing para explorar trabalho humano, diz Nicolelis](https://marreta.pcdomanual.com/p/https://wwzw1.folha.uol.com.br/tec/2023/07/ia-nao-e-inteligencia-e-sim-marketing-para-explorar-trabalho-humano-diz-nicolelis.shtml)- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
 
 ---
 
