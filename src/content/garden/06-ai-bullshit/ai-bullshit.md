@@ -34,6 +34,8 @@ tags:
 - [The AI Backlash Keeps Growing Stronger](https://www.wired.com/story/generative-ai-backlash/)
 - [AI image generators have just 12 generic templates](https://pivot-to-ai.com/2025/12/22/ai-image-generators-have-just-12-generic-templates/)
 - [AI companies will fail. We can salvage something from the wreckage (Cory Doctorow)](https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur)
+- [AI Agents Are Mathematically Incapable of Doing Functional Work, Paper Finds](https://futurism.com/artificial-intelligence/ai-agents-incapable-math)
+- [Something Big Is Coming (Annotated by Ed Zitron)](https://www.dropbox.com/scl/fi/qw6k5c3m575cq21p7jjac/Something-Big-Is-Coming-Annotated.pdf)
 
 ## Artigos em Português
 
