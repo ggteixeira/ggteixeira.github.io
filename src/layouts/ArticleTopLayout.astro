@@ -8,7 +8,7 @@ type Props = {
 
 const { entry } = Astro.props;
 const { collection, data, body } = entry;
-const { title, summary, date } = data;
+const { title, summary, date, updatedDate } = data;
 
 const demoUrl = collection === "projects" ? data.demoUrl : null;
 const repoUrl = collection === "projects" ? data.repoUrl : null;
@@ -55,6 +55,14 @@ const repoUrl = collection === "projects" ? data.repoUrl : null;
       </svg>
       {formatDate(date)}
     </div>
+    {updatedDate && (
+      <div class="flex items-center gap-2">
+        <svg class="size-5 stroke-current">
+          <use href="/ui.svg#calendar"></use>
+        </svg>
+        Updated: {formatDate(updatedDate)}
+      </div>
+    )}
     <div class="flex items-center gap-2">
       <svg class="size-5 stroke-current">
         <use href="/ui.svg#book-open"></use>
