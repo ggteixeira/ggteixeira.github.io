@@ -18,7 +18,7 @@
 <script>
   function createMeteor() {
     // create a meteor
-    let meteor = document.createElement("div");
+    const meteor = document.createElement("div");
     meteor.setAttribute("class", "meteor");
     meteor.style.left = Math.round(Math.random() * window.innerWidth) + "px";
     meteor.style.top = Math.round(Math.random() * window.innerHeight) + "px";
@@ -40,4 +40,3 @@
   // Create meteors on interval on two (2) seconds
   setInterval(createMeteor, 1500);
 </script>
-

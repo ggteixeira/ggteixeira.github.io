@@ -1,5 +1,5 @@
 import type { CollectionEntry } from "astro:content";
-import { createEffect, createSignal } from "solid-js";
+import { createEffect, createSignal, For } from "solid-js";
 import Fuse from "fuse.js";
 import ArrowCard from "@components/ArrowCard";
 
@@ -7,11 +7,11 @@ type Props = {
   data: CollectionEntry<"garden">[];
 };
 
-export default function Search({ data }: Props) {
+export default function Search(props: Props) {
   const [query, setQuery] = createSignal("");
   const [results, setResults] = createSignal<CollectionEntry<"garden">[]>([]);
 
-  const fuse = new Fuse(data, {
+  const fuse = new Fuse(props.data, {
     keys: ["slug", "data.title", "data.summary", "data.tags"],
     includeMatches: true,
     minMatchCharLength: 2,
@@ -54,15 +54,16 @@ export default function Search({ data }: Props) {
             Found {results().length} results for {`'${query()}'`}
           </div>
           <ul class="flex flex-col gap-3">
-            {results().map((result) => (
-              <li>
-                <ArrowCard entry={result} pill={true} />
-              </li>
-            ))}
+            <For each={results()}>
+              {(result) => (
+                <li>
+                  <ArrowCard entry={result} pill={true} />
+                </li>
+              )}
+            </For>
           </ul>
         </div>
       )}
     </div>
   );
 }
-
