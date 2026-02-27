@@ -26,7 +26,7 @@ function formatWorkDate(input: Date | string) {
     month: "short",
   });
 
-  const year = new Date(input).getFullYear();
+  const year = input.getFullYear();
   return `${month} ${year}`;
 }
 ---
