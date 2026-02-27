@@ -22,5 +22,13 @@ export default tseslint.config(
     },
   },
   ...pluginAstro.configs["flat/recommended"],
+  {
+    files: ["**/*.astro"],
+    languageOptions: {
+      parserOptions: {
+        parser: "@typescript-eslint/parser",
+      },
+    },
+  },
   prettierConfig,
 );
