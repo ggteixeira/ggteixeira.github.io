@@ -9,13 +9,13 @@ type Props = {
   data: CollectionEntry<"garden">[];
 };
 
-export default function Garden({ data, tags, gardenTags }: Props) {
+export default function Garden(props: Props) {
   const [filter, setFilter] = createSignal(new Set<string>());
   const [posts, setPosts] = createSignal<CollectionEntry<"garden">[]>([]);
 
   createEffect(() => {
     setPosts(
-      data.filter((entry) =>
+      props.data.filter((entry) =>
         Array.from(filter()).every((value) =>
           entry.data.tags.some(
             (tag: string) => tag.toLowerCase() === String(value).toLowerCase(),
@@ -42,7 +42,7 @@ export default function Garden({ data, tags, gardenTags }: Props) {
             Filter
           </div>
           <ul class="flex flex-wrap sm:flex-col gap-1.5 mb-8">
-            <For each={tags}>
+            <For each={props.tags}>
               {(tag) => (
                 <li>
                   <button
@@ -86,7 +86,7 @@ export default function Garden({ data, tags, gardenTags }: Props) {
           </div>
 
           <ul class="flex flex-wrap sm:flex-col gap-1.5">
-            <For each={gardenTags}>
+            <For each={props.gardenTags}>
               {(tag) => (
                 <li>
                   <button
@@ -130,14 +130,16 @@ export default function Garden({ data, tags, gardenTags }: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {posts().length} OF {data.length} POSTS
+            SHOWING {posts().length} OF {props.data.length} POSTS
           </div>
           <ul class="flex flex-col gap-3">
-            {posts().map((post) => (
-              <li>
-                <ArrowCard entry={post} />
-              </li>
-            ))}
+            <For each={posts()}>
+              {(post) => (
+                <li>
+                  <ArrowCard entry={post} />
+                </li>
+              )}
+            </For>
           </ul>
         </div>
       </div>

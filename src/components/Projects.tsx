@@ -8,7 +8,7 @@ type Props = {
   data: CollectionEntry<"projects">[];
 };
 
-export default function Projects({ data, tags }: Props) {
+export default function Projects(props: Props) {
   const [filter, setFilter] = createSignal(new Set<string>());
   const [projects, setProjects] = createSignal<CollectionEntry<"projects">[]>(
     [],
@@ -16,7 +16,7 @@ export default function Projects({ data, tags }: Props) {
 
   createEffect(() => {
     setProjects(
-      data.filter((entry) =>
+      props.data.filter((entry) =>
         Array.from(filter()).every((value) =>
           entry.data.tags.some(
             (tag: string) => tag.toLowerCase() === String(value).toLowerCase(),
@@ -43,7 +43,7 @@ export default function Projects({ data, tags }: Props) {
             Filter
           </div>
           <ul class="flex flex-wrap sm:flex-col gap-1.5">
-            <For each={tags}>
+            <For each={props.tags}>
               {(tag) => (
                 <li>
                   <button
@@ -85,14 +85,16 @@ export default function Projects({ data, tags }: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {projects().length} OF {data.length} PROJECTS
+            SHOWING {projects().length} OF {props.data.length} PROJECTS
           </div>
           <ul class="flex flex-col gap-3">
-            {projects().map((project) => (
-              <li>
-                <ArrowCard entry={project} />
-              </li>
-            ))}
+            <For each={projects()}>
+              {(project) => (
+                <li>
+                  <ArrowCard entry={project} />
+                </li>
+              )}
+            </For>
           </ul>
         </div>
       </div>
