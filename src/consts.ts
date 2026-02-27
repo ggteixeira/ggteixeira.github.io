@@ -43,10 +43,10 @@ export const LINKS: Links = [
     TEXT: "Home",
     HREF: "/",
   },
-  {
-    TEXT: "Work",
-    HREF: "/work",
-  },
+  // {
+  //   TEXT: "Work",
+  //   HREF: "/work",
+  // },
   {
     TEXT: "Garden",
     HREF: "/garden",
@@ -67,7 +67,7 @@ export const SOCIALS: Socials = [
     NAME: "Email",
     ICON: "email",
     TEXT: "hello@guiteixeira.dev",
-    HREF: 'mailto:website.wildcard272@simplelogin.com',
+    HREF: "mailto:website.wildcard272@simplelogin.com",
   },
   {
     NAME: "Github",
