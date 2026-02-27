@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # Obsidian
 .obsidian
+
+# Local settings
+settings-local.json
