@@ -43,6 +43,7 @@ Frontmatter schema (all required except `draft`):
 title: "Title"
 summary: "One-line description"
 date: "09 apr 2025"       # format: DD MMM YYYY
+updatedDate: "15 feb 2026"   # optional — only set for meaningful revisions
 tags:
   - seedling              # seedling | budding | evergreen + custom tags
 draft: false              # optional, defaults to undefined (published)
