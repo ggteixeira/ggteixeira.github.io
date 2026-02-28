@@ -66,10 +66,6 @@ header.scrolled {
   @apply backdrop-blur-sm saturate-200;
 }
 
-article {
-  @apply prose dark:prose-invert max-w-full pb-12;
-}
-
 .page-heading {
   @apply font-semibold text-black dark:text-white;
 }
