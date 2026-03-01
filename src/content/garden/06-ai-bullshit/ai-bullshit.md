@@ -7,6 +7,8 @@ tags:
   - seedling
 ---
 
+> We already have tools for talking to computers in a way that they understand exactly what we mean and never get it wrong; they re called programming languages. (@OneSilentLake)
+
 # Artigos
 
 ## Artigos em Inglês
