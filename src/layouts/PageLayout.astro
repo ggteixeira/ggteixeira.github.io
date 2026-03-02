@@ -4,7 +4,7 @@ import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Drawer from "@components/Drawer.astro";
-const { title, description } = Astro.props;
+const { title, description, fullHeight = false } = Astro.props;
 import { SITE } from "@consts";
 ---
 
@@ -13,10 +13,10 @@ import { SITE } from "@consts";
   <head>
     <BaseHead title={`${title} | ${SITE.TITLE}`} description={description} />
   </head>
-  <body>
+  <body class:list={[fullHeight && "h-screen overflow-hidden flex flex-col"]}>
     <Header />
     <Drawer />
-    <main>
+    <main class:list={[fullHeight && "flex-1 flex flex-col"]}>
       <slot />
     </main>
     <Footer />
