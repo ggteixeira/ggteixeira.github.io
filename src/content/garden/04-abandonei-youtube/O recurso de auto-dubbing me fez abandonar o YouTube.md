@@ -18,4 +18,3 @@ Como se não bastasse, essa _feature_, além de mequetrefe, não pode ser desabi
 É essa a nova experiência “_powered by AI_” do YouTube para quem quiser assistir vídeos como um não americano.
 
 Eu só queria que mais gente estivesse falando sobre isso.
-

@@ -8,6 +8,7 @@ tags:
 ---
 
 <!--toc:start-->
+
 - [Introdução](#introdução)
 - [O que mudou desde a primeira experiência](#o-que-mudou-desde-a-primeira-experiência)
 - [Diário](#diário)
