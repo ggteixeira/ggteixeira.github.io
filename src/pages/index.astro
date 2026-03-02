@@ -1,19 +1,10 @@
 ---
-import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
-import ArrowCard from "@components/ArrowCard";
-// import StackCard from "@components/StackCard.astro"
 import { SITE } from "@consts";
 import TwinklingStars from "@components/TwinklingStars.astro";
 import MeteorShower from "@components/MeteorShower.astro";
-// import About from "@components/About.tsx"
 
 const homeTitle = "and I am a";
-
-const posts = (await getCollection("garden"))
-  .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
 
 // const projects = (await getCollection("projects"))
 //   .filter(project => !project.data.draft)
@@ -69,6 +60,20 @@ const posts = (await getCollection("garden"))
 
   <script is:inline src="/js/bg.js"></script>
 
+  <style is:global>
+    body {
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
   <style>
     @keyframes strike {
       from {
@@ -92,7 +97,7 @@ const posts = (await getCollection("garden"))
   </style>
 
   <!-- HERO -->
-  <section class="relative h-screen w-full">
+  <section class="relative h-full w-full">
     <div
       id="planetcont"
       class="animate absolute inset-0 top-1/4 overflow-hidden"
@@ -168,115 +173,4 @@ const posts = (await getCollection("garden"))
       </div>
     </div>
   </section>
-
-  <div class="relative bg-white dark:bg-black">
-    <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
-      <!-- About Section -->
-      <!-- <About numberOfParagraphs={1} /> -->
-
-      <!-- Garden Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">Recent posts</p>
-            <a
-              href="/garden"
-              class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
-            >
-              <span
-                class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
-              >
-                All posts
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {
-              posts.map((post) => (
-                <li>
-                  <ArrowCard minimal entry={post} />
-                </li>
-              ))
-            }
-          </ul>
-        </div>
-      </section>
-
-      <!-- Tech Stack Section -->
-      <!-- <section class="animate"> -->
-      <!--   <div class="space-y-4"> -->
-      <!--     <p class="font-semibold text-black dark:text-white"> -->
-      <!--       Website built with -->
-      <!--     </p> -->
-      <!--     <div class="flex flex-wrap items-center gap-2 mt-5"> -->
-      <!--       {stack.map(item => ( -->
-      <!--         <StackCard  -->
-      <!--           text={item.text} -->
-      <!--           icon={item.icon} -->
-      <!--           href={item.href} -->
-      <!--         /> -->
-      <!--       ))} -->
-      <!--     </div> -->
-      <!--     <div> -->
-      <!--       Performing reactivity and statefulness, special guest -->
-      <!--       <a href="https://www.solidjs.com/" target="_blank" class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"> -->
-      <!--         <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"> -->
-      <!--           SolidJS -->
-      <!--         </span> -->
-      <!--       </a> -->
-      <!--     </div> -->
-      <!--   </div> -->
-      <!-- </section> -->
-
-      <!-- Project Preview Section -->
-      <!-- <section class="animate"> -->
-      <!--   <div class="space-y-4"> -->
-      <!--     <div class="flex justify-between"> -->
-      <!--       <p class="font-semibold text-black dark:text-white"> -->
-      <!--         Recent projects -->
-      <!--       </p> -->
-      <!--       <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"> -->
-      <!--         <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"> -->
-      <!--           All projects -->
-      <!--         </span> -->
-      <!--       </a> -->
-      <!--     </div> -->
-      <!--     <ul class="space-y-4"> -->
-      <!--       {projects.map((project) => ( -->
-      <!--         <li> -->
-      <!--           <ArrowCard entry={project} /> -->
-      <!--         </li> -->
-      <!--       ))} -->
-      <!--     </ul> -->
-      <!--   </div> -->
-      <!-- </section> -->
-
-      <!-- Contact Section -->
-      <!-- <section class="animate"> -->
-      <!--   <div> -->
-      <!--     <p class="font-semibold text-black dark:text-white"> -->
-      <!--       Other links  -->
-      <!--     </p> -->
-      <!--     <p> -->
-      <!--       Reach out to me via email or on social media. -->
-      <!--     </p> -->
-      <!--     <div class="grid grid-cols-4 gap-y-2 mt-4 auto-cols-min"> -->
-      <!--       {SOCIALS.map(social => ( -->
-      <!--         <div class="col-span-1 flex items-center gap-1"> -->
-      <!--           <span class="whitespace-nowrap truncate"> -->
-      <!--             {social.NAME} -->
-      <!--           </span> -->
-      <!--         </div> -->
-      <!--         <div class="col-span-3 truncate"> -->
-      <!--           <a href={social.HREF} target="_blank" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"> -->
-      <!--             <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"> -->
-      <!--               {social.TEXT} -->
-      <!--             </span> -->
-      <!--           </a> -->
-      <!--         </div> -->
-      <!--       ))} -->
-      <!--   </div> -->
-      <!-- </section> -->
-    </div>
-  </div>
 </PageLayout>
