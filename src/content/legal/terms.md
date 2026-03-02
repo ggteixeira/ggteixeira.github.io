@@ -32,4 +32,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut 
 #### Changes to These Terms of Use
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
-
