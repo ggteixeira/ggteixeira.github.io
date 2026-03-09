@@ -7,11 +7,11 @@ tags:
   - seedling
 ---
 
-> We already have tools for talking to computers in a way that they understand exactly what we mean and never get it wrong; they re called programming languages. (@OneSilentLake)
+> We already have tools for talking to computers in a way that they understand exactly what we mean and never get it wrong; they're called programming languages. (@OneSilentLake)
 
-# Artigos
+## Articles
 
-## Artigos em Inglês
+### Articles in English
 
 - [How AI generated code compounds technical deb](https://leaddev.com/software-quality/how-ai-generated-code-accelerates-technical-debt)
 - [An epidemic of weirdly precise AI butt facts](https://garymarcus.substack.com/p/an-epidemic-of-weirdly-precise-ai)
@@ -38,21 +38,24 @@ tags:
 - [AI companies will fail. We can salvage something from the wreckage (Cory Doctorow)](https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur)
 - [AI Agents Are Mathematically Incapable of Doing Functional Work, Paper Finds](https://futurism.com/artificial-intelligence/ai-agents-incapable-math)
 - [Something Big Is Coming (Annotated by Ed Zitron)](https://www.dropbox.com/scl/fi/qw6k5c3m575cq21p7jjac/Something-Big-Is-Coming-Annotated.pdf)
+- [Sam Altman’s anti-human worldview](https://disconnect.blog/sam-altmans-anti-human-worldview/)
+- [Thousands of CEOs just admitted AI had no impact on employment or productivity—and it has economists resurrecting a paradox from 40 years ago](https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/)
 
-## Artigos em Português
+### Artigos em Português
 
 - [Até onde vai a bolha da inteligência artificial?](https://www.victorhg.com/post/ate-onde-vai-a-bolha-da-inteligancia-artificial)
 - [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
 - [Por que não usar inteligência artificial?](https://www.iedamarcondes.com/por-que-nao-usar-ia/)
 - [IA não é inteligência e sim marketing para explorar trabalho humano, diz Nicolelis](https://marreta.pcdomanual.com/p/https://wwzw1.folha.uol.com.br/tec/2023/07/ia-nao-e-inteligencia-e-sim-marketing-para-explorar-trabalho-humano-diz-nicolelis.shtml)- [Inteligência artificial generativa chegou no limite](https://manualdousuario.net/ia-generativa-limite/)
+- [Diderot, IA e os novos reis: insurgência epistêmica no século 21 (Silvio Meira)](https://www.poder360.com.br/opiniao/diderot-ia-e-os-novos-reis-insurgencia-epistemica-no-seculo-21/)
 
 ---
 
-# Vídeos
+## Videos
 
-## Vídeos em Português
+### Vídeos em Português
 
-## Vídeos em Inglês
+### Videos in English
 
 - [25% of Google's Code Is Now AI Generated??](https://www.youtube.com/watch?v=onhbj0Nvi9A)
 - [Being Competent With Coding Is More Fun](https://www.youtube.com/watch?v=qLC2pHw3tHM) (ThePrimeagen)
