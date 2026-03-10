@@ -1,5 +1,5 @@
 import type { CollectionEntry } from "astro:content";
-import { createEffect, createSignal, For } from "solid-js";
+import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
 
@@ -10,21 +10,15 @@ type Props = {
 
 export default function Projects(props: Props) {
   const [filter, setFilter] = createSignal(new Set<string>());
-  const [projects, setProjects] = createSignal<CollectionEntry<"projects">[]>(
-    [],
-  );
-
-  createEffect(() => {
-    setProjects(
-      props.data.filter((entry) =>
-        Array.from(filter()).every((value) =>
-          entry.data.tags.some(
-            (tag: string) => tag.toLowerCase() === String(value).toLowerCase(),
-          ),
+  const projects = createMemo(() =>
+    props.data.filter((entry) =>
+      Array.from(filter()).every((value) =>
+        entry.data.tags.some(
+          (tag: string) => tag.toLowerCase() === String(value).toLowerCase(),
         ),
       ),
-    );
-  });
+    ),
+  );
 
   function toggleTag(tag: string) {
     setFilter(
@@ -95,6 +89,11 @@ export default function Projects(props: Props) {
                 </li>
               )}
             </For>
+            <Show when={projects().length === 0}>
+              <li class="text-sm text-black/50 dark:text-white/50">
+                No projects match the selected filters.
+              </li>
+            </Show>
           </ul>
         </div>
       </div>
