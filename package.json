@@ -48,7 +48,7 @@
     "solid-js": "^1.9.11",
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
