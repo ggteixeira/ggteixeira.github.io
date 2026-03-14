@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { formatDate, readingTime } from "@lib/utils";
+import { useTranslations } from "@i18n/utils";
 
 type Props = {
   entry: CollectionEntry<"projects"> | CollectionEntry<"garden">;
@@ -13,11 +14,15 @@ const updatedDate = (data as { updatedDate?: Date }).updatedDate;
 
 const demoUrl = collection === "projects" ? data.demoUrl : null;
 const repoUrl = collection === "projects" ? data.repoUrl : null;
+
+const t = useTranslations(Astro.currentLocale);
+const isPtBr = Astro.currentLocale === "pt-br";
+const collectionHref = isPtBr ? `/pt-br/${collection}` : `/${collection}`;
 ---
 
 <div>
   <a
-    href={`/${collection}`}
+    href={collectionHref}
     class="group w-fit p-1.5 gap-1.5 text-sm flex items-center border rounded hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out"
   >
     <svg
@@ -46,7 +51,8 @@ const repoUrl = collection === "projects" ? data.repoUrl : null;
     <div
       class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
     >
-      Back to {collection}
+      {t("article.backTo")}
+      {collection}
     </div>
   </a>
   <div
@@ -62,14 +68,14 @@ const repoUrl = collection === "projects" ? data.repoUrl : null;
       <svg class="size-5 stroke-current">
         <use href="/ui.svg#book-open"></use>
       </svg>
-      {readingTime(body)}
+      {readingTime(body, Astro.currentLocale)}
     </div>
     <div class="flex items-center gap-2">
       <a href="/disclaimer">
         <p
           class="h-6 rounded-full px-2 flex items-center justify-center transition-colors duration-300 ease-in-out border border-black/25 dark:border-white/25 text-black dark:text-white text-xs font-thin hover:dark:bg-white/20"
         >
-          Texto escrito por humano
+          {t("article.humanWritten")}
         </p>
       </a>
     </div>
@@ -84,7 +90,7 @@ const repoUrl = collection === "projects" ? data.repoUrl : null;
   {
     updatedDate && (
       <div class="flex items-center gap-2 text-sm opacity-75 mt-3">
-        Updated in {formatDate(updatedDate)}
+        {t("article.updatedIn")} {formatDate(updatedDate)}
       </div>
     )
   }
@@ -104,7 +110,7 @@ const repoUrl = collection === "projects" ? data.repoUrl : null;
               />
             </svg>
             <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-              See Demo
+              {t("article.seeDemo")}
             </span>
           </a>
         )}
@@ -121,7 +127,7 @@ const repoUrl = collection === "projects" ? data.repoUrl : null;
               />
             </svg>
             <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-              See Repository
+              {t("article.seeRepo")}
             </span>
           </a>
         )}

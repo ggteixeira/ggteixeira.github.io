@@ -1,0 +1,64 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+
+const collection = await getCollection("work");
+
+collection.sort(
+  (a, b) =>
+    new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime(),
+);
+
+const work = await Promise.all(
+  collection.map(async (item) => {
+    const { Content } = await item.render();
+    return { ...item, Content };
+  }),
+);
+
+function formatWorkDate(input: Date | string) {
+  if (typeof input === "string") return input;
+
+  const month = input.toLocaleDateString("pt-BR", {
+    month: "short",
+  });
+
+  const year = input.getFullYear();
+  return `${month} ${year}`;
+}
+---
+
+<PageLayout title="Trabalho" description="Lugares onde trabalhei.">
+  <TopLayout>
+    <div class="animate page-heading">Trabalho</div>
+  </TopLayout>
+  <BottomLayout>
+    <ul>
+      {
+        work.map((entry) => (
+          <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
+            <div class="font-semibold">{entry.data.role}</div>
+
+            <div class="text-black dark:text-white text-sm font-semibold uppercase">
+              {entry.data.company}
+            </div>
+
+            <div class="text-sm mb-4">
+              {formatWorkDate(entry.data.dateStart)} -{" "}
+              {formatWorkDate(entry.data.dateEnd)} ·{" "}
+              <span>
+                <i>{entry.data.city}</i>
+              </span>
+            </div>
+
+            <article class="prose dark:prose-invert">
+              <entry.Content />
+            </article>
+          </li>
+        ))
+      }
+    </ul>
+  </BottomLayout>
+</PageLayout>

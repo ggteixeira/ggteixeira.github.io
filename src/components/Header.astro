@@ -1,9 +1,22 @@
 ---
 import { SITE, LINKS } from "@consts";
 import { cn } from "@lib/utils";
+import { useTranslations, getOtherLocaleUrl } from "@i18n/utils";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
+
+const t = useTranslations(Astro.currentLocale);
+const switchUrl = getOtherLocaleUrl(pathname, Astro.currentLocale ?? "en");
+
+const navTranslations: Record<string, string> = {
+  "/": t("nav.home"),
+  "/garden": t("nav.garden"),
+  "/about": t("nav.about"),
+};
+
+const isPtBr = Astro.currentLocale === "pt-br";
+const linkHrefPrefix = isPtBr ? "/pt-br" : "";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -13,13 +26,9 @@ import Container from "@components/Container.astro";
         class="absolute left-0 top-1/2 -translate-y-1/2 flex gap-1 font-semibold"
       >
         <a
-          href="/"
+          href={isPtBr ? "/pt-br" : "/"}
           class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
         >
-          <!-- <svg class="size-6 fill-current"> -->
-          <!-- <use href="/brand.svg#brand"></use> -->
-          <!-- <use href="/memoji-macbook.svg#brand"></use> -->
-          <!-- </svg> -->
           <div>
             {SITE.TITLE}
           </div>
@@ -30,19 +39,26 @@ import Container from "@components/Container.astro";
         <nav class="hidden md:flex items-center justify-center text-sm gap-1">
           {
             LINKS.map((LINK) => {
+              const localizedHref = linkHrefPrefix + LINK.HREF;
+              const isActive =
+                pathname === localizedHref ||
+                "/" + subpath?.[0] === LINK.HREF ||
+                (isPtBr &&
+                  ("/" + subpath?.[1] === LINK.HREF ||
+                    pathname === "/pt-br" + LINK.HREF));
               return (
                 <a
-                  href={LINK.HREF}
+                  href={localizedHref}
                   class={cn(
                     "h-8 rounded-full px-3 text-current",
                     "flex items-center justify-center",
                     "transition-colors duration-300 ease-in-out",
-                    pathname === LINK.HREF || "/" + subpath?.[0] === LINK.HREF
+                    isActive
                       ? "bg-black dark:bg-white text-white dark:text-black"
                       : "hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white",
                   )}
                 >
-                  {LINK.TEXT}
+                  {navTranslations[LINK.HREF] ?? LINK.TEXT}
                 </a>
               );
             })
@@ -52,7 +68,7 @@ import Container from "@components/Container.astro";
 
       <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1">
         <a
-          href="/search"
+          href={isPtBr ? "/pt-br/search" : "/search"}
           aria-label={`Search garden posts and projects on ${SITE.TITLE}`}
           class={cn(
             "hidden md:flex",
@@ -61,7 +77,9 @@ import Container from "@components/Container.astro";
             "stroke-current hover:stroke-black hover:dark:stroke-white",
             "border border-black/10 dark:border-white/25",
             "transition-colors duration-300 ease-in-out",
-            pathname === "/search" || "/" + subpath?.[0] === "/search"
+            pathname === "/search" ||
+              pathname === "/pt-br/search" ||
+              "/" + subpath?.[0] === "/search"
               ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black"
               : "",
           )}
@@ -108,6 +126,23 @@ import Container from "@components/Container.astro";
             <use href="/ui.svg#moon"></use>
           </svg>
         </button>
+
+        <a
+          href={switchUrl}
+          data-lang-switch
+          class={cn(
+            "hidden md:flex items-center",
+            "w-20 h-9 rounded-full p-0.5",
+            "border border-black/10 dark:border-white/25",
+            isPtBr ? "justify-end" : "justify-start",
+          )}
+        >
+          <span
+            class="flex items-center justify-center px-2.5 h-full rounded-full bg-black dark:bg-white text-white dark:text-black text-xs font-semibold transition-transform duration-200 ease-in-out"
+          >
+            {isPtBr ? "pt-br" : "en-us"}
+          </span>
+        </a>
 
         <button
           id="header-drawer-button"
@@ -164,6 +199,25 @@ import Container from "@components/Container.astro";
     drawerButton?.addEventListener("click", toggleDrawer);
   }
 
+  function initializeLangSwitches() {
+    document.querySelectorAll("[data-lang-switch]").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const thumb = link.querySelector("span");
+        const isPtBr = thumb.textContent.trim() === "pt-br";
+        const travel = link.offsetWidth - thumb.offsetWidth - 4;
+        thumb.style.transform = isPtBr
+          ? `translateX(-${travel}px)`
+          : `translateX(${travel}px)`;
+        setTimeout(() => {
+          window.location.href = link.href;
+        }, 200);
+      });
+    });
+  }
+
   document.addEventListener("astro:after-swap", initializeDrawerButton);
+  document.addEventListener("astro:after-swap", initializeLangSwitches);
   initializeDrawerButton();
+  initializeLangSwitches();
 </script>

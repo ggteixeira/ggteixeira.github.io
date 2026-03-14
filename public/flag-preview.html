@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flag Preview</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #f5f5f5; color: #111; padding: 2.5rem; }
+    h1 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
+    p.sub { color: #666; font-size: 0.8rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: #888; margin: 2rem 0 1.25rem; }
+    .row { display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start; }
+    .card {
+      background: #fff; border: 1px solid #e5e5e5; border-radius: 10px;
+      padding: 1.5rem 2rem; display: flex; flex-direction: column;
+      align-items: center; gap: 1.25rem;
+    }
+    .card-label { font-size: 0.72rem; color: #888; text-align: center; line-height: 1.5; }
+    .sizes { display: flex; gap: 1.5rem; align-items: center; }
+    .icon-sm { width: 20px; height: 20px; }
+    .icon-lg { width: 96px; height: 96px; }
+    .dark-strip { width: 100%; background: #171717; border-radius: 6px; padding: 0.75rem; display: flex; justify-content: center; }
+    .btn-row { display: flex; gap: 0.5rem; align-items: center; }
+    .btn {
+      width: 36px; height: 36px; border-radius: 50%; padding: 8px;
+      border: 1px solid rgba(0,0,0,0.1); background: transparent;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .btn svg { width: 100%; height: 100%; }
+    .btn-d { border-color: rgba(255,255,255,0.25); }
+    .bg-d { background: #171717; padding: 0.5rem 0.75rem; border-radius: 8px; }
+    hr { border: none; border-top: 1px solid #e0e0e0; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+
+<h1>Flag Preview</h1>
+<p class="sub">BR: reference-style flat fill. US: unchanged (C). Actual size · zoomed · dark · button context.</p>
+
+<!-- ═══ BR FLAG ═══ -->
+<h2>BR Flag — 3 variations on diamond extent + band</h2>
+<div class="row">
+
+  <!-- V1: diamond touches all 4 edges + band -->
+  <div class="card">
+    <div class="card-label">V1 — diamond touches<br>all 4 edges + band</div>
+    <div class="sizes">
+      <svg class="icon-sm" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg>
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg>
+    </div>
+    <div class="dark-strip">
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg>
+    </div>
+    <div class="btn-row">
+      <div class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"/><path d="M16 16l4.5 4.5"/></svg></div>
+      <div class="btn"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg></div>
+      <div class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div>
+    </div>
+    <div class="bg-d"><div class="btn-row">
+      <div class="btn btn-d"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"/><path d="M16 16l4.5 4.5"/></svg></div>
+      <div class="btn btn-d"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg></div>
+      <div class="btn btn-d"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div>
+    </div></div>
+  </div>
+
+  <!-- V2: diamond has margin from left/right + band -->
+  <div class="card">
+    <div class="card-label">V2 — diamond has margin<br>left/right (x=2, x=22) + band</div>
+    <div class="sizes">
+      <svg class="icon-sm" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L22 12 L12 20 L2 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg>
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L22 12 L12 20 L2 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg>
+    </div>
+    <div class="dark-strip">
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M0 4 H24 V20 H0 Z M12 4 L22 12 L12 20 L2 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg>
+    </div>
+    <div class="btn-row">
+      <div class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"/><path d="M16 16l4.5 4.5"/></svg></div>
+      <div class="btn"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L22 12 L12 20 L2 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg></div>
+      <div class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div>
+    </div>
+    <div class="bg-d"><div class="btn-row">
+      <div class="btn btn-d"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"/><path d="M16 16l4.5 4.5"/></svg></div>
+      <div class="btn btn-d"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M0 4 H24 V20 H0 Z M12 4 L22 12 L12 20 L2 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z M7.5 13.5 Q11 10.5 15.5 9 L16 10.5 Q12.5 13.5 8.5 15.5 Z"/></svg></div>
+      <div class="btn btn-d"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div>
+    </div></div>
+  </div>
+
+  <!-- V3: diamond touches all 4 edges, no band -->
+  <div class="card">
+    <div class="card-label">V3 — diamond touches<br>all 4 edges, no band</div>
+    <div class="sizes">
+      <svg class="icon-sm" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z"/></svg>
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z"/></svg>
+    </div>
+    <div class="dark-strip">
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z"/></svg>
+    </div>
+    <div class="btn-row">
+      <div class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"/><path d="M16 16l4.5 4.5"/></svg></div>
+      <div class="btn"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z"/></svg></div>
+      <div class="btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div>
+    </div>
+    <div class="bg-d"><div class="btn-row">
+      <div class="btn btn-d"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M11 17.25a6.25 6.25 0 110-12.5 6.25 6.25 0 010 12.5z"/><path d="M16 16l4.5 4.5"/></svg></div>
+      <div class="btn btn-d"><svg viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M0 4 H24 V20 H0 Z M12 4 L24 12 L12 20 L0 12 Z M7.5 12 A4.5 4.5 0 1 0 16.5 12 A4.5 4.5 0 1 0 7.5 12 Z"/></svg></div>
+      <div class="btn btn-d"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div>
+    </div></div>
+  </div>
+
+</div>
+
+<hr>
+
+<!-- ═══ US FLAG (unchanged) ═══ -->
+<h2>US Flag — unchanged (C)</h2>
+<div class="row">
+  <div class="card">
+    <div class="card-label">actual · zoomed</div>
+    <div class="sizes">
+      <svg class="icon-sm" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M3.5 5 H20.5 Q22 5 22 6.5 V17.5 Q22 19 20.5 19 H3.5 Q2 19 2 17.5 V6.5 Q2 5 3.5 5 Z M2 6.08 H22 V7.15 H2 Z M2 8.23 H22 V9.31 H2 Z M2 10.38 H22 V11.46 H2 Z M2 12.54 H22 V13.62 H2 Z M2 14.69 H22 V15.77 H2 Z M2 16.85 H22 V17.92 H2 Z"/><path fill="currentColor" d="M3.5 5 H10 V13.62 H2 V6.5 Q2 5 3.5 5 Z"/></svg>
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="currentColor" d="M3.5 5 H20.5 Q22 5 22 6.5 V17.5 Q22 19 20.5 19 H3.5 Q2 19 2 17.5 V6.5 Q2 5 3.5 5 Z M2 6.08 H22 V7.15 H2 Z M2 8.23 H22 V9.31 H2 Z M2 10.38 H22 V11.46 H2 Z M2 12.54 H22 V13.62 H2 Z M2 14.69 H22 V15.77 H2 Z M2 16.85 H22 V17.92 H2 Z"/><path fill="currentColor" d="M3.5 5 H10 V13.62 H2 V6.5 Q2 5 3.5 5 Z"/></svg>
+    </div>
+    <div class="dark-strip">
+      <svg class="icon-lg" viewBox="0 0 24 24"><path fill-rule="evenodd" fill="white" d="M3.5 5 H20.5 Q22 5 22 6.5 V17.5 Q22 19 20.5 19 H3.5 Q2 19 2 17.5 V6.5 Q2 5 3.5 5 Z M2 6.08 H22 V7.15 H2 Z M2 8.23 H22 V9.31 H2 Z M2 10.38 H22 V11.46 H2 Z M2 12.54 H22 V13.62 H2 Z M2 14.69 H22 V15.77 H2 Z M2 16.85 H22 V17.92 H2 Z"/><path fill="white" d="M3.5 5 H10 V13.62 H2 V6.5 Q2 5 3.5 5 Z"/></svg>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
