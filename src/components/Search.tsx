@@ -3,8 +3,14 @@ import { createEffect, createSignal, For } from "solid-js";
 import Fuse from "fuse.js";
 import ArrowCard from "@components/ArrowCard";
 
+type SearchStrings = {
+  placeholder: string;
+  results: string;
+};
+
 type Props = {
   data: CollectionEntry<"garden">[];
+  strings: SearchStrings;
 };
 
 export default function Search(props: Props) {
@@ -31,6 +37,11 @@ export default function Search(props: Props) {
     setQuery(target.value);
   };
 
+  const resultsLabel = () =>
+    props.strings.results
+      .replace("{count}", String(results().length))
+      .replace("{query}", query());
+
   return (
     <div class="flex flex-col">
       <div class="relative">
@@ -41,7 +52,7 @@ export default function Search(props: Props) {
           onInput={onInput}
           autocomplete="off"
           spellcheck={false}
-          placeholder="What are you looking for?"
+          placeholder={props.strings.placeholder}
           class="w-full px-2.5 py-1.5 pl-10 rounded outline-none text-black dark:text-white bg-black/5 dark:bg-white/15 border border-black/10 dark:border-white/20 focus:border-black focus:dark:border-white"
         />
         <svg class="absolute size-6 left-1.5 top-1/2 -translate-y-1/2 stroke-current">
@@ -50,9 +61,7 @@ export default function Search(props: Props) {
       </div>
       {query().length >= 2 && results().length >= 1 && (
         <div class="mt-12">
-          <div class="text-sm uppercase mb-2">
-            Found {results().length} results for {`'${query()}'`}
-          </div>
+          <div class="text-sm uppercase mb-2">{resultsLabel()}</div>
           <ul class="flex flex-col gap-3">
             <For each={results()}>
               {(result) => (

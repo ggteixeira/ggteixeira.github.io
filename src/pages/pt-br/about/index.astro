@@ -1,0 +1,19 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+import About from "@components/About";
+import { useTranslations } from "@i18n/utils";
+
+const t = useTranslations("pt-br");
+const paragraphs = [t("about.p1"), t("about.p2"), t("about.p3")];
+---
+
+<PageLayout title="Sobre" description="Sobre mim">
+  <TopLayout>
+    <div class="animate page-heading">Sobre</div>
+  </TopLayout>
+  <BottomLayout>
+    <About paragraphs={paragraphs} />
+  </BottomLayout>
+</PageLayout>

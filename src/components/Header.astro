@@ -1,9 +1,26 @@
 ---
 import { SITE, LINKS } from "@consts";
 import { cn } from "@lib/utils";
+import { useTranslations, getOtherLocaleUrl } from "@i18n/utils";
+import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
+
+const t = useTranslations(Astro.currentLocale);
+const switchUrl = getOtherLocaleUrl(
+  pathname,
+  Astro.currentLocale ?? LOCALES.EN,
+);
+
+const navTranslations: Record<string, string> = {
+  "/": t("nav.home"),
+  "/garden": t("nav.garden"),
+  "/about": t("nav.about"),
+};
+
+const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
+const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -13,13 +30,9 @@ import Container from "@components/Container.astro";
         class="absolute left-0 top-1/2 -translate-y-1/2 flex gap-1 font-semibold"
       >
         <a
-          href="/"
+          href={isPtBr ? PT_BR_PREFIX : "/"}
           class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
         >
-          <!-- <svg class="size-6 fill-current"> -->
-          <!-- <use href="/brand.svg#brand"></use> -->
-          <!-- <use href="/memoji-macbook.svg#brand"></use> -->
-          <!-- </svg> -->
           <div>
             {SITE.TITLE}
           </div>
@@ -30,19 +43,27 @@ import Container from "@components/Container.astro";
         <nav class="hidden md:flex items-center justify-center text-sm gap-1">
           {
             LINKS.map((LINK) => {
+              const localizedHref = linkHrefPrefix + LINK.HREF;
+              const isActive =
+                pathname === localizedHref ||
+                pathname + "/" === localizedHref ||
+                "/" + subpath?.[0] === LINK.HREF ||
+                (isPtBr &&
+                  ("/" + subpath?.[1] === LINK.HREF ||
+                    pathname === PT_BR_PREFIX + LINK.HREF));
               return (
                 <a
-                  href={LINK.HREF}
+                  href={localizedHref}
                   class={cn(
                     "h-8 rounded-full px-3 text-current",
                     "flex items-center justify-center",
                     "transition-colors duration-300 ease-in-out",
-                    pathname === LINK.HREF || "/" + subpath?.[0] === LINK.HREF
+                    isActive
                       ? "bg-black dark:bg-white text-white dark:text-black"
                       : "hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white",
                   )}
                 >
-                  {LINK.TEXT}
+                  {navTranslations[LINK.HREF] ?? LINK.TEXT}
                 </a>
               );
             })
@@ -52,7 +73,7 @@ import Container from "@components/Container.astro";
 
       <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1">
         <a
-          href="/search"
+          href={isPtBr ? PT_BR_PREFIX + "/search" : "/search"}
           aria-label={`Search garden posts and projects on ${SITE.TITLE}`}
           class={cn(
             "hidden md:flex",
@@ -61,7 +82,9 @@ import Container from "@components/Container.astro";
             "stroke-current hover:stroke-black hover:dark:stroke-white",
             "border border-black/10 dark:border-white/25",
             "transition-colors duration-300 ease-in-out",
-            pathname === "/search" || "/" + subpath?.[0] === "/search"
+            pathname === "/search" ||
+              pathname === PT_BR_PREFIX + "/search" ||
+              "/" + subpath?.[0] === "/search"
               ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black"
               : "",
           )}
@@ -108,6 +131,22 @@ import Container from "@components/Container.astro";
             <use href="/ui.svg#moon"></use>
           </svg>
         </button>
+
+        <a
+          href={switchUrl}
+          aria-label="Switch language"
+          class={cn(
+            "hidden md:flex",
+            "w-16 h-9 rounded-full px-3 items-center justify-center",
+            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
+            "hover:text-black dark:hover:text-white",
+            "border border-black/10 dark:border-white/25",
+            "transition-colors duration-300 ease-in-out",
+            "text-xs font-semibold",
+          )}
+        >
+          {t("lang.current")}
+        </a>
 
         <button
           id="header-drawer-button"

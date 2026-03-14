@@ -1,7 +1,14 @@
 ---
+import { Icon } from "astro-icon/components";
 import { SITE, SOCIALS } from "@consts";
 import Container from "@components/Container.astro";
 import CopyrightDate from "@components/CopyrightDate.astro";
+import { useTranslations } from "@i18n/utils";
+import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
+import GitHubStatus from "@components/GitHubStatus";
+
+const t = useTranslations(Astro.currentLocale);
+const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
 ---
 
 <footer class="relative bg-white dark:bg-black">
@@ -40,7 +47,7 @@ import CopyrightDate from "@components/CopyrightDate.astro";
             <div
               class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
             >
-              Back to top
+              {t("footer.backToTop")}
             </div>
           </button>
         </div>
@@ -54,26 +61,22 @@ import CopyrightDate from "@components/CopyrightDate.astro";
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div class="flex flex-col items-center sm:items-start">
             <a
-              href="/"
+              href={isPtBr ? PT_BR_PREFIX : "/"}
               class="flex gap-1 w-fit font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
             >
-              <svg class="size-6 fill-current">
-                <use href="/brand.svg#brand"></use>
-              </svg>
+              <Icon name="lucide:terminal" class="size-6" />
               {SITE.TITLE}
             </a>
           </div>
-          <div class="flex gap-2 justify-center sm:justify-end items-center">
-            <span class="relative flex h-3 w-3">
-              <span
-                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300"
-              ></span>
-              <span
-                class="relative inline-flex rounded-full h-3 w-3 bg-green-500"
-              ></span>
-            </span>
-            All systems normal
-          </div>
+          <GitHubStatus
+            client:load
+            strings={{
+              operational: t("footer.github.operational"),
+              degraded: t("footer.github.degraded"),
+              outage: t("footer.github.outage"),
+              loading: t("footer.github.loading"),
+            }}
+          />
         </div>
       </Container>
     </section>
@@ -91,13 +94,13 @@ import CopyrightDate from "@components/CopyrightDate.astro";
                 href="/legal/terms"
                 class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
               >
-                Terms
+                {t("footer.terms")}
               </a> |
               <a
                 href="/legal/privacy"
                 class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
               >
-                Privacy
+                {t("footer.privacy")}
               </a>
             </div>
 

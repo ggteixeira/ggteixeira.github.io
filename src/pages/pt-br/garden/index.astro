@@ -4,7 +4,6 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Garden from "@components/Garden";
-import { GARDEN } from "@consts";
 import { useTranslations } from "@i18n/utils";
 
 const posts = (await getCollection("garden"))
@@ -19,7 +18,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
     return !gardenTags.includes(tag);
   });
 
-const t = useTranslations(Astro.currentLocale);
+const t = useTranslations("pt-br");
 const gardenStrings = {
   filter: t("garden.filter"),
   gardenTags: t("garden.gardenTags"),
@@ -30,11 +29,12 @@ const gardenStrings = {
 };
 ---
 
-<PageLayout title={GARDEN.TITLE} description={GARDEN.DESCRIPTION}>
+<PageLayout
+  title="Jardim Digital"
+  description="Escrita sobre tópicos que me apaixonam."
+>
   <TopLayout>
-    <div class="animate page-heading">
-      {GARDEN.TITLE}
-    </div>
+    <div class="animate page-heading">Jardim Digital</div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">
