@@ -29,11 +29,11 @@ export async function GET(context: Context) {
     items: items.map((item) => ({
       title: item.data.title,
       description: item.data.summary,
-      content: sanitizeHtml(parser.render(item.body), {
+      content: sanitizeHtml(parser.render(item.body ?? ""), {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
-      link: `/garden/${item.slug}/`,
+      link: `/garden/${item.id}/`,
       // link: item.slug.startsWith("garden")
       //   ? `/garden/${item.slug}/`
       //   : `/projects/${item.slug}/`,

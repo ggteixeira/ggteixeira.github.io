@@ -1,0 +1,49 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Sao_Paulo"
+    open-pull-requests-limit: 5
+    groups:
+      astro:
+        patterns:
+          - "astro"
+          - "@astrojs/*"
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+          - "@astrojs/tailwind"
+          - "@tailwindcss/typography"
+      solid:
+        patterns:
+          - "solid-js"
+          - "@astrojs/solid-js"
+      eslint:
+        patterns:
+          - "eslint"
+          - "eslint-*"
+          - "typescript-eslint"
+          - "eslint-plugin-*"
+      types:
+        patterns:
+          - "@types/*"
+    ignore:
+      # Tailwind v4 is a major migration — hold until intentionally upgrading
+      - dependency-name: "tailwindcss"
+        versions: [">=4.0.0"]
+      - dependency-name: "@tailwindcss/vite"
+        versions: ["*"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Sao_Paulo"
+    open-pull-requests-limit: 3

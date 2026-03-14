@@ -18,7 +18,7 @@ export default function Search(props: Props) {
   const [results, setResults] = createSignal<CollectionEntry<"garden">[]>([]);
 
   const fuse = new Fuse(props.data, {
-    keys: ["slug", "data.title", "data.summary", "data.tags"],
+    keys: ["id", "data.title", "data.summary", "data.tags"],
     includeMatches: true,
     minMatchCharLength: 2,
     threshold: 0.4,
