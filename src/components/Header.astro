@@ -2,12 +2,16 @@
 import { SITE, LINKS } from "@consts";
 import { cn } from "@lib/utils";
 import { useTranslations, getOtherLocaleUrl } from "@i18n/utils";
+import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
 
 const t = useTranslations(Astro.currentLocale);
-const switchUrl = getOtherLocaleUrl(pathname, Astro.currentLocale ?? "en");
+const switchUrl = getOtherLocaleUrl(
+  pathname,
+  Astro.currentLocale ?? LOCALES.EN,
+);
 
 const navTranslations: Record<string, string> = {
   "/": t("nav.home"),
@@ -15,8 +19,8 @@ const navTranslations: Record<string, string> = {
   "/about": t("nav.about"),
 };
 
-const isPtBr = Astro.currentLocale === "pt-br";
-const linkHrefPrefix = isPtBr ? "/pt-br" : "";
+const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
+const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -26,7 +30,7 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
         class="absolute left-0 top-1/2 -translate-y-1/2 flex gap-1 font-semibold"
       >
         <a
-          href={isPtBr ? "/pt-br" : "/"}
+          href={isPtBr ? PT_BR_PREFIX : "/"}
           class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
         >
           <div>
@@ -42,10 +46,11 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
               const localizedHref = linkHrefPrefix + LINK.HREF;
               const isActive =
                 pathname === localizedHref ||
+                pathname + "/" === localizedHref ||
                 "/" + subpath?.[0] === LINK.HREF ||
                 (isPtBr &&
                   ("/" + subpath?.[1] === LINK.HREF ||
-                    pathname === "/pt-br" + LINK.HREF));
+                    pathname === PT_BR_PREFIX + LINK.HREF));
               return (
                 <a
                   href={localizedHref}
@@ -68,7 +73,7 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
 
       <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1">
         <a
-          href={isPtBr ? "/pt-br/search" : "/search"}
+          href={isPtBr ? PT_BR_PREFIX + "/search" : "/search"}
           aria-label={`Search garden posts and projects on ${SITE.TITLE}`}
           class={cn(
             "hidden md:flex",
@@ -78,7 +83,7 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
             "border border-black/10 dark:border-white/25",
             "transition-colors duration-300 ease-in-out",
             pathname === "/search" ||
-              pathname === "/pt-br/search" ||
+              pathname === PT_BR_PREFIX + "/search" ||
               "/" + subpath?.[0] === "/search"
               ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black"
               : "",
@@ -140,7 +145,7 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
             "text-xs font-semibold",
           )}
         >
-          {isPtBr ? "pt-br" : "en-us"}
+          {t("lang.current")}
         </a>
 
         <button
