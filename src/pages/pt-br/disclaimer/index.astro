@@ -2,7 +2,6 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
-import { DISCLAIMER } from "@consts";
 ---
 
 <script>
@@ -13,7 +12,7 @@ import { DISCLAIMER } from "@consts";
   });
 </script>
 
-<PageLayout title={DISCLAIMER.TITLE} description={DISCLAIMER.DESCRIPTION}>
+<PageLayout title="Aviso Legal" description="Aviso Legal">
   <TopLayout>
     <div
       class="animate w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
@@ -48,7 +47,7 @@ import { DISCLAIMER } from "@consts";
         <div
           class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
         >
-          Back to article
+          Voltar ao artigo
         </div>
       </a>
     </div>

@@ -1,0 +1,41 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+import { formatDate } from "@lib/utils";
+import { SITE } from "@consts";
+
+export async function getStaticPaths() {
+  const docs = await getCollection("legal");
+  return docs
+    .filter((doc) => doc.slug.startsWith("pt-br/"))
+    .map((doc) => ({
+      params: { slug: doc.slug.replace("pt-br/", "") },
+      props: doc,
+    }));
+}
+
+type Props = CollectionEntry<"legal">;
+const doc = Astro.props;
+const { title, date } = doc.data;
+const { Content } = await doc.render();
+---
+
+<PageLayout title={title} description={`${title} — ${SITE.TITLE}`}>
+  <TopLayout>
+    <div class="animate">
+      <div class="page-heading">
+        {title}
+      </div>
+      <p class="font-normal opacity-75">
+        Última atualização: {formatDate(date)}
+      </p>
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <article class="animate">
+      <Content />
+    </article>
+  </BottomLayout>
+</PageLayout>
