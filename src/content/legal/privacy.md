@@ -1,34 +1,34 @@
 ---
 title: "Privacy Policy"
-date: "03/07/2024"
+date: "2026-03-14"
 ---
 
-This Privacy Policy governs the manner in which [Your Company Name] collects, uses, maintains, and discloses information collected from users (each, a "User") of the [Your Website URL] website ("Site"). This privacy policy applies to the Site and all products and services offered by [Your Company Name].
+This Privacy Policy describes how guiteixeira.dev handles information when you visit the site.
 
-#### Personal identification information
+#### What data we collect
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+None. This site does not collect, store, or process any personal data. There are no user accounts, contact forms, analytics services, or tracking scripts.
 
-#### Non-personal identification information
+#### Cookies
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+This site does not use cookies. The only browser storage used is `localStorage` to remember your preferred color theme (light or dark). This data never leaves your device.
 
-#### Web browser cookies
+#### External requests
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+When you visit the site, your browser makes a request to **githubstatus.com** to display GitHub's current operational status in the footer. This request is made directly by your browser and is subject to GitHub's own privacy policy. No other external services, analytics platforms, or advertising networks are used.
 
-#### How we use collected information
+#### RSS feed
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+This site provides an RSS feed at `/rss.xml`. Subscribing via a feed reader is anonymous — no subscription data is collected on this end.
 
-#### How we protect your information
+#### Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+If you reach out via the email listed on this site, your message is received through a privacy-preserving email relay (Passmail). Email content is not shared with third parties.
 
-#### Sharing your personal information
+#### Changes to this policy
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+Any changes will be reflected here with an updated date.
 
-#### Changes to this privacy policy
+#### Governing law
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+This policy is governed by the laws of Brazil, including the Lei Geral de Proteção de Dados (LGPD) where applicable.
