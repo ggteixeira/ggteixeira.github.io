@@ -32,6 +32,10 @@ export const ui = {
     // footer
     "footer.backToTop": "Back to top",
     "footer.allSystems": "All systems normal",
+    "footer.github.operational": "GitHub operational",
+    "footer.github.degraded": "GitHub degraded",
+    "footer.github.outage": "GitHub outage",
+    "footer.github.loading": "Checking status…",
     "footer.terms": "Terms",
     "footer.privacy": "Privacy",
     // about bio paragraphs
@@ -71,6 +75,10 @@ export const ui = {
     "search.results": "Encontrados {count} resultados para '{query}'",
     "footer.backToTop": "Voltar ao topo",
     "footer.allSystems": "Todos os sistemas normais",
+    "footer.github.operational": "GitHub operacional",
+    "footer.github.degraded": "GitHub degradado",
+    "footer.github.outage": "GitHub fora do ar",
+    "footer.github.loading": "Verificando status…",
     "footer.terms": "Termos",
     "footer.privacy": "Privacidade",
     "about.p1":

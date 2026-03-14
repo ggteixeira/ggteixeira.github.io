@@ -4,6 +4,7 @@ import { SITE, SOCIALS } from "@consts";
 import Container from "@components/Container.astro";
 import CopyrightDate from "@components/CopyrightDate.astro";
 import { useTranslations } from "@i18n/utils";
+import GitHubStatus from "@components/GitHubStatus";
 
 const t = useTranslations(Astro.currentLocale);
 const isPtBr = Astro.currentLocale === "pt-br";
@@ -66,17 +67,15 @@ const isPtBr = Astro.currentLocale === "pt-br";
               {SITE.TITLE}
             </a>
           </div>
-          <div class="flex gap-2 justify-center sm:justify-end items-center">
-            <span class="relative flex h-3 w-3">
-              <span
-                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300"
-              ></span>
-              <span
-                class="relative inline-flex rounded-full h-3 w-3 bg-green-500"
-              ></span>
-            </span>
-            {t("footer.allSystems")}
-          </div>
+          <GitHubStatus
+            client:load
+            strings={{
+              operational: t("footer.github.operational"),
+              degraded: t("footer.github.degraded"),
+              outage: t("footer.github.outage"),
+              loading: t("footer.github.loading"),
+            }}
+          />
         </div>
       </Container>
     </section>
