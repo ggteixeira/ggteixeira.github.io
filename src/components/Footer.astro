@@ -4,10 +4,11 @@ import { SITE, SOCIALS } from "@consts";
 import Container from "@components/Container.astro";
 import CopyrightDate from "@components/CopyrightDate.astro";
 import { useTranslations } from "@i18n/utils";
+import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 import GitHubStatus from "@components/GitHubStatus";
 
 const t = useTranslations(Astro.currentLocale);
-const isPtBr = Astro.currentLocale === "pt-br";
+const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
 ---
 
 <footer class="relative bg-white dark:bg-black">
@@ -60,7 +61,7 @@ const isPtBr = Astro.currentLocale === "pt-br";
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div class="flex flex-col items-center sm:items-start">
             <a
-              href={isPtBr ? "/pt-br" : "/"}
+              href={isPtBr ? PT_BR_PREFIX : "/"}
               class="flex gap-1 w-fit font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
             >
               <Icon name="lucide:terminal" class="size-6" />

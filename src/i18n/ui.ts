@@ -1,3 +1,10 @@
+export const LOCALES = {
+  EN: "en",
+  PT_BR: "pt-br",
+} as const;
+
+export const PT_BR_PREFIX = "/pt-br";
+
 export const ui = {
   en: {
     // nav
@@ -47,6 +54,7 @@ export const ui = {
       "I am also interested in Generative Syntax and Formal Semantics, and I am experienced in NLP (Natural Language Processing)",
     // lang switcher
     "lang.switchTo": "PT",
+    "lang.current": "en-us",
   },
   "pt-br": {
     "nav.home": "Início",
@@ -88,6 +96,7 @@ export const ui = {
     "about.p3":
       "Também me interesso por Sintaxe Gerativa e Semântica Formal, e tenho experiência em NLP (Processamento de Linguagem Natural).",
     "lang.switchTo": "EN",
+    "lang.current": "pt-br",
   },
 } as const;
 
