@@ -4,7 +4,6 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Search from "@components/Search";
-import { SEARCH } from "@consts";
 import { useTranslations } from "@i18n/utils";
 
 const posts = (await getCollection("garden")).filter(
@@ -17,18 +16,19 @@ const projects = (await getCollection("projects")).filter(
 
 const data = [...posts, ...projects] as CollectionEntry<"garden">[];
 
-const t = useTranslations(Astro.currentLocale);
+const t = useTranslations("pt-br");
 const searchStrings = {
   placeholder: t("search.placeholder"),
   results: t("search.results"),
 };
 ---
 
-<PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>
+<PageLayout
+  title="Busca"
+  description="Busque todos os posts e projetos por palavra-chave."
+>
   <TopLayout>
-    <div class="animate page-heading">
-      {SEARCH.TITLE}
-    </div>
+    <div class="animate page-heading">Busca</div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">

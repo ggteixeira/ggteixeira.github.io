@@ -13,4 +13,9 @@ export default defineConfig({
     solidJs(),
     tailwind({ applyBaseStyles: false }),
   ],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "pt-br"],
+    routing: { prefixDefaultLocale: false },
+  },
 });

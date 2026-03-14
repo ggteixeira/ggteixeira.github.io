@@ -2,6 +2,10 @@
 import { SITE, SOCIALS } from "@consts";
 import Container from "@components/Container.astro";
 import CopyrightDate from "@components/CopyrightDate.astro";
+import { useTranslations } from "@i18n/utils";
+
+const t = useTranslations(Astro.currentLocale);
+const isPtBr = Astro.currentLocale === "pt-br";
 ---
 
 <footer class="relative bg-white dark:bg-black">
@@ -40,7 +44,7 @@ import CopyrightDate from "@components/CopyrightDate.astro";
             <div
               class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
             >
-              Back to top
+              {t("footer.backToTop")}
             </div>
           </button>
         </div>
@@ -54,7 +58,7 @@ import CopyrightDate from "@components/CopyrightDate.astro";
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div class="flex flex-col items-center sm:items-start">
             <a
-              href="/"
+              href={isPtBr ? "/pt-br" : "/"}
               class="flex gap-1 w-fit font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
             >
               <svg class="size-6 fill-current">
@@ -72,7 +76,7 @@ import CopyrightDate from "@components/CopyrightDate.astro";
                 class="relative inline-flex rounded-full h-3 w-3 bg-green-500"
               ></span>
             </span>
-            All systems normal
+            {t("footer.allSystems")}
           </div>
         </div>
       </Container>
@@ -91,13 +95,13 @@ import CopyrightDate from "@components/CopyrightDate.astro";
                 href="/legal/terms"
                 class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
               >
-                Terms
+                {t("footer.terms")}
               </a> |
               <a
                 href="/legal/privacy"
                 class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
               >
-                Privacy
+                {t("footer.privacy")}
               </a>
             </div>
 

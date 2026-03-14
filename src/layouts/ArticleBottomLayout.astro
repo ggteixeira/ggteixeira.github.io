@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
+import { useTranslations } from "@i18n/utils";
 
 type Props = {
   entry: CollectionEntry<"garden"> | CollectionEntry<"projects">;
@@ -17,6 +18,8 @@ const items = (await getCollection(collection))
 const index = items.findIndex((x) => x.slug === entry.slug);
 const prev = items[(index - 1 + items.length) % items.length];
 const next = items[(index + 1) % items.length];
+
+const t = useTranslations(Astro.currentLocale);
 ---
 
 <div>
@@ -32,7 +35,7 @@ const next = items[(index + 1) % items.length];
         class="order-2 w-full h-full group-hover:text-black group-hover:dark:text-white blend"
       >
         <div class="flex flex-wrap gap-2">
-          <div class="text-sm uppercase">Prev</div>
+          <div class="text-sm uppercase">{t("article.prev")}</div>
         </div>
         <div class="font-semibold mt-3 text-black dark:text-white">
           {prev.data.title}
@@ -69,7 +72,7 @@ const next = items[(index + 1) % items.length];
       <div
         class="w-full h-full text-right group-hover:text-black group-hover:dark:text-white blend"
       >
-        <div class="text-sm uppercase">Next</div>
+        <div class="text-sm uppercase">{t("article.next")}</div>
         <div class="font-semibold mt-3 text-black dark:text-white">
           {next.data.title}
         </div>

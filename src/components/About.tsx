@@ -1,13 +1,18 @@
 import { For } from "solid-js";
 
-export default function About(props: { numberOfParagraphs?: number }) {
-  const textArray = [
-    "Software Developer with experience in Front-End Development with React (JavaScript/TypeScript), and also interested in Back-End Development with ASP.NET Core, NodeJS, and Django.",
+type Props = {
+  numberOfParagraphs?: number;
+  paragraphs?: string[];
+};
 
-    `I've been working with programming languages like JavaScript, TypeScript, Python, C#, and with frameworks like ReactJS, GatsbyJS, Astro, NodeJS, Django, .NET Core, and spaCy.`,
+const defaultParagraphs = [
+  "Software Developer with experience in Front-End Development with React (JavaScript/TypeScript), and also interested in Back-End Development with ASP.NET Core, NodeJS, and Django.",
+  `I've been working with programming languages like JavaScript, TypeScript, Python, C#, and with frameworks like ReactJS, GatsbyJS, Astro, NodeJS, Django, .NET Core, and spaCy.`,
+  "I am also interested in Generative Syntax and Formal Semantics, and I am experienced in NLP (Natural Language Processing)",
+];
 
-    "I am also interested in Generative Syntax and Formal Semantics, and I am experienced in NLP (Natural Language Processing)",
-  ];
+export default function About(props: Props) {
+  const textArray = props.paragraphs ?? defaultParagraphs;
 
   return (
     <section class="animate">

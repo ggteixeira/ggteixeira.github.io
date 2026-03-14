@@ -3,10 +3,20 @@ import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
 
+type GardenStrings = {
+  filter: string;
+  gardenTags: string;
+  showing: string;
+  of: string;
+  posts: string;
+  noResults: string;
+};
+
 type Props = {
   tags: string[];
   gardenTags: string[];
   data: CollectionEntry<"garden">[];
+  strings: GardenStrings;
 };
 
 export default function Garden(props: Props) {
@@ -35,7 +45,7 @@ export default function Garden(props: Props) {
       <div class="col-span-3 sm:col-span-1">
         <div class="sticky top-24">
           <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">
-            Filter
+            {props.strings.filter}
           </div>
           <ul class="flex flex-wrap sm:flex-col gap-1.5 mb-8">
             <For each={props.tags}>
@@ -78,7 +88,7 @@ export default function Garden(props: Props) {
 
           <Show when={props.gardenTags.length > 0}>
             <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">
-              Digital Garden Tags
+              {props.strings.gardenTags}
             </div>
 
             <ul class="flex flex-wrap sm:flex-col gap-1.5">
@@ -125,7 +135,8 @@ export default function Garden(props: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {posts().length} OF {props.data.length} POSTS
+            {props.strings.showing} {posts().length} {props.strings.of}{" "}
+            {props.data.length} {props.strings.posts}
           </div>
           <ul class="flex flex-col gap-3">
             <For each={posts()}>
@@ -137,7 +148,7 @@ export default function Garden(props: Props) {
             </For>
             <Show when={posts().length === 0}>
               <li class="text-sm text-black/50 dark:text-white/50">
-                No posts match the selected filters.
+                {props.strings.noResults}
               </li>
             </Show>
           </ul>
