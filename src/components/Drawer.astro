@@ -96,18 +96,17 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
 
     <a
       href={switchUrl}
-      data-lang-switch
+      aria-label="Switch language"
       class={cn(
-        "flex items-center w-20 h-9 rounded-full p-0.5",
+        "flex w-16 h-9 rounded-full px-3 items-center justify-center",
+        "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
+        "hover:text-black dark:hover:text-white",
         "border border-black/10 dark:border-white/25",
-        isPtBr ? "justify-end" : "justify-start",
+        "transition-colors duration-300 ease-in-out",
+        "text-xs font-semibold",
       )}
     >
-      <span
-        class="flex items-center justify-center px-2.5 h-full rounded-full bg-black dark:bg-white text-white dark:text-black text-xs font-semibold transition-transform duration-200 ease-in-out"
-      >
-        {isPtBr ? "pt-br" : "en-us"}
-      </span>
+      {isPtBr ? "pt-br" : "en-us"}
     </a>
   </div>
 </div>

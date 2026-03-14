@@ -129,19 +129,18 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
 
         <a
           href={switchUrl}
-          data-lang-switch
+          aria-label="Switch language"
           class={cn(
-            "hidden md:flex items-center",
-            "w-20 h-9 rounded-full p-0.5",
+            "hidden md:flex",
+            "w-16 h-9 rounded-full px-3 items-center justify-center",
+            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
+            "hover:text-black dark:hover:text-white",
             "border border-black/10 dark:border-white/25",
-            isPtBr ? "justify-end" : "justify-start",
+            "transition-colors duration-300 ease-in-out",
+            "text-xs font-semibold",
           )}
         >
-          <span
-            class="flex items-center justify-center px-2.5 h-full rounded-full bg-black dark:bg-white text-white dark:text-black text-xs font-semibold transition-transform duration-200 ease-in-out"
-          >
-            {isPtBr ? "pt-br" : "en-us"}
-          </span>
+          {isPtBr ? "pt-br" : "en-us"}
         </a>
 
         <button
@@ -199,25 +198,6 @@ const linkHrefPrefix = isPtBr ? "/pt-br" : "";
     drawerButton?.addEventListener("click", toggleDrawer);
   }
 
-  function initializeLangSwitches() {
-    document.querySelectorAll("[data-lang-switch]").forEach((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const thumb = link.querySelector("span");
-        const isPtBr = thumb.textContent.trim() === "pt-br";
-        const travel = link.offsetWidth - thumb.offsetWidth - 4;
-        thumb.style.transform = isPtBr
-          ? `translateX(-${travel}px)`
-          : `translateX(${travel}px)`;
-        setTimeout(() => {
-          window.location.href = link.href;
-        }, 200);
-      });
-    });
-  }
-
   document.addEventListener("astro:after-swap", initializeDrawerButton);
-  document.addEventListener("astro:after-swap", initializeLangSwitches);
   initializeDrawerButton();
-  initializeLangSwitches();
 </script>
