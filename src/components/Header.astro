@@ -21,6 +21,20 @@ const navTranslations: Record<string, string> = {
 
 const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
 const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
+const fullLangName = t("lang.full");
+
+const iconButtonClass = cn(
+  "size-9 rounded-full p-2 items-center justify-center",
+  "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
+  "stroke-current hover:stroke-black hover:dark:stroke-white",
+  "border border-black/10 dark:border-white/25",
+  "transition-colors duration-300 ease-in-out",
+);
+
+const isSearchActive =
+  pathname === "/search" ||
+  pathname === PT_BR_PREFIX + "/search" ||
+  "/" + subpath?.[0] === "/search";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -77,16 +91,9 @@ const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
           aria-label={`Search garden posts and projects on ${SITE.TITLE}`}
           class={cn(
             "hidden md:flex",
-            "size-9 rounded-full p-2 items-center justify-center",
-            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
-            "stroke-current hover:stroke-black hover:dark:stroke-white",
-            "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
-            pathname === "/search" ||
-              pathname === PT_BR_PREFIX + "/search" ||
-              "/" + subpath?.[0] === "/search"
-              ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black"
-              : "",
+            iconButtonClass,
+            isSearchActive &&
+              "pointer-events-none bg-black dark:bg-white text-white dark:text-black",
           )}
         >
           <svg class="size-full">
@@ -98,14 +105,7 @@ const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
           href="/rss.xml"
           target="_blank"
           aria-label={`Rss feed for ${SITE.TITLE}`}
-          class={cn(
-            "hidden md:flex",
-            "size-9 rounded-full p-2 items-center justify-center",
-            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
-            "stroke-current hover:stroke-black hover:dark:stroke-white",
-            "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
-          )}
+          class={cn("hidden md:flex", iconButtonClass)}
         >
           <svg class="size-full">
             <use href="/ui.svg#rss"></use>
@@ -115,14 +115,7 @@ const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
         <button
           id="header-theme-button"
           aria-label={`Toggle light and dark theme`}
-          class={cn(
-            "hidden md:flex",
-            "size-9 rounded-full p-2 items-center justify-center",
-            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
-            "stroke-current hover:stroke-black hover:dark:stroke-white",
-            "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
-          )}
+          class={cn("hidden md:flex", iconButtonClass)}
         >
           <svg class="size-full block dark:hidden">
             <use href="/ui.svg#sun"></use>
@@ -133,32 +126,27 @@ const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
         </button>
 
         <a
+          id="lang-switcher"
           href={switchUrl}
           aria-label="Switch language"
+          style={`--lang-hover-width: ${isPtBr ? "12rem" : "5.5rem"}`}
           class={cn(
             "hidden md:flex",
-            "w-16 h-9 rounded-full px-3 items-center justify-center",
-            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
+            "relative size-9 items-center justify-center",
             "hover:text-black dark:hover:text-white",
-            "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
             "text-xs font-semibold",
           )}
         >
-          {t("lang.current")}
+          <span class="lang-pill">
+            <span class="lang-short">{t("lang.current")}</span>
+            <span class="lang-full">{fullLangName}</span>
+          </span>
         </a>
 
         <button
           id="header-drawer-button"
           aria-label={`Toggle drawer open and closed`}
-          class={cn(
-            "flex md:hidden",
-            "size-9 rounded-full p-2 items-center justify-center",
-            "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
-            "stroke-current hover:stroke-black hover:dark:stroke-white",
-            "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
-          )}
+          class={cn("flex md:hidden", iconButtonClass)}
         >
           <svg id="drawer-open" class="size-full">
             <use href="/ui.svg#menu"></use>
@@ -173,6 +161,67 @@ const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
 </header>
 
 <style>
+  /* The <a> is fixed-size so it never displaces siblings.
+     The pill is absolutely anchored to the left edge and expands rightward. */
+  .lang-pill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    transition:
+      width 0.35s ease-in-out,
+      padding 0.35s ease-in-out,
+      background-color 0.3s ease-in-out;
+  }
+
+  :global(.dark) .lang-pill {
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  #lang-switcher:hover .lang-pill {
+    width: var(--lang-hover-width);
+    padding: 0 0.75rem;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  :global(.dark) #lang-switcher:hover .lang-pill {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Short label is absolute so its width never pushes the pill's content wider */
+  .lang-short {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  .lang-full {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  #lang-switcher:hover .lang-short {
+    opacity: 0;
+  }
+
+  #lang-switcher:hover .lang-full {
+    opacity: 1;
+    transition-delay: 0.15s;
+  }
+
   #header-drawer-button > #drawer-open {
     @apply block;
   }
