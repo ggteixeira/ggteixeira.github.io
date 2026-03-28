@@ -40,6 +40,8 @@ tags:
 - [Something Big Is Coming (Annotated by Ed Zitron)](https://www.dropbox.com/scl/fi/qw6k5c3m575cq21p7jjac/Something-Big-Is-Coming-Annotated.pdf)
 - [Sam Altman’s anti-human worldview](https://disconnect.blog/sam-altmans-anti-human-worldview/)
 - [Thousands of CEOs just admitted AI had no impact on employment or productivity—and it has economists resurrecting a paradox from 40 years ago](https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/)
+- [If you thought the speed of writing code was your problem - you have bigger problems (Andrew Murphy)](https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems)
+- [Big Tech says the quiet part out loud. They want you to be stupid (Will Bunch)](https://www.inquirer.com/opinion/alex-karp-palantir-ai-higher-education-20260315.html)
 
 ### Artigos em Português
 
