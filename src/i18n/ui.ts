@@ -26,6 +26,7 @@ export const ui = {
     "article.seeRepo": "See Repository",
     "article.prev": "Prev",
     "article.next": "Next",
+    "article.toc": "Contents",
     // garden component
     "garden.filter": "Filter",
     "garden.gardenTags": "Digital Garden Tags",
@@ -74,6 +75,7 @@ export const ui = {
     "article.seeRepo": "Ver Repositório",
     "article.prev": "Anterior",
     "article.next": "Próximo",
+    "article.toc": "Conteúdo",
     "garden.filter": "Filtrar",
     "garden.gardenTags": "Tags do Jardim Digital",
     "garden.showing": "MOSTRANDO",
