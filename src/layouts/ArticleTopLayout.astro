@@ -65,7 +65,7 @@ const collectionHref = isPtBr
       <svg class="size-5 stroke-current">
         <use href="/ui.svg#calendar"></use>
       </svg>
-      {formatDate(date)}
+      {formatDate(date, Astro.currentLocale)}
     </div>
     <div class="flex items-center gap-2">
       <svg class="size-5 stroke-current">
@@ -93,7 +93,7 @@ const collectionHref = isPtBr
   {
     updatedDate && (
       <div class="flex items-center gap-2 text-sm opacity-75 mt-3">
-        {t("article.updatedIn")} {formatDate(updatedDate)}
+        {t("article.updatedIn")} {formatDate(updatedDate, Astro.currentLocale)}
       </div>
     )
   }
