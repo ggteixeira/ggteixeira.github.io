@@ -1,5 +1,5 @@
 import { For } from "solid-js";
-import { formatDate } from "@lib/utils";
+import { formatDate, readingTime } from "@lib/utils";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
@@ -24,7 +24,8 @@ export default function ArrowCard(props: Props) {
 
           {!props.minimal && (
             <div class="text-sm uppercase">
-              {formatDate(props.entry.data.date)}
+              {formatDate(props.entry.data.date)} -{" "}
+              {readingTime(props.entry.body ?? "")}
             </div>
           )}
         </div>
@@ -33,11 +34,9 @@ export default function ArrowCard(props: Props) {
         >
           {props.entry.data.title}
         </div>
-
         {!props.minimal && (
           <div class="text-sm line-clamp-2">{props.entry.data.summary}</div>
         )}
-
         {!props.minimal && (
           <ul class="flex flex-wrap mt-2 gap-1">
             <For each={props.entry.data.tags}>
