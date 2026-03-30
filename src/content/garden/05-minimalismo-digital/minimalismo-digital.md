@@ -8,23 +8,6 @@ tags:
   - seedling
 ---
 
-<!--toc:start-->
-
-- [O problema do YouTube é o problema da internet](#o-problema-do-youtube-é-o-problema-da-internet)
-- [O minimalismo digital é não estar no digital](#o-minimalismo-digital-é-não-estar-no-digital)
-- [Como aplico o minimalismo digital](#como-aplico-o-minimalismo-digital)
-  - [Smartphone](#smartphone)
-    - [Tela Inicial](#tela-inicial)
-      - [Página 1 (página principal)](#página-1-página-principal)
-      - [Página 2](#página-2)
-    - [Notificações](#notificações)
-  - [Computador](#computador)
-    - [Navegador](#navegador)
-    - [Área de trabalho](#área-de-trabalho)
-- [Bibliografia e Referências](#bibliografia-e-referências)
-- [TODO](#todo)
-<!--toc:end-->
-
 ![fifteen million merits](src/content/garden/05-minimalismo-digital/media/fifteen-million.jpg)
 
 Neste texto, eu apresento o que é Minimalismo Digital e o que não é. Em seguida, faço um resumo de partes importantes de um livro importante. Por fim, listo dicas de como aplicar princípios práticos para uma vida mais intencional e menos dependente de telas.
