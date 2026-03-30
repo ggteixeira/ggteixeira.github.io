@@ -76,6 +76,24 @@ Frontmatter: `title`, `summary`, `date`, `tags`, `draft?`, `demoUrl?`, `repoUrl?
 
 > The Projects nav link is currently commented out in `consts.ts`.
 
+## Internationalization (i18n)
+
+Translation strings live in `src/i18n/ui.ts` under both `en` and `pt-br` keys. To add a new string:
+
+1. Add the key to **both** locales in `ui.ts`
+2. Resolve it server-side in the Astro component via `useTranslations(Astro.currentLocale)`
+3. Pass the resolved string as a prop to any SolidJS component that needs it — never call `useTranslations` inside `.tsx` files
+
+```ts
+// ui.ts
+"article.toc": "Contents",   // en
+"article.toc": "Conteúdo",   // pt-br
+
+// SomeLayout.astro
+const t = useTranslations(Astro.currentLocale);
+<MyComponent label={t("article.toc")} />
+```
+
 ## Component Conventions
 
 - **Astro components** (`.astro`) — static/server-rendered UI
