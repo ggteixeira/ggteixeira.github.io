@@ -69,36 +69,51 @@ Não é uma decisão tão brutal assim escolher a dedo aquilo que você **ativam
 
 O livro do Cal Newport é excelente e eu recomendo a leitura. Eu acabei lendo a versão original e não conheço a pessoa que traduziu para o português brasileiro, mas imagino que deva valer a pena igualmente caso você prefira a versão traduzida.
 
-Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mudanças na forma como uso ferramentas digitais que transformaram a minha experiência para melhor ao longo dos anos.
+Listados e resumidos alguns dos pontos-chave do livro, apresento uma lista de mudanças na forma como uso ferramentas digitais que transformaram a minha experiência ao longo dos anos.
 
 ---
 
-# Aplicando na prática
+# Como aplico o minimalismo digital
 
-![arch](src/content/garden/05-minimalismo-digital/media/arch-desktop.png)
-\[Meu desktop Linux, BTW\]
+A regra geral é manter por perto apenas o que for necessário. Tudo o que for supérfluo é desinstalado, deletado, guardado e tirado da frente.
 
-## Distrações visuais
+No meu aplicativo de gestão de tarefas, tenho um lembrete mensal de desinstalar aplicativos sem utilidade
 
-- No seu navegador, você pode remover os ícones de extensões que não utiliza todos os dias. De tempos em tempos, é interessante checar as extensões não usadas, que ficam esquecidas ali, e desinstalá-las.
-- Eu escondo a dock do MacOS — até por uma questão de espaço. Nela ficam apenas meu navegador, meu editor de código e um atalho para as pastas Applications, Downloads e Screenshots
-- Na menubar do Mac, uso um app chamado ICE para esconder itens que, ou não preciso ver, ou não são usados diariamente.
+## Smartphone
 
-  ## Navegador
+### Tela Inicial
 
-  - Meu navegador não possui barra de favoritos. Organizo meus links salvos em duas grandes categorias: _ler depois_ e _salvar para referência_. Os para ler depois são enviados para o [Instapaper](https://www.instapaper.com/); os salvos para referência futura, para o [Raindrop](https://raindrop.io/).
-  - No computador do trabalho há uma exceção: o navegador possui uma barra de favoritos com pastas contendo itens de acesso rápido que utilizo diariamente. É similar à lógica da tela principal do smartphone.
-  - Minha tela inicial é uma tela em branco, vazia. Nada nela pode me induzir/distrair a fazer qualquer coisa diferente daquela que me motivou a abrir uma nova aba ou janela.
+Seguindo a diretriz de não manter instalados aplicativos supérfluos, a tela inicial possui as seguintes regras: manter apenas uma página de aplicativos. Opcionalmente, uma segunda com widgets.
 
-## E-mail: Inbox zero
+#### Página 1 (página principal)
 
-Como o nome já, diz a técnica do Inbox Zero significa não ter nenhum e-mail na Caixa de Entrada. Eu tenho uma tarefa no Todoist que me lembra a cada três meses de organizar e limpar e-mails.
+Manter apenas aplicativos usados diariamente e widgets estritamente informativos (i.e.: que não ofereçam nenhuma [chamada para ação](https://pt.wikipedia.org/wiki/Call_to_action)).
 
-Aliado a isso, também uso aliases de e-mails temporários que podem ser facilmente deletados se algum serviço tentar te enviar spam ou e-mail marketing.
+Exemplo de widget meramente informativo: widget de previsão de tempo. Exemplo de widget com chamada para ação: widget de e-mails não lidos.
 
-Uma outra tática é criar filtros, para que e-mails de um mesmo remetente sejam motivos automaticamente da Caixa de Entrada para uma pasta específica. No meu e-mail do trabalho, por exemplo, mensagens do RH caem automaticamente em uma pasta chamada RH.
+#### Página 2
 
-# Bibliografia
+À segunda página pertencem aplicativos não usados todos os dias e widgets (informativos ou não). Essa página automaticamente se torna uma lista de aplicativos candidatos a serem desinstalados.
+
+### Notificações
+
+A internet subverteu o direito de permanecermos inacessíveis. Virtualmente todo site no qual você fizer login irá cadastrar seu e-mail numa lista de disparo de _e-mail marketing_, mesmo se você desmarcar o checkbox de "não desejo receber e-mails com anúncios e promoções". Para fugir dessa armadilha, ou você utiliza um [alias](https://tecnoblog.net/responde/o-que-e-alias-e-por-que-voce-deveria-ter-um/), ou algum serviço de e-mail temporário, como o [TempMail](https://temp-mail.org/pt/). Do contrário, sua caixa de entrada será alvo de e-mails não solicitados, contendo (ou não) um link minúsculo (que pode funcionar ou não) de "se quiser parar de receber e-mails como este no futuro, clique aqui", que te levará (ou não) a um site com HTML duvidoso apresentando um botão (que pode funcionar ou não) com a opção de não receber mais e-mails no futuro.
+
+A internet é uma Testemunha de Jeová digital com perda de memória recente.
+
+Aplicativos vão te enviar notificações, te convidando a consumir conteúdo altamente personalizado para você, inclusive nos horários nos quais eles sabem que você terá maior propensão de clicar. O Ifood sabe quando você almoça e janta, e quando você está com fome; sabe em quais dias do mês você tem maior propensão de comer doce ou _fast-food_.
+
+E, para isso, [o Ifood sequer precisa te vigiar](https://manualdousuario.net/notinha-ifood-app-burlar-localizacao-iphone/). O seu perfil de consumo já foi categorizado. O Ifood sabe que em breve você vai pedir comida japonesa porque uma quantidade considerável dos perfis com hábitos de consumo similares aos seus também estão pedindo. O nome disso é _Lookalike Modelling_.
+
+Dito tudo isso, por padrão a diretriz é manter notificações desligadas. Se você não precisa ler e-mails quando eles chegam, seu smartphone não precisa ter o poder de te tirar do foco em algo mais importante para te avisar que uma mensagem chegou. O mesmo vale para qualquer outro tipo de notificação, como por exemplo, notícias.
+
+## Computador
+
+### Navegador
+
+### Área de trabalho
+
+# Bibliografia e Referências
 
 - Newport, C. (2019). _Digital Minimalism: Choosing a focused life in a Noisy World_. Portfolio/Penguin.
 - Antiminimalist. _Minimalists don’t want you to be content_. Disponível em: <https://medium.com/@antiminimalista/minimalists-dont-want-you-to-be-content-11adadbd5f1d>. Acesso em: 23 abr. 2025.
