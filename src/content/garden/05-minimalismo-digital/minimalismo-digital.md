@@ -3,6 +3,7 @@ title: Minimalismo Digital
 summary: O minimalismo digital não está no digital
 draft: false
 date: 09 apr 2025
+updatedDate: 29 mar 2026
 tags:
   - seedling
 ---
