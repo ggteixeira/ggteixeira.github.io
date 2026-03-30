@@ -7,17 +7,6 @@ tags:
   - budding
 ---
 
-<!--toc:start-->
-
-- [Introdução](#introdução)
-- [O que mudou desde a primeira experiência](#o-que-mudou-desde-a-primeira-experiência)
-- [Diário](#diário)
-- [Conclusão e reflexões finais](#conclusão-e-reflexões-finais)
-  - [Instagram](#instagram)
-  - [YouTube](#youtube)
-- [Bibliografia, Referências e Notas de Rodapé](#bibliografia-referências-e-notas-de-rodapé)
-<!--toc:end-->
-
 # Introdução
 
 Às vezes é saudável admitir a derrota. Após um experimento de _declutter_ bem-sucedido, se com o tempo você afrouxa algumas regras, velhos hábitos ruins podem retornar em nome da conveniência.
