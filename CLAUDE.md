@@ -76,6 +76,10 @@ Frontmatter: `title`, `summary`, `date`, `tags`, `draft?`, `demoUrl?`, `repoUrl?
 
 > The Projects nav link is currently commented out in `consts.ts`.
 
+## Git Commits
+
+Prefer small, focused commits split semantically by type of change. Each commit should do one thing: a bug fix, a new feature, a content edit, a style tweak, etc. Avoid bundling unrelated changes into a single commit.
+
 ## Internationalization (i18n)
 
 Translation strings live in `src/i18n/ui.ts` under both `en` and `pt-br` keys. To add a new string:
