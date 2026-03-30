@@ -21,19 +21,24 @@ export default function TableOfContents(props: Props) {
       .map(({ slug }) => document.getElementById(slug))
       .filter(Boolean) as HTMLElement[];
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
-          }
-        }
-      },
-      { rootMargin: "0px 0px -70% 0px", threshold: 0 },
-    );
+    if (headingElements.length === 0) return;
 
-    headingElements.forEach((el) => observer.observe(el));
-    onCleanup(() => observer.disconnect());
+    const onScroll = () => {
+      const offset = 120;
+      let current = headingElements[0].id;
+      for (const el of headingElements) {
+        if (el.offsetTop - offset <= window.scrollY) {
+          current = el.id;
+        } else {
+          break;
+        }
+      }
+      setActiveId(current);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    onCleanup(() => window.removeEventListener("scroll", onScroll));
   });
 
   return (
