@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import { useTranslations } from "@i18n/utils";
+import TableOfContents from "@components/TableOfContents";
 
 type Props = {
   entry: CollectionEntry<"garden"> | CollectionEntry<"projects">;
@@ -9,7 +10,7 @@ type Props = {
 // Get the requested entry
 const { entry } = Astro.props;
 const { collection } = entry;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 
 // Get the next and prev entries (modulo to wrap index)
 const items = (await getCollection(collection))
@@ -23,9 +24,20 @@ const t = useTranslations(Astro.currentLocale);
 ---
 
 <div>
-  <article>
-    <Content />
-  </article>
+  <div class="relative">
+    <article>
+      <Content />
+    </article>
+    <aside class="hidden xl:block absolute top-0 left-full ml-10 h-full w-52">
+      <div class="sticky top-28">
+        <TableOfContents
+          client:load
+          headings={headings}
+          label={t("article.toc")}
+        />
+      </div>
+    </aside>
+  </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <a
       href={`/${prev.collection}/${prev.id}`}
