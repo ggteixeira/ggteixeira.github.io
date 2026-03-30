@@ -4,6 +4,7 @@
 
 :root {
   --copy-btn-margin: 10px;
+  --scroll-margin-top: 6rem;
 }
 
 @layer base {
@@ -59,8 +60,16 @@ header.scrolled {
   @apply backdrop-blur-sm saturate-200;
 }
 
+header.header-hidden {
+  @apply -translate-y-full;
+}
+
 article {
   @apply prose dark:prose-invert max-w-full pb-12;
+}
+
+article :is(h1, h2, h3, h4) {
+  scroll-margin-top: var(--scroll-margin-top);
 }
 
 .page-heading {
