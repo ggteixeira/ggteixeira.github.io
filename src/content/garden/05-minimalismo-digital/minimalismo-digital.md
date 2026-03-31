@@ -1,9 +1,8 @@
 ---
 title: Minimalismo Digital
 summary: O minimalismo digital não está no digital
-draft: false
 date: 09 apr 2025
-updatedDate: 29 mar 2026
+updatedDate: 31 mar 2026
 tags:
   - seedling
 ---
@@ -94,7 +93,7 @@ Aplicativos vão te enviar notificações, te convidando a consumir conteúdo al
 
 E, para isso, [o Ifood sequer precisa te vigiar](https://manualdousuario.net/notinha-ifood-app-burlar-localizacao-iphone/). O seu perfil de consumo já foi categorizado. O Ifood sabe que em breve você vai pedir comida japonesa porque uma quantidade considerável dos perfis com hábitos de consumo similares aos seus também estão pedindo. O nome disso é _Lookalike Modelling_.
 
-Dito tudo isso, por padrão a diretriz é manter notificações desligadas. Se você não precisa ler e-mails quando eles chegam, seu smartphone não precisa ter o poder de te tirar do foco em algo mais importante para te avisar que uma mensagem chegou. O mesmo vale para qualquer outro tipo de notificação, como por exemplo, notícias.
+Dito tudo isso, por padrão a diretriz é manter notificações desligadas. Se você não precisa ler e-mails assim que eles chegam, seu smartphone não precisa ter o poder de te tirar do foco em algo mais importante para te avisar que uma mensagem chegou. O mesmo vale para qualquer outro tipo de notificação, como por exemplo, notícias.
 
 ## Computador
 
