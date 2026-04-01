@@ -1,8 +1,8 @@
 ---
 title: "A História do Front-End"
 summary: "Um resumo sobre a história do front-end"
-draft: false
 date: "18 aug 2024"
+updatedDate: "24 mar 2025"
 tags:
   - frontend
   - evergreen
