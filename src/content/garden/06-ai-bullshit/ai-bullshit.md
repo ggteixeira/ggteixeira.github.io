@@ -3,11 +3,12 @@ title: AI Bullshit
 summary: There is no Generative AI
 draft: true
 date: 11 jun 2025
+updatedDate: 1 apr 2026
 tags:
   - seedling
 ---
 
-> We already have tools for talking to computers in a way that they understand exactly what we mean and never get it wrong; they're called programming languages. (@OneSilentLake)
+> We already have tools for talking to computers in a way that they understand exactly what we mean and never get it wrong; they're called programming languages.
 
 ## Articles
 
