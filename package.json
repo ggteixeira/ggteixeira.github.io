@@ -17,6 +17,9 @@
     "prepare": "husky"
   },
   "lint-staged": {
+    "src/content/garden/**/*.md": [
+      "node scripts/validate-garden.mjs"
+    ],
     "*.{ts,tsx}": [
       "eslint --fix",
       "prettier --write"
