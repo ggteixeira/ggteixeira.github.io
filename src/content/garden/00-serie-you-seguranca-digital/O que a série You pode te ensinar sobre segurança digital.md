@@ -1,8 +1,8 @@
 ---
 title: O que a série You pode te ensinar sobre segurança digital
 summary: Um guia de iniciantes sobre segurança digital
-draft: false
 date: 20 dec 2020
+updatedDate: "11 jun 2025"
 tags:
   - infosec
   - evergreen
