@@ -23,4 +23,8 @@ export function readingTime(html: string, locale?: string) {
   return `${readingTimeMinutes} ${label}`;
 }
 
+export function daysSince(date: Date): number {
+  return (Date.now() - date.getTime()) / 86_400_000;
+}
+
 export const currentYear = new Date().getFullYear();
