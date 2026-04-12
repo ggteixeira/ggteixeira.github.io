@@ -3,9 +3,10 @@ title: 'O livro "Flow" poderia ter sido um e-mail'
 summary: ""
 draft: false
 date: 02 jan 2026
-updatedDate: 27 feb 2026
+updatedDate: 12 apr 2026
 tags:
   - budding
+  - livros
 ---
 
 Acabei de ler, a duras penas, o livro "Flow: a psicologia do alto desempenho e da felicidade" ([Mihály Csíkszentmihályi](https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi)) e a sensação é de que tomei um _gaslighting_. Como disse um dos primeiros reviews no Goodreads, teria sido um excelente livro se fosse um ensaio de 10 mil palavras. Parece gaslighting porque coloquei a culpa de ter enrolado mais de 1 mês para finalizar a leitura na minha aparente falta de concentração e comprometimento, sendo que é só porque é um livro chato mesmo.

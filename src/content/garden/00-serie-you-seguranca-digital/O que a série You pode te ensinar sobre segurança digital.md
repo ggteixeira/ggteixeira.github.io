@@ -2,10 +2,11 @@
 title: O que a série You pode te ensinar sobre segurança digital
 summary: Um guia de iniciantes sobre segurança digital
 date: 20 dec 2020
-updatedDate: "11 jun 2025"
+updatedDate: 12 apr 2026
 tags:
-  - infosec
+  - segurança 
   - evergreen
+  - privacidade
 ---
 
 #### (Atenção: Este texto pode conter _spoilers_ da primeira temporada de “You”)
