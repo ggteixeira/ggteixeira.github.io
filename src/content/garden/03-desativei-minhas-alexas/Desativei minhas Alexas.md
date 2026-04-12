@@ -2,9 +2,11 @@
 title: Minha ex-casa inteligente
 summary: Tecnopessimismo, tecnologia ruim e ingenuidade
 date: 06 apr 2025
-updatedDate: "08 apr 2025"
+updatedDate: 12 apr 2026
 tags:
   - seedling
+  - tecnopessimismo
+  - minimalismo
 ---
 
 Com a desapontadora — porém não surpreendente — novidade de que todas as interações com a Alexa [passaram a ser enviadas para o Jeff Bezos](https://arstechnica.com/gadgets/2025/03/everything-you-say-to-your-echo-will-be-sent-to-amazon-starting-on-march-28/) a partir de 28 de março de 2025, decidi que era hora de abandonar o barco da casa inteligente.

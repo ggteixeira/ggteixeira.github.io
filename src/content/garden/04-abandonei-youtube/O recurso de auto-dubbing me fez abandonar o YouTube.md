@@ -2,9 +2,11 @@
 title: O recurso de auto-dubbing me fez abandonar o YouTube
 summary: Por que abandonei o YouTube
 date: 23 apr 2025
-updatedDate: "20 dec 2025"
+updatedDate: 12 apr 2026
 tags:
   - budding
+  - tecnopessimismo
+  - minimalismo-digital
 ---
 
 Claro que o YouTube nos dá diversos motivos diariamente para nunca mais o acessarmos. O recurso de dublagem feita por IA (chamado de “_auto-dubbing_”), que aparentemente foi liberado para uma quantidade mais abrangente de criadores, foi a gota d’água para mim.

@@ -2,9 +2,9 @@
 title: "A História do Front-End"
 summary: "Um resumo sobre a história do front-end"
 date: "18 aug 2024"
-updatedDate: "24 mar 2025"
+updatedDate: 12 apr 2026
 tags:
-  - frontend
+  - front-end
   - evergreen
 # Use a ratio of 100:42 for best results.
 ---

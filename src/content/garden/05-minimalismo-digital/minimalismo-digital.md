@@ -2,9 +2,10 @@
 title: Minimalismo Digital
 summary: O minimalismo digital não está no digital
 date: 09 apr 2025
-updatedDate: 31 mar 2026
+updatedDate: 12 apr 2026
 tags:
-  - seedling
+  - budding
+  - minimalismo-digital
 ---
 
 ![fifteen million merits](src/content/garden/05-minimalismo-digital/media/fifteen-million.jpg)
@@ -73,27 +74,38 @@ No meu aplicativo de gestão de tarefas, tenho um lembrete mensal de desinstalar
 
 Seguindo a diretriz de não manter instalados aplicativos supérfluos, a tela inicial possui as seguintes regras: manter apenas uma página de aplicativos. Opcionalmente, uma segunda com widgets.
 
-#### Página 1 (página principal)
+#### Página 1 (Principal)
 
-Manter apenas aplicativos usados diariamente e widgets estritamente informativos (i.e.: que não ofereçam nenhuma [chamada para ação](https://pt.wikipedia.org/wiki/Call_to_action)).
+A página principal é a "casa" do seu smartphone. Nela são permitidos apenas aplicativos usados diariamente e, opcionalmente, widgets estritamente informativos (i.e.: que não ofereçam nenhuma [chamada para ação](https://pt.wikipedia.org/wiki/Call_to_action)).
 
-Exemplo de widget meramente informativo: widget de previsão de tempo. Exemplo de widget com chamada para ação: widget de e-mails não lidos.
+- Exemplo de widget meramente informativo: widget de previsão de tempo.
+- Exemplo de widget com chamada para ação: widget de e-mails não lidos.
 
-#### Página 2
+#### Página 2 (Secundária, opcional)
 
-À segunda página pertencem aplicativos não usados todos os dias e widgets (informativos ou não). Essa página automaticamente se torna uma lista de aplicativos candidatos a serem desinstalados.
+Pertencem à página secundária aplicativos não usados diariamente e widgets (informativos ou não). Naturalmente essa página se torna uma lista de aplicativos candidatos à desinstalação.
 
 ### Notificações
+
+Por padrão a diretriz é **manter todas as notificações desligadas**, exceto as imprescindivelmente importantes. Nada nos seus devices deve te coagir a iniciar uma ação diferente daquela que te fez acessá-los. Faça uma análise honesta: se você não precisa ler e-mails quando eles chegam, você não precisa de notificações de e-mail — exceto devido à FOMO. Similarmente, se você não é jornalista, você não precisa consumir notícias assim que elas chegam.
 
 A internet subverteu o direito de permanecermos inacessíveis. Virtualmente todo site no qual você fizer login irá cadastrar seu e-mail numa lista de disparo de _e-mail marketing_, mesmo se você desmarcar o checkbox de "não desejo receber e-mails com anúncios e promoções". Para fugir dessa armadilha, ou você utiliza um [alias](https://tecnoblog.net/responde/o-que-e-alias-e-por-que-voce-deveria-ter-um/), ou algum serviço de e-mail temporário, como o [TempMail](https://temp-mail.org/pt/). Do contrário, sua caixa de entrada será alvo de e-mails não solicitados, contendo (ou não) um link minúsculo (que pode funcionar ou não) de "se quiser parar de receber e-mails como este no futuro, clique aqui", que te levará (ou não) a um site com HTML duvidoso apresentando um botão (que pode funcionar ou não) com a opção de não receber mais e-mails no futuro.
 
 A internet é uma Testemunha de Jeová digital com perda de memória recente.
 
-Aplicativos vão te enviar notificações, te convidando a consumir conteúdo altamente personalizado para você, inclusive nos horários nos quais eles sabem que você terá maior propensão de clicar. O Ifood sabe quando você almoça e janta, e quando você está com fome; sabe em quais dias do mês você tem maior propensão de comer doce ou _fast-food_.
+Aplicativos vão te enviar notificações, te convidando a consumir conteúdo personalizado para você, inclusive nos horários nos quais eles sabem que você terá maior propensão de clicar. O Ifood sabe quando você almoça e janta, e quando você está com fome; sabe em quais dias do mês você tem maior propensão de comer doce ou _fast-food_.
 
 E, para isso, [o Ifood sequer precisa te vigiar](https://manualdousuario.net/notinha-ifood-app-burlar-localizacao-iphone/). O seu perfil de consumo já foi categorizado. O Ifood sabe que em breve você vai pedir comida japonesa porque uma quantidade considerável dos perfis com hábitos de consumo similares aos seus também estão pedindo. O nome disso é _Lookalike Modelling_.
 
-Dito tudo isso, por padrão a diretriz é manter notificações desligadas. Se você não precisa ler e-mails assim que eles chegam, seu smartphone não precisa ter o poder de te tirar do foco em algo mais importante para te avisar que uma mensagem chegou. O mesmo vale para qualquer outro tipo de notificação, como por exemplo, notícias.
+#### Jornais e Hard News
+
+Notícias de última hora (i.e. _hard news_) quase sempre estão incompletas ou erradas. Elas precisam de tempo de apuração para se tornarem confiáveis o suficiente — e apurações levam horas, dias, semanas.
+
+Se o Estreito de Ormuz foi fechado, se o empresário gângster foi intimado a depôr na CPI, se o jogador de basquete se machucou, em nada a sua vida será impactada no momento em que o fato foi noticiado. Isso é uma regra em 99.9%[^6] do empo. Para o 0.01% restante, as notícias que você **realmente precisa saber**, essas chegarão até você, quando **você** decidir se informar.
+
+No geral, sempre estão acontecendo menos coisas do que os jornalistas fazem parecer. Infelizmente, esse é o trabalho deles.
+
+Minha diretriz pessoal é assinar RSS de veículos voltados para _slow news_, blogs, colunas, _newsletters_. Pessoalmente, procuro voltar minha limitada atenção e meu limitado tempo a questões sobre o mundo cujos problemas eu tenho alguma chance de tentar resolver — ou pelo menos não tornar piores. Alguns chamam isso de Estoicismo; eu chamo de _cuidar do meu próprio vilarejo_, para parafrasear o Tolstói[^7].
 
 ## Computador
 
@@ -118,8 +130,6 @@ Dito tudo isso, por padrão a diretriz é manter notificações desligadas. Se v
 
 [^5]: É impossível linká-lo na Bibliografia, pois o vídeo hoje encontra-se não listado/oculto.
 
----
+[^6]: Fonte: Instituto Data Guilherme.
 
-# TODO
-
-- [ ] Atualizar os screenshots no texto e apagar os não usados/antigos/depreciados.
+[^7]: "_Se queres ser universal, começa por pintar a tua aldeia_", frase atribuída a Liev Tolstói, muito embora eu nunca tenha encontrado a fonte de fato.
