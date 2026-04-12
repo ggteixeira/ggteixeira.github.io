@@ -2,9 +2,10 @@
 title: Minimalismo Digital II
 summary: Uma revisão do aprendizado
 date: 26 oct 2025
-updatedDate: "29 mar 2026"
+updatedDate: 12 apr 2026
 tags:
   - budding
+  - minimalismo
 ---
 
 # Introdução
