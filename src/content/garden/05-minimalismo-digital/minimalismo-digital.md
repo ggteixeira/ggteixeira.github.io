@@ -5,7 +5,7 @@ date: 09 apr 2025
 updatedDate: 12 apr 2026
 tags:
   - budding
-  - minimalismo-digital
+  - minimalismo
 ---
 
 ![fifteen million merits](src/content/garden/05-minimalismo-digital/media/fifteen-million.jpg)
