@@ -2,11 +2,18 @@ Publish a garden article through the full publication workflow. Follow these ste
 
 ## Step 1 — Detect the article
 
-Run `git status --short` and find all modified or untracked `.md` files under `src/content/garden/`. Ignore template files (`templates/` or `_rascunho.md`).
+Run `git status --short` and collect all modified (`M`) or untracked (`??`) `.md` files under `src/content/garden/`. Ignore template files (`templates/` or `_rascunho.md`).
 
-- If no garden markdown files are changed, stop and tell the user there is nothing to publish.
-- If exactly one file is found, use it.
-- If multiple files are found, list them and ask the user which one to publish using AskUserQuestion.
+For each candidate file, read its frontmatter:
+
+- **Untracked (`??`) files**: always include (brand-new articles).
+- **Modified (`M`) files**: include only if frontmatter contains `draft: true`. Skip already-live articles — they are edits, not new publications.
+
+If any modified-but-live files were skipped, mention them briefly so the user knows why they aren't listed.
+
+- If no candidates remain, stop and tell the user there is nothing to publish.
+- If exactly one candidate is found, use it.
+- If multiple candidates are found, list them and ask the user which one to publish using AskUserQuestion.
 
 ## Step 2 — Draft or live?
 
