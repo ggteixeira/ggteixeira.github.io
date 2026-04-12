@@ -60,14 +60,14 @@ export default function ArrowCard(props: Props) {
               <div class="flex align-middle">
                 {props.entry.collection === "garden" &&
                   props.entry.data.updatedDate &&
-                  daysSince(props.entry.data.updatedDate) <= 14 && (
+                  daysSince(props.entry.data.updatedDate) <= 30 && (
                     <div class="text-sm uppercase">
                       updated: {formatDate(props.entry.data.updatedDate)}
                     </div>
                   )}
 
                 {props.entry.collection === "garden" &&
-                  daysSince(props.entry.data.date) <= 120 && (
+                  daysSince(props.entry.data.date) <= 14 && (
                     <div class="text-sm uppercase">new</div>
                   )}
 
