@@ -14,11 +14,11 @@ tags:
 
 Meus pontos fracos são Reddit e YouTube, especificamente esses dois por serem ótimas distrações disfarçadas de entretenimento que gera conhecimento. Eu tenho o péssimo hábito de tentar convencer a todos — a mim mesmo também — de que possuo um conjunto produtivo de entretenimentos: os canais no YouTube trazem conhecimento sobre computação, tecnologia, ciência, produtividade etc. YouTube e Reddit são um prato cheio para quem opta por deixar distrações disfarçadas de conhecimento se esgueirarem aos pouquinhos na rotina, até que num belo dia você está lá, sentado no sofá, segurando um prato de comida esfriando com uma mão e com a outra, segurando o controle da TV, procurando freneticamente o vídeo com a temática e a duração certas que combinem com o jantar entregue via Ifood.
 
-Se você nunca ouviu falar em Minimalismo Digital, seja pelo livro do Cal Newport, seja pelo [meu texto](https://guiteixeira.dev/garden/05-minimalismo-digital/minimalismo-digital/) ou qualquer outra fonte sobre o tema, talvez sinta que a ideia de abandonar as redes sociais seja muito radical — ou, como o cara do canal _[easy, actually](https://www.youtube.com/watch?v=K0QeSpu26wM&pp=ygUNZWFzeSBhY3R1YWxseQ%3D%3D)_ fala no vídeo sobre vício em YouTube: "o YouTube não parece rede social porque _parece_ educacional". Na realidade, se você observar os vídeos mostrados na Home ou na Barra de Sugestões, vai facilmente concluir que **nada** ali é conhecimento de verdade. É quase como tentar ficar mais inteligente enviando seu personagem no The Sims pra escola.
+Se você nunca ouviu falar em Minimalismo Digital, seja pelo livro do Cal Newport, seja pelo [meu texto](https://guiteixeira.dev/garden/05-minimalismo-digital/minimalismo-digital/)[^1] ou qualquer outra fonte sobre o tema, talvez sinta que a ideia de abandonar as redes sociais seja muito radical — ou, como o cara do canal _[easy, actually](https://www.youtube.com/watch?v=K0QeSpu26wM&pp=ygUNZWFzeSBhY3R1YWxseQ%3D%3D)_[^2] fala no vídeo sobre vício em YouTube: "o YouTube não parece rede social porque _parece_ educacional". Na realidade, se você observar os vídeos mostrados na Home ou na Barra de Sugestões, vai facilmente concluir que **nada** ali é conhecimento de verdade. É quase como tentar ficar mais inteligente enviando seu personagem no The Sims pra escola.
 
 ---
 
-Após topar com um episódio recente chamado [_This is your brain on phones_](https://podcasts.apple.com/br/podcast/deep-questions-with-cal-newport/id1515786216?l=en-GB&i=1000731580317) do podcast do Cal Newport, o _Deep Questions_, me peguei refletindo sobre quantas das coisas que aprendi no livro ainda eram presentes na rotina. É surpreendente perceber que o fato de que momentos de devaneios terem se tornado raros significa que tempo demais se passou. Assim que terminei de reler o capítulo que ensina o processo de _declutter_, senti a necessidade de reaplicar os 30 dias sem redes sociais para desafogar o cérebro novamente e ver o que acontece.
+Após topar com um episódio recente chamado [_This is your brain on phones_](https://podcasts.apple.com/br/podcast/deep-questions-with-cal-newport/id1515786216?l=en-GB&i=1000731580317)[^3] do podcast do Cal Newport, o _Deep Questions_, me peguei refletindo sobre quantas das coisas que aprendi no livro ainda eram presentes na rotina. É surpreendente perceber que o fato de que momentos de devaneios terem se tornado raros significa que tempo demais se passou. Assim que terminei de reler o capítulo que ensina o processo de _declutter_, senti a necessidade de reaplicar os 30 dias sem redes sociais para desafogar o cérebro novamente e ver o que acontece.
 
 Se tudo ocorrer conforme o esperado, vou relatando aqui neste Jardim Digital como será a experiência.
 
@@ -92,14 +92,18 @@ A definição de saber se baseia na definição de informação, porém ambas ja
 
 O que quero dizer aqui é que estar a par (estar informado) é diferente de saber, porque enquanto a aquisição de informação exige apenas o ato passivo de receber dados trazidos por determinada mídia, o saber (conhecer) requer a ação da reflexão, do estudo, do confronto de ideias — consigo próprio ou com outras pessoas —, da compreensão de novos fatos, ou da apresentação de novos pontos de vista acerta de fatos já conhecidos.
 
-Todos os vídeos do YouTube foram criados para te informar, e informação é entretenimento. O problema é que o Jornal Nacional também é. Para de fato aprender, saber, conhecer coisas novas, é necessário que o nosso cérebro se desvencilhe de qualquer artifício arquitetado para prender nossa atenção em atividades passivas. Aprender é uma atividade que demanda nossa total energia para que sejamos capazes de superar o incômodo que é fazer novas associações entre informações até então distintas. Esse incômodo é a "[dor de aprender](https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/)"[^1].
+Todos os vídeos do YouTube foram criados para te informar, e informação é entretenimento. O problema é que o Jornal Nacional também é. Para de fato aprender, saber, conhecer coisas novas, é necessário que o nosso cérebro se desvencilhe de qualquer artifício arquitetado para prender nossa atenção em atividades passivas. Aprender é uma atividade que demanda nossa total energia para que sejamos capazes de superar o incômodo que é fazer novas associações entre informações até então distintas. Esse incômodo é a "[dor de aprender](https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/)"[^4].
 
 Ultimamente tomei a decisão de me informar menos para dar mais espaço à atividade de saber mais sobre as coisas que me interessam. Por esse motivo, o YouTube não fará parte da minha vida de minimalista digital, pós-_declutter_.
 
 ---
 
-# Bibliografia, Referências e Notas de Rodapé
+# Referências e Notas de Rodapé
 
-- [quitting your youtube addiction is easy, actually](https://www.youtube.com/watch?v=K0QeSpu26wM)
+[^1]: [Minimalismo Digital](https://guiteixeira.dev/garden/05-minimalismo-digital/minimalismo-digital/)
 
-[^1]: <https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/>
+[^2]: [quitting your youtube addiction is easy, actually](https://www.youtube.com/watch?v=K0QeSpu26wM)
+
+[^3]: [This is your brain on phones — Deep Questions with Cal Newport](https://podcasts.apple.com/br/podcast/deep-questions-with-cal-newport/id1515786216?l=en-GB&i=1000731580317)
+
+[^4]: <https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/>
