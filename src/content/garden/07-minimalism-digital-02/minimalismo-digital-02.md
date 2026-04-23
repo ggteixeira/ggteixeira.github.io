@@ -2,7 +2,7 @@
 title: Minimalismo Digital II
 summary: Uma revisão do aprendizado
 date: 26 oct 2025
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
   - budding
   - minimalismo
@@ -14,7 +14,7 @@ tags:
 
 Meus pontos fracos são Reddit e YouTube, especificamente esses dois por serem ótimas distrações disfarçadas de entretenimento que gera conhecimento. Eu tenho o péssimo hábito de tentar convencer a todos — a mim mesmo também — de que possuo um conjunto produtivo de entretenimentos: os canais no YouTube trazem conhecimento sobre computação, tecnologia, ciência, produtividade etc. YouTube e Reddit são um prato cheio para quem opta por deixar distrações disfarçadas de conhecimento se esgueirarem aos pouquinhos na rotina, até que num belo dia você está lá, sentado no sofá, segurando um prato de comida esfriando com uma mão e com a outra, segurando o controle da TV, procurando freneticamente o vídeo com a temática e a duração certas que combinem com o jantar entregue via Ifood.
 
-Se você nunca ouviu falar em Minimalismo Digital, seja pelo livro do Cal Newport, seja pelo [meu texto](https://guiteixeira.dev/garden/05-minimalismo-digital/minimalismo-digital/) ou qualquer outra fonte sobre o tema, talvez sinta que a ideia de abandonar as redes sociais seja muito radical — ou, como o cara do canal "_easy, actually_" fala no vídeo sobre vício em YouTube: "o YouTube não parece rede social porque _parece_ educacional". Na realidade, se você observar os vídeos mostrados na Home ou na Barra de Sugestões, vai facilmente concluir que **nada** ali é conhecimento de verdade. É quase como tentar ficar mais inteligente enviando seu personagem no The Sims pra escola.
+Se você nunca ouviu falar em Minimalismo Digital, seja pelo livro do Cal Newport, seja pelo [meu texto](https://guiteixeira.dev/garden/05-minimalismo-digital/minimalismo-digital/) ou qualquer outra fonte sobre o tema, talvez sinta que a ideia de abandonar as redes sociais seja muito radical — ou, como o cara do canal _[easy, actually](https://www.youtube.com/watch?v=K0QeSpu26wM&pp=ygUNZWFzeSBhY3R1YWxseQ%3D%3D)_ fala no vídeo sobre vício em YouTube: "o YouTube não parece rede social porque _parece_ educacional". Na realidade, se você observar os vídeos mostrados na Home ou na Barra de Sugestões, vai facilmente concluir que **nada** ali é conhecimento de verdade. É quase como tentar ficar mais inteligente enviando seu personagem no The Sims pra escola.
 
 ---
 
@@ -99,5 +99,7 @@ Ultimamente tomei a decisão de me informar menos para dar mais espaço à ativi
 ---
 
 # Bibliografia, Referências e Notas de Rodapé
+
+- [quitting your youtube addiction is easy, actually](https://www.youtube.com/watch?v=K0QeSpu26wM)
 
 [^1]: <https://akitaonrails.com/2019/10/23/akitando-65-a-dor-de-aprender-que-cursos-livros/>

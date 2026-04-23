@@ -2,7 +2,7 @@
 title: Minimalismo Digital
 summary: O minimalismo digital não está no digital
 date: 09 apr 2025
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
   - budding
   - minimalismo
@@ -96,8 +96,15 @@ A internet é uma Testemunha de Jeová digital com perda de memória recente.
 Aplicativos vão te enviar notificações, te convidando a consumir conteúdo personalizado para você, inclusive nos horários nos quais eles sabem que você terá maior propensão de clicar. O Ifood sabe quando você almoça e janta, e quando você está com fome; sabe em quais dias do mês você tem maior propensão de comer doce ou _fast-food_.
 
 E, para isso, [o Ifood sequer precisa te vigiar](https://manualdousuario.net/notinha-ifood-app-burlar-localizacao-iphone/). O seu perfil de consumo já foi categorizado. O Ifood sabe que em breve você vai pedir comida japonesa porque uma quantidade considerável dos perfis com hábitos de consumo similares aos seus também estão pedindo. O nome disso é _Lookalike Modelling_.
+## Computador
 
-#### Jornais e Hard News
+### Explorador de Arquivos
+
+### Navegador
+
+### Área de trabalho
+
+## Consumo de Notícias
 
 Notícias de última hora (i.e. _hard news_) quase sempre estão incompletas ou erradas. Elas precisam de tempo de apuração para se tornarem confiáveis o suficiente — e apurações levam horas, dias, semanas.
 
@@ -106,12 +113,6 @@ Se o Estreito de Ormuz foi fechado, se o empresário gângster foi intimado a de
 No geral, sempre estão acontecendo menos coisas do que os jornalistas fazem parecer. Infelizmente, esse é o trabalho deles.
 
 Minha diretriz pessoal é assinar RSS de veículos voltados para _slow news_, blogs, colunas, _newsletters_. Pessoalmente, procuro voltar minha limitada atenção e meu limitado tempo a questões sobre o mundo cujos problemas eu tenho alguma chance de tentar resolver — ou pelo menos não tornar piores. Alguns chamam isso de Estoicismo; eu chamo de _cuidar do meu próprio vilarejo_, para parafrasear o Tolstói[^7].
-
-## Computador
-
-### Navegador
-
-### Área de trabalho
 
 # Bibliografia e Referências
 
