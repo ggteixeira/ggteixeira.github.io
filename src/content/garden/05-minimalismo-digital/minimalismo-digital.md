@@ -96,6 +96,7 @@ A internet é uma Testemunha de Jeová digital com perda de memória recente.
 Aplicativos vão te enviar notificações, te convidando a consumir conteúdo personalizado para você, inclusive nos horários nos quais eles sabem que você terá maior propensão de clicar. O Ifood sabe quando você almoça e janta, e quando você está com fome; sabe em quais dias do mês você tem maior propensão de comer doce ou _fast-food_.
 
 E, para isso, [o Ifood sequer precisa te vigiar](https://manualdousuario.net/notinha-ifood-app-burlar-localizacao-iphone/). O seu perfil de consumo já foi categorizado. O Ifood sabe que em breve você vai pedir comida japonesa porque uma quantidade considerável dos perfis com hábitos de consumo similares aos seus também estão pedindo. O nome disso é _Lookalike Modelling_.
+
 ## Computador
 
 ### Explorador de Arquivos

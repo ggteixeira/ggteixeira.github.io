@@ -2,7 +2,7 @@
 title: Minha ex-casa inteligente
 summary: Tecnopessimismo, tecnologia ruim e ingenuidade
 date: 06 apr 2025
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
   - seedling
   - tecnopessimismo
