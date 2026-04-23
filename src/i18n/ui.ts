@@ -21,7 +21,7 @@ export const ui = {
     // article layout
     "article.backTo": "Back to",
     "article.updatedIn": "Updated in",
-    "article.humanWritten": "Human-written text",
+    "article.humanWritten": "Human-written article",
     "article.seeDemo": "See Demo",
     "article.seeRepo": "See Repository",
     "article.prev": "Prev",
