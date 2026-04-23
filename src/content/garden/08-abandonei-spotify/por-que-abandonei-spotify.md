@@ -3,7 +3,7 @@ title: Por que abandonei o Spotify
 summary: Em resumo, porque o CEO do Spotify é um bosta*
 draft: false
 date: 20 dec 2025
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
   - budding
   - tecnopessimismo

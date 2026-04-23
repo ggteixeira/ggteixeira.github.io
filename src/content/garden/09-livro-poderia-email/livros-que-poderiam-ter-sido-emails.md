@@ -3,7 +3,7 @@ title: 'O livro "Flow" poderia ter sido um e-mail'
 summary: ""
 draft: false
 date: 02 jan 2026
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
   - budding
   - livros

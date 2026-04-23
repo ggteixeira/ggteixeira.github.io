@@ -2,9 +2,9 @@
 title: O que a série You pode te ensinar sobre segurança digital
 summary: Um guia de iniciantes sobre segurança digital
 date: 20 dec 2020
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
-  - segurança 
+  - segurança
   - evergreen
   - privacidade
 ---

@@ -2,7 +2,7 @@
 title: O recurso de auto-dubbing me fez abandonar o YouTube
 summary: Por que abandonei o YouTube
 date: 23 apr 2025
-updatedDate: 12 apr 2026
+updatedDate: 23 apr 2026
 tags:
   - budding
   - tecnopessimismo
