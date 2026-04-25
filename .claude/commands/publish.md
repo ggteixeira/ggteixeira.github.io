@@ -34,6 +34,15 @@ Check if this is a new or updated post:
 git log --oneline -- <article-file-path>
 ```
 
+**`updatedDate` policy** — only set `updatedDate` when the diff contains meaningful prose changes (new paragraphs, restructured sections, substantially expanded content). Do **not** set it for:
+
+- Frontmatter-only edits (tags, summary, date fields)
+- Bibliography or footnote additions/corrections
+- Typo or punctuation fixes
+- Metadata cleanup
+
+If the changes qualify, add `updatedDate: <DD MMM YYYY>` (today's date) to the frontmatter using the Edit tool. Otherwise leave `updatedDate` absent.
+
 Stage the entire article folder (includes any media assets):
 
 ```
