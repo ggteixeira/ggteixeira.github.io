@@ -70,7 +70,7 @@ export const ui = {
     "home.cta.work": "Ver meu trabalho",
     "article.backTo": "Voltar para",
     "article.updatedIn": "Atualizado em",
-    "article.humanWritten": "Texto escrito por humano",
+    "article.humanWritten": "Artigo escrito por humano",
     "article.seeDemo": "Ver Demo",
     "article.seeRepo": "Ver Repositório",
     "article.prev": "Anterior",
