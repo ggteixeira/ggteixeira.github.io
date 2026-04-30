@@ -25,6 +25,7 @@ tags:
 - [Big Tech says the quiet part out loud. They want you to be stupid (Will Bunch)](https://www.inquirer.com/opinion/alex-karp-palantir-ai-higher-education-20260315.html)
 - [All these smart glasses and nothing to do](https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard)
 - [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+- [Tech 24 - AI is already getting boring](https://www.france24.com/en/tv-shows/tech-24/20260426-ai-is-already-getting-boring)
 
 #### 2025
 
