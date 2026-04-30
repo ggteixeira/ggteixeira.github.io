@@ -23,6 +23,8 @@ tags:
 - [Thousands of CEOs just admitted AI had no impact on employment or productivity—and it has economists resurrecting a paradox from 40 years ago](https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/)
 - [If you thought the speed of writing code was your problem - you have bigger problems (Andrew Murphy)](https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems)
 - [Big Tech says the quiet part out loud. They want you to be stupid (Will Bunch)](https://www.inquirer.com/opinion/alex-karp-palantir-ai-higher-education-20260315.html)
+- [All these smart glasses and nothing to do](https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard)
+- [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
 
 #### 2025
 
