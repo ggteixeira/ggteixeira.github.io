@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import { SITE } from "@consts";
 import sanitizeHtml from "sanitize-html";
 import MarkdownIt from "markdown-it";
+import { isRssEligible } from "@lib/rss";
 const parser = new MarkdownIt();
 
 type Context = {
@@ -12,9 +13,7 @@ type Context = {
 export async function GET(context: Context) {
   const posts = await getCollection("garden");
 
-  const publishedPosts = posts.filter((post) => {
-    return post.data.draft === false && post.data.tags.includes("evergreen");
-  });
+  const publishedPosts = posts.filter(isRssEligible);
 
   const items = [...publishedPosts];
 
