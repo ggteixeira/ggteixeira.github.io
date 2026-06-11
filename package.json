@@ -41,7 +41,7 @@
     "@astrojs/solid-js": "^6.0.0",
     "@astrojs/tailwind": "^6.0.2",
     "@iconify-json/lucide": "^1.2.104",
-    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/typography": "^0.5.20",
     "astro": "^6.4.2",
     "astro-icon": "^1.1.5",
     "clsx": "^2.1.0",
