@@ -98,7 +98,7 @@ Ultimamente tomei a decisão de me informar menos para dar mais espaço à ativi
 
 ---
 
-# Referências e Notas de Rodapé
+# Referências
 
 [^1]: [Minimalismo Digital](https://guiteixeira.dev/garden/05-minimalismo-digital/minimalismo-digital/)
 
