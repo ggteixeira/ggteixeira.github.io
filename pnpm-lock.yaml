@@ -27,8 +27,8 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2(astro@6.4.6(@types/node@25.9.1)(jiti@1.21.7)(rollup@4.61.1)(yaml@2.9.0))(tailwindcss@3.4.19(yaml@2.9.0))
       '@iconify-json/lucide':
-        specifier: ^1.2.104
-        version: 1.2.104
+        specifier: ^1.2.112
+        version: 1.2.112
       '@tailwindcss/typography':
         specifier: ^0.5.20
         version: 0.5.20(tailwindcss@3.4.19(yaml@2.9.0))
@@ -523,8 +523,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/lucide@1.2.104':
-    resolution: {integrity: sha512-Vh4VPA/UNFhSPzEdDnSuOPA1xO6b/kI1w4SLBEiKnsFYPWimq2tVDynMgKnwddz6iZpuZfZU4PXR6kn0hJayKw==}
+  '@iconify-json/lucide@1.2.112':
+    resolution: {integrity: sha512-B4sYH2Sm/UPNJYrhh4i+GFHeHfrYPQF9evX2QduJv08iSWw9Mfn1VvF28iIh6pBtZpYlMnuB8/P51mDYlYBYWg==}
 
   '@iconify/tools@4.2.0':
     resolution: {integrity: sha512-WRxPva/ipxYkqZd1+CkEAQmd86dQmrwH0vwK89gmp2Kh2WyyVw57XbPng0NehP3x4V1LzLsXUneP1uMfTMZmUA==}
@@ -4069,7 +4069,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify-json/lucide@1.2.104':
+  '@iconify-json/lucide@1.2.112':
     dependencies:
       '@iconify/types': 2.0.0
 
