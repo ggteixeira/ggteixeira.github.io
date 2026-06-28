@@ -26,6 +26,7 @@ tags:
 - [All these smart glasses and nothing to do](https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard)
 - [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
 - [Tech 24 - AI is already getting boring](https://www.france24.com/en/tv-shows/tech-24/20260426-ai-is-already-getting-boring)
+- [Ford hired AI and sacked humans. It backfired badly](https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html)
 
 #### 2025
 
