@@ -58,9 +58,9 @@
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
     "@types/sanitize-html": "^2.16.1",
-    "eslint": "^10.6.0",
+    "eslint": "^10.8.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-astro": "^2.1.1",
+    "eslint-plugin-astro": "^3.0.1",
     "eslint-plugin-solid": "^0.14.5",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
