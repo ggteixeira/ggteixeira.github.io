@@ -4,7 +4,7 @@ Work from the project root (`/Users/gui/GitHub/website`).
 
 ## Step 1 — Get the title
 
-If the user passed a title after `/post`, use it. Otherwise ask:
+If the user passed a title after `/new-post`, use it. Otherwise ask:
 
 > "Qual é o título do artigo? (PT-BR)"
 
