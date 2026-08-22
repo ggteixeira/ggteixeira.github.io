@@ -5,6 +5,7 @@
  */
 import { readFileSync, writeFileSync } from "fs";
 import { spawnSync } from "child_process";
+import { formatDate } from "./format-date.mjs";
 
 const filePaths = process.argv.slice(2);
 if (filePaths.length === 0) {
@@ -13,20 +14,6 @@ if (filePaths.length === 0) {
 }
 
 const REQUIRED_STAGES = ["seedling", "budding", "evergreen"];
-const MONTHS = [
-  "jan",
-  "feb",
-  "mar",
-  "apr",
-  "may",
-  "jun",
-  "jul",
-  "aug",
-  "sep",
-  "oct",
-  "nov",
-  "dec",
-];
 
 function getScalar(yaml, key) {
   const m = yaml.match(new RegExp(`^${key}:\\s*(.+)$`, "m"));
@@ -87,8 +74,7 @@ for (const filePath of filePaths) {
   const hasHistory = log.stdout.trim().length > 0;
 
   if (hasHistory) {
-    const now = new Date();
-    const todayStr = `${now.getDate()} ${MONTHS[now.getMonth()]} ${now.getFullYear()}`;
+    const todayStr = formatDate();
 
     let updated = content;
     if (/^updatedDate:/m.test(content)) {

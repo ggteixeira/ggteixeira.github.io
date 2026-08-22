@@ -50,7 +50,7 @@ If the folder already exists, tell the user and ask for a different title or slu
 ## Step 5 — Format today's date
 
 ```bash
-date '+%d %b %Y' | tr '[:upper:]' '[:lower:]'
+node scripts/format-date.mjs
 ```
 
 Target format: `07 jul 2026`
