@@ -17,7 +17,13 @@ If any modified-but-live files were skipped, mention them briefly so the user kn
 - If exactly one candidate is found (from git status or committed drafts), use it.
 - If multiple candidates are found, list them and ask the user which one to publish using AskUserQuestion.
 
-## Step 2 — Draft or live?
+## Step 2 — Pre-publish review
+
+Run the checks from `.claude/commands/review-article.md` Step 2 against the detected article.
+
+If any ✗ items are found, show the checklist and ask via AskUserQuestion: **"Fix these first, or publish anyway?"** (fix/publish anyway/cancel). "Fix" stops here so the user can address the issues. ⚠ items (like `draft: true`) are informational only and don't block.
+
+## Step 3 — Draft or live?
 
 If the article was found as a committed draft (not modified in git status), first confirm with the user using AskUserQuestion: **"This article is already committed as draft. Are you sure you want to change its status?"** (yes/cancel). If they cancel, stop.
 
@@ -28,7 +34,7 @@ Based on their answer, update the frontmatter in the article file using the Edit
 - **draft**: ensure the line `draft: true` is present in the frontmatter
 - **live**: remove the `draft` line entirely (the schema treats absence as published)
 
-## Step 3 — Commit
+## Step 4 — Commit
 
 Read the article file to get the `title` from frontmatter.
 
@@ -38,14 +44,7 @@ Check if this is a new or updated post:
 git log --oneline -- <article-file-path>
 ```
 
-**`updatedDate` policy** — only set `updatedDate` when the diff contains meaningful prose changes (new paragraphs, restructured sections, substantially expanded content). Do **not** set it for:
-
-- Frontmatter-only edits (tags, summary, date fields)
-- Bibliography or footnote additions/corrections
-- Typo or punctuation fixes
-- Metadata cleanup
-
-If the changes qualify, add `updatedDate: <DD MMM YYYY>` (today's date) to the frontmatter using the Edit tool. Otherwise leave `updatedDate` absent.
+`updatedDate` is stamped automatically by the pre-commit hook (`scripts/validate-garden.mjs`) whenever a previously-published article changes. Don't set it manually here.
 
 Stage the entire article folder (includes any media assets):
 
@@ -62,7 +61,7 @@ Choose the commit message:
 
 Use the exact title from the frontmatter. Create the commit.
 
-## Step 4 — Push or PR
+## Step 5 — Push or PR
 
 Check the current branch:
 
