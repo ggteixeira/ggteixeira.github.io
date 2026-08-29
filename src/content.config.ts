@@ -38,11 +38,11 @@ const notes = defineCollection({
     base: "./src/content/notes",
   }),
   schema: z.object({
-    title: z.string(),
-    summary: z.string(),
+    title: z.string().optional(),
+    summary: z.string().optional(),
     date: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    tags: z.array(z.string()),
+    tags: z.array(z.string()).optional().default([]),
     draft: z.boolean().optional(),
   }),
 });

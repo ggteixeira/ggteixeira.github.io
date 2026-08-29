@@ -4,6 +4,7 @@ import { SITE } from "@consts";
 import sanitizeHtml from "sanitize-html";
 import MarkdownIt from "markdown-it";
 import { isRssEligible } from "@lib/rss";
+import { formatDate } from "@lib/utils";
 const parser = new MarkdownIt();
 
 type Context = {
@@ -26,7 +27,7 @@ export async function GET(context: Context) {
     description: SITE.DESCRIPTION,
     site: context.site,
     items: items.map((item) => ({
-      title: item.data.title,
+      title: item.data.title ?? formatDate(item.data.date),
       description: item.data.summary,
       content: sanitizeHtml(parser.render(item.body ?? ""), {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),

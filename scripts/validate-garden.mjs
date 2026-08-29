@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 /**
- * Validates garden article frontmatter and auto-sets updatedDate for updates.
- * Run via lint-staged on staged src/content/garden files.
+ * Validates garden/notes frontmatter and auto-sets updatedDate for updates.
+ * Run via lint-staged on staged src/content/{garden,notes} files.
+ *
+ * Garden articles require title, summary, date, and tags (with a stage).
+ * Notes only require a date — title, summary, and tags are optional there.
  */
 import { readFileSync, writeFileSync } from "fs";
 import { spawnSync } from "child_process";
@@ -34,6 +37,7 @@ function getList(yaml, key) {
 let failed = false;
 
 for (const filePath of filePaths) {
+  const isNote = filePath.includes("/content/notes/");
   const content = readFileSync(filePath, "utf8");
 
   const fmMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -51,12 +55,20 @@ for (const filePath of filePaths) {
   const date = getScalar(fm, "date");
   const tags = getList(fm, "tags");
 
-  if (!title) errors.push("missing: title");
-  if (!summary) errors.push("missing: summary");
   if (!date) errors.push("missing: date");
-  if (tags.length === 0) {
-    errors.push("missing: tags");
-  } else if (!tags.some((t) => REQUIRED_STAGES.includes(t))) {
+
+  if (!isNote) {
+    if (!title) errors.push("missing: title");
+    if (!summary) errors.push("missing: summary");
+    if (tags.length === 0) {
+      errors.push("missing: tags");
+    } else if (!tags.some((t) => REQUIRED_STAGES.includes(t))) {
+      errors.push(`tags must include one of: ${REQUIRED_STAGES.join(", ")}`);
+    }
+  } else if (
+    tags.length > 0 &&
+    !tags.some((t) => REQUIRED_STAGES.includes(t))
+  ) {
     errors.push(`tags must include one of: ${REQUIRED_STAGES.join(", ")}`);
   }
 

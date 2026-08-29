@@ -89,9 +89,9 @@ export default function ArrowCard(props: Props) {
         <div
           class={`font-semibold ${!props.minimal ? "mt-3" : "mt-0"} text-black dark:text-white`}
         >
-          {props.entry.data.title}
+          {props.entry.data.title ?? formatDate(props.entry.data.date)}
         </div>
-        {!props.minimal && (
+        {!props.minimal && props.entry.data.summary && (
           <div class="text-sm line-clamp-2">{props.entry.data.summary}</div>
         )}
         {!props.minimal && (
