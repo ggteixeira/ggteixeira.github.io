@@ -21,7 +21,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
 const t = useTranslations("pt-br");
 const gardenStrings = {
   filter: t("garden.filter"),
-  gardenTags: t("garden.gardenTags"),
+  sectionTags: t("garden.gardenTags"),
   showing: t("garden.showing"),
   of: t("garden.of"),
   posts: t("garden.posts"),
@@ -42,7 +42,7 @@ const gardenStrings = {
         client:only="solid-js"
         tags={tags}
         data={posts}
-        gardenTags={gardenTags}
+        sectionTags={gardenTags}
         strings={gardenStrings}
       />
     </div>

@@ -5,7 +5,10 @@ import { useTranslations } from "@i18n/utils";
 import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 
 type Props = {
-  entry: CollectionEntry<"projects"> | CollectionEntry<"garden">;
+  entry:
+    | CollectionEntry<"projects">
+    | CollectionEntry<"garden">
+    | CollectionEntry<"notes">;
 };
 
 const { entry } = Astro.props;

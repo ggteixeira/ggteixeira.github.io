@@ -3,7 +3,10 @@ import type { CollectionEntry } from "astro:content";
 import { For } from "solid-js";
 
 type Props = {
-  entry: CollectionEntry<"garden"> | CollectionEntry<"projects">;
+  entry:
+    | CollectionEntry<"garden">
+    | CollectionEntry<"notes">
+    | CollectionEntry<"projects">;
   pill?: boolean;
   minimal?: boolean;
 };
@@ -46,7 +49,11 @@ export default function ArrowCard(props: Props) {
         <div class="flex flex-wrap items-center gap-2">
           {props.pill && (
             <div class="text-sm capitalize px-2 py-0.5 rounded-full border border-black/15 dark:border-white/25">
-              {props.entry.collection === "garden" ? "post" : "project"}
+              {props.entry.collection === "garden"
+                ? "post"
+                : props.entry.collection === "notes"
+                  ? "note"
+                  : "project"}
             </div>
           )}
 
@@ -58,7 +65,8 @@ export default function ArrowCard(props: Props) {
               </div>
 
               <div class="flex align-middle">
-                {props.entry.collection === "garden" &&
+                {(props.entry.collection === "garden" ||
+                  props.entry.collection === "notes") &&
                   props.entry.data.updatedDate &&
                   daysSince(props.entry.data.updatedDate) <= 30 && (
                     <div class="text-sm uppercase">
@@ -66,7 +74,8 @@ export default function ArrowCard(props: Props) {
                     </div>
                   )}
 
-                {props.entry.collection === "garden" &&
+                {(props.entry.collection === "garden" ||
+                  props.entry.collection === "notes") &&
                   daysSince(props.entry.data.date) <= 14 && (
                     <div class="text-sm uppercase">new</div>
                   )}

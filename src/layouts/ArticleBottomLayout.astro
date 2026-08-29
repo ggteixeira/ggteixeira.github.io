@@ -4,7 +4,10 @@ import { useTranslations } from "@i18n/utils";
 import TableOfContents from "@components/TableOfContents";
 
 type Props = {
-  entry: CollectionEntry<"garden"> | CollectionEntry<"projects">;
+  entry:
+    | CollectionEntry<"garden">
+    | CollectionEntry<"projects">
+    | CollectionEntry<"notes">;
 };
 
 // Get the requested entry

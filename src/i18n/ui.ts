@@ -10,6 +10,7 @@ export const ui = {
     // nav
     "nav.home": "Home",
     "nav.garden": "Garden",
+    "nav.notes": "Notes",
     "nav.about": "About",
     // home hero
     "home.greeting": "Hello, my name is",
@@ -34,6 +35,13 @@ export const ui = {
     "garden.of": "OF",
     "garden.posts": "POSTS",
     "garden.noResults": "No posts match the selected filters.",
+    // notes component
+    "notes.filter": "Filter",
+    "notes.notesTags": "Notes Tags",
+    "notes.showing": "SHOWING",
+    "notes.of": "OF",
+    "notes.posts": "NOTES",
+    "notes.noResults": "No notes match the selected filters.",
     // search
     "search.placeholder": "What are you looking for?",
     "search.results": "Found {count} results for '{query}'",
@@ -61,6 +69,7 @@ export const ui = {
   "pt-br": {
     "nav.home": "Início",
     "nav.garden": "Jardim",
+    "nav.notes": "Notas",
     "nav.about": "Sobre",
     "home.greeting": "Olá, meu nome é",
     "home.role": "e eu sou",
@@ -82,6 +91,12 @@ export const ui = {
     "garden.of": "DE",
     "garden.posts": "POSTS",
     "garden.noResults": "Nenhum post corresponde aos filtros selecionados.",
+    "notes.filter": "Filtrar",
+    "notes.notesTags": "Tags das Notas",
+    "notes.showing": "MOSTRANDO",
+    "notes.of": "DE",
+    "notes.posts": "NOTAS",
+    "notes.noResults": "Nenhuma nota corresponde aos filtros selecionados.",
     "search.placeholder": "O que você está procurando?",
     "search.results": "Encontrados {count} resultados para '{query}'",
     "footer.backToTop": "Voltar ao topo",

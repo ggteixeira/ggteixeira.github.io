@@ -8,14 +8,19 @@ type SearchStrings = {
   results: string;
 };
 
+type SearchableEntry =
+  | CollectionEntry<"garden">
+  | CollectionEntry<"notes">
+  | CollectionEntry<"projects">;
+
 type Props = {
-  data: CollectionEntry<"garden">[];
+  data: SearchableEntry[];
   strings: SearchStrings;
 };
 
 export default function Search(props: Props) {
   const [query, setQuery] = createSignal("");
-  const [results, setResults] = createSignal<CollectionEntry<"garden">[]>([]);
+  const [results, setResults] = createSignal<SearchableEntry[]>([]);
 
   const fuse = new Fuse(props.data, {
     keys: ["id", "data.title", "data.summary", "data.tags"],

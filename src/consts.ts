@@ -25,6 +25,12 @@ export const GARDEN: Page = {
   DESCRIPTION: "Writing on topics I am passionate about.",
 };
 
+// NOTES Page
+export const NOTES: Page = {
+  TITLE: "Notes",
+  DESCRIPTION: "Texts smaller than texts",
+};
+
 // Projects Page
 export const PROJECTS: Page = {
   TITLE: "Projects",
@@ -50,6 +56,10 @@ export const LINKS: Links = [
   {
     TEXT: "Garden",
     HREF: "/garden",
+  },
+  {
+    TEXT: "Notes",
+    HREF: "/notes",
   },
   // {
   //   TEXT: "Projects",

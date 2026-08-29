@@ -32,6 +32,21 @@ const garden = defineCollection({
   }),
 });
 
+const notes = defineCollection({
+  loader: glob({
+    pattern: "*.{md,mdx}",
+    base: "./src/content/notes",
+  }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    date: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    tags: z.array(z.string()),
+    draft: z.boolean().optional(),
+  }),
+});
+
 const projects = defineCollection({
   loader: glob({
     pattern: "**/*.{md,mdx}",
@@ -60,4 +75,4 @@ const legal = defineCollection({
   }),
 });
 
-export const collections = { work, garden, projects, legal };
+export const collections = { work, garden, projects, legal, notes };
