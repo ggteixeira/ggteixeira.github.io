@@ -64,7 +64,7 @@ export default function ArrowCard(props: Props) {
                 {readingTime(props.entry.body ?? "")}
               </div>
 
-              <div class="flex align-middle">
+              <div class="flex items-center gap-2">
                 {(props.entry.collection === "garden" ||
                   props.entry.collection === "notes") &&
                   props.entry.data.updatedDate &&
