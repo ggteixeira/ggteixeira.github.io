@@ -48,7 +48,7 @@
     "astro": "^7.2.9",
     "astro-icon": "^1.2.0",
     "clsx": "^2.1.1",
-    "fuse.js": "^7.4.2",
+    "fuse.js": "^7.5.0",
     "markdown-it": "^14.2.0",
     "sanitize-html": "^2.17.7",
     "sharp": "^0.35.3",
