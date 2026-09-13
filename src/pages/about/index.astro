@@ -3,19 +3,16 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import About from "@components/About";
-import { useTranslations } from "@i18n/utils";
-
-const t = useTranslations(Astro.currentLocale);
-const paragraphs = [t("about.p1"), t("about.p2"), t("about.p3")];
+import { ABOUT } from "@consts";
 ---
 
-<PageLayout title={t("about.title")} description={t("about.description")}>
+<PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {t("about.title")}
+      {ABOUT.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>
-    <About paragraphs={paragraphs} />
+    <About />
   </BottomLayout>
 </PageLayout>

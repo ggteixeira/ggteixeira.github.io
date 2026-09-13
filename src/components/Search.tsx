@@ -2,7 +2,6 @@ import type { CollectionEntry } from "astro:content";
 import { createEffect, createSignal, For } from "solid-js";
 import Fuse from "fuse.js";
 import ArrowCard from "@components/ArrowCard";
-import type { CardStrings } from "@i18n/utils";
 
 type SearchStrings = {
   placeholder: string;
@@ -17,7 +16,6 @@ type SearchableEntry =
 type Props = {
   data: SearchableEntry[];
   strings: SearchStrings;
-  cardStrings: CardStrings;
 };
 
 export default function Search(props: Props) {
@@ -73,11 +71,7 @@ export default function Search(props: Props) {
             <For each={results()}>
               {(result) => (
                 <li>
-                  <ArrowCard
-                    entry={result}
-                    pill={true}
-                    cardStrings={props.cardStrings}
-                  />
+                  <ArrowCard entry={result} pill={true} />
                 </li>
               )}
             </For>

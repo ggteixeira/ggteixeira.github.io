@@ -2,7 +2,6 @@ import type { CollectionEntry } from "astro:content";
 import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
-import type { CardStrings } from "@i18n/utils";
 
 type GardenStrings = {
   filter: string;
@@ -18,7 +17,6 @@ type Props = {
   sectionTags: string[];
   data: CollectionEntry<"garden">[] | CollectionEntry<"notes">[];
   strings: GardenStrings;
-  cardStrings: CardStrings;
 };
 
 export default function Garden(props: Props) {
@@ -101,7 +99,7 @@ export default function Garden(props: Props) {
             <For each={posts()}>
               {(post) => (
                 <li>
-                  <ArrowCard entry={post} cardStrings={props.cardStrings} />
+                  <ArrowCard entry={post} />
                 </li>
               )}
             </For>

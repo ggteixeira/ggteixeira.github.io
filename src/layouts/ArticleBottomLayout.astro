@@ -1,6 +1,5 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
-import { useTranslations, getEntryHref } from "@i18n/utils";
 import TableOfContents from "@components/TableOfContents";
 
 type Props = {
@@ -22,8 +21,6 @@ const items = (await getCollection(collection))
 const index = items.findIndex((x) => x.id === entry.id);
 const prev = items[(index - 1 + items.length) % items.length];
 const next = items[(index + 1) % items.length];
-
-const t = useTranslations(Astro.currentLocale);
 ---
 
 <div>
@@ -33,24 +30,20 @@ const t = useTranslations(Astro.currentLocale);
     </article>
     <aside class="hidden xl:block absolute top-0 left-full ml-10 h-full w-52">
       <div class="sticky top-28">
-        <TableOfContents
-          client:load
-          headings={headings}
-          label={t("article.toc")}
-        />
+        <TableOfContents client:load headings={headings} />
       </div>
     </aside>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <a
-      href={getEntryHref(prev)}
+      href={`/${prev.collection}/${prev.id}`}
       class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 blend"
     >
       <div
         class="order-2 w-full h-full group-hover:text-black group-hover:dark:text-white blend"
       >
         <div class="flex flex-wrap gap-2">
-          <div class="text-sm uppercase">{t("article.prev")}</div>
+          <div class="text-sm uppercase">Prev</div>
         </div>
         <div class="font-semibold mt-3 text-black dark:text-white">
           {prev.data.title}
@@ -81,13 +74,13 @@ const t = useTranslations(Astro.currentLocale);
       </svg>
     </a>
     <a
-      href={getEntryHref(next)}
+      href={`/${next.collection}/${next.id}`}
       class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out"
     >
       <div
         class="w-full h-full text-right group-hover:text-black group-hover:dark:text-white blend"
       >
-        <div class="text-sm uppercase">{t("article.next")}</div>
+        <div class="text-sm uppercase">Next</div>
         <div class="font-semibold mt-3 text-black dark:text-white">
           {next.data.title}
         </div>

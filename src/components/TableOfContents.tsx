@@ -8,7 +8,6 @@ type Heading = {
 
 type Props = {
   headings: Heading[];
-  label?: string;
 };
 
 export default function TableOfContents(props: Props) {
@@ -45,7 +44,7 @@ export default function TableOfContents(props: Props) {
     <Show when={filteredHeadings().length > 0}>
       <nav>
         <p class="text-xs font-semibold uppercase tracking-widest opacity-40 mb-4">
-          {props.label}
+          Contents
         </p>
         <ul class="space-y-1.5">
           <For each={filteredHeadings()}>

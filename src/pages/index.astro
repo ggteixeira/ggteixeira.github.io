@@ -1,45 +1,11 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import { SITE } from "@consts";
 import TwinklingStars from "@components/TwinklingStars.astro";
 import MeteorShower from "@components/MeteorShower.astro";
-import { useTranslations } from "@i18n/utils";
-
-const t = useTranslations(Astro.currentLocale);
-
-// const projects = (await getCollection("projects"))
-//   .filter(project => !project.data.draft)
-//   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-//   .slice(0,3)
-
-// const stack = [
-//   {
-//     text: "Astro",
-//     icon: "astro",
-//     href: "https://astro.build"
-//   },
-//   {
-//     text: "JavaScript",
-//     icon: "javascript",
-//     href: "https://www.javascript.com"
-//   },
-//   {
-//     text: "TypeScript",
-//     icon: "typescript",
-//     href: "https://www.typescriptlang.org"
-//   },
-//   {
-//     text: "Tailwind",
-//     icon: "tailwind",
-//     href: "https://tailwindcss.com"
-//   },
-// ]
 ---
 
-<PageLayout
-  title={t("nav.home")}
-  description={t("home.description")}
-  fullHeight={true}
->
+<PageLayout title="Home" description={SITE.DESCRIPTION} fullHeight={true}>
   <!-- Light Mode: Particles -->
   <div class="absolute inset-0 block dark:hidden">
     <div id="particles1" class="fixed inset-0"></div>
@@ -116,7 +82,7 @@ const t = useTranslations(Astro.currentLocale);
           <p
             class="animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75"
           >
-            {t("home.greeting")}
+            Hello, my name is
           </p>
 
           <p
@@ -126,12 +92,12 @@ const t = useTranslations(Astro.currentLocale);
           </p>
 
           <span class="animated text-sm md:text-base lg:text-lg opacity-75"
-            >{t("home.role")}</span
+            >and I am a</span
           >
           <div
             class="animated inline-block relative h-full items-center justify-center text-sm md:text-base lg:text-lg opacity-75"
           >
-            {t("home.job1")}
+            Software Developer
             <span
               class="absolute left-0 top-1/2 h-[2px] bg-black dark:bg-white opacity-75 animate-[strike_0.6s_ease-out_1.5s_forwards]"
             ></span>
@@ -139,7 +105,7 @@ const t = useTranslations(Astro.currentLocale);
 
           <span
             class="animate-[fadeInUp_0.6s_ease-out_3.0s_forwards] text-sm md:text-base lg:text-lg opacity-0"
-            >{t("home.job2")}</span
+            >Software Artisan.</span
           >
 
           <div
@@ -147,16 +113,16 @@ const t = useTranslations(Astro.currentLocale);
             class="animated flex flex-wrap gap-4 justify-center mt-5"
           >
             <a
-              href="/pt-br/garden"
+              href="/garden"
               class="py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend"
             >
-              {t("home.cta.garden")}
+              Read my digital garden
             </a>
             <a
               href="/work"
               class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend"
             >
-              {t("home.cta.work")}
+              View my work
             </a>
           </div>
         </div>

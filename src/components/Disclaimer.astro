@@ -2,9 +2,6 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
-import { useTranslations } from "@i18n/utils";
-
-const t = useTranslations(Astro.currentLocale);
 ---
 
 <script>
@@ -15,7 +12,7 @@ const t = useTranslations(Astro.currentLocale);
   });
 </script>
 
-<PageLayout title={t("disclaimer.title")} description={t("disclaimer.title")}>
+<PageLayout title="Disclaimer" description="Disclaimer">
   <TopLayout>
     <div
       class="animate w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
@@ -50,14 +47,14 @@ const t = useTranslations(Astro.currentLocale);
         <div
           class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out"
         >
-          {t("disclaimer.backToArticle")}
+          Back to article
         </div>
       </a>
     </div>
   </TopLayout>
   <BottomLayout>
     <div class="animate mb-4">
-      <p>{t("disclaimer.body")}</p>
+      <p>This site does not use AI.</p>
     </div>
     <div></div>
   </BottomLayout>

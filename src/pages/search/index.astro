@@ -4,34 +4,35 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Search from "@components/Search";
-import { useTranslations, getCardStrings } from "@i18n/utils";
+import { SEARCH } from "@consts";
 
-const data = (await getCollection("projects")).filter(
+const posts = (await getCollection("garden")).filter(
   (post) => !post.data.draft,
 );
 
-const t = useTranslations(Astro.currentLocale);
+const notes = (await getCollection("notes")).filter((post) => !post.data.draft);
+
+const projects = (await getCollection("projects")).filter(
+  (post) => !post.data.draft,
+);
+
+const data = [...posts, ...notes, ...projects];
+
 const searchStrings = {
-  placeholder: t("search.placeholder"),
-  results: t("search.results"),
+  placeholder: "What are you looking for?",
+  results: "Found {count} results for '{query}'",
 };
-const cardStrings = getCardStrings(t);
 ---
 
-<PageLayout title={t("search.title")} description={t("search.description")}>
+<PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {t("search.title")}
+      {SEARCH.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Search
-        client:load
-        data={data}
-        strings={searchStrings}
-        cardStrings={cardStrings}
-      />
+      <Search client:load data={data} strings={searchStrings} />
     </div>
   </BottomLayout>
 </PageLayout>

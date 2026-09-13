@@ -2,7 +2,6 @@ import type { CollectionEntry } from "astro:content";
 import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
-import type { CardStrings } from "@i18n/utils";
 
 type ProjectsStrings = {
   filter: string;
@@ -16,7 +15,6 @@ type Props = {
   tags: string[];
   data: CollectionEntry<"projects">[];
   strings: ProjectsStrings;
-  cardStrings: CardStrings;
 };
 
 export default function Projects(props: Props) {
@@ -97,7 +95,7 @@ export default function Projects(props: Props) {
             <For each={projects()}>
               {(project) => (
                 <li>
-                  <ArrowCard entry={project} cardStrings={props.cardStrings} />
+                  <ArrowCard entry={project} />
                 </li>
               )}
             </For>

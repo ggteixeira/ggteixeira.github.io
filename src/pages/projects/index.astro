@@ -4,7 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Projects from "@components/Projects";
-import { useTranslations, getCardStrings } from "@i18n/utils";
+import { PROJECTS } from "@consts";
 
 const projects = (await getCollection("projects"))
   .filter((project) => !project.data.draft)
@@ -14,21 +14,19 @@ const tags = [
   ...new Set(projects.flatMap((project) => project.data.tags)),
 ].sort((a, b) => a.localeCompare(b));
 
-const t = useTranslations(Astro.currentLocale);
 const projectsStrings = {
-  filter: t("projects.filter"),
-  showing: t("projects.showing"),
-  of: t("projects.of"),
-  label: t("projects.label"),
-  noResults: t("projects.noResults"),
+  filter: "Filter",
+  showing: "SHOWING",
+  of: "OF",
+  label: "PROJECTS",
+  noResults: "No projects match the selected filters.",
 };
-const cardStrings = getCardStrings(t);
 ---
 
-<PageLayout title={t("projects.title")} description={t("projects.description")}>
+<PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {t("projects.title")}
+      {PROJECTS.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>
@@ -38,7 +36,6 @@ const cardStrings = getCardStrings(t);
         tags={tags}
         data={projects}
         strings={projectsStrings}
-        cardStrings={cardStrings}
       />
     </div>
   </BottomLayout>

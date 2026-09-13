@@ -2,17 +2,6 @@ import { createSignal, onMount, Show } from "solid-js";
 
 type Indicator = "none" | "minor" | "major" | "critical";
 
-type Strings = {
-  operational: string;
-  degraded: string;
-  outage: string;
-  loading: string;
-};
-
-type Props = {
-  strings: Strings;
-};
-
 const dotClass: Record<Indicator, string> = {
   none: "bg-green-500",
   minor: "bg-yellow-400",
@@ -27,7 +16,14 @@ const pingClass: Record<Indicator, string> = {
   critical: "bg-red-400",
 };
 
-export default function GitHubStatus(props: Props) {
+const label: Record<Indicator, string> = {
+  none: "GitHub operational",
+  minor: "GitHub degraded",
+  major: "GitHub degraded",
+  critical: "GitHub outage",
+};
+
+export default function GitHubStatus() {
   const [indicator, setIndicator] = createSignal<Indicator | null>(null);
 
   onMount(async () => {
@@ -42,14 +38,6 @@ export default function GitHubStatus(props: Props) {
     }
   });
 
-  const label = () => {
-    const ind = indicator();
-    if (ind === null) return props.strings.loading;
-    if (ind === "none") return props.strings.operational;
-    if (ind === "minor") return props.strings.degraded;
-    return props.strings.outage;
-  };
-
   return (
     <div class="flex gap-2 justify-center sm:justify-end items-center">
       <Show
@@ -60,7 +48,7 @@ export default function GitHubStatus(props: Props) {
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-300" />
               <span class="relative inline-flex rounded-full h-3 w-3 bg-gray-400" />
             </span>
-            {props.strings.loading}
+            Checking status…
           </>
         }
       >
@@ -72,7 +60,7 @@ export default function GitHubStatus(props: Props) {
             class={`relative inline-flex rounded-full h-3 w-3 ${dotClass[indicator()!]}`}
           />
         </span>
-        {label()}
+        {label[indicator()!]}
       </Show>
     </div>
   );

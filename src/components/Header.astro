@@ -1,34 +1,9 @@
 ---
-import { SITE } from "@consts";
+import { SITE, LINKS } from "@consts";
 import { cn } from "@lib/utils";
-import {
-  useTranslations,
-  getOtherLocaleUrl,
-  getVisibleLinks,
-  localizeHref,
-} from "@i18n/utils";
-import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
-
-const t = useTranslations(Astro.currentLocale);
-const switchUrl = getOtherLocaleUrl(
-  pathname,
-  Astro.currentLocale ?? LOCALES.EN,
-);
-
-const navTranslations: Record<string, string> = {
-  "/": t("nav.home"),
-  "/garden": t("nav.garden"),
-  "/notes": t("nav.notes"),
-  "/about": t("nav.about"),
-};
-
-const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
-const fullLangName = t("lang.full");
-
-const visibleLinks = getVisibleLinks(Astro.currentLocale);
 
 const iconButtonClass = cn(
   "size-9 rounded-full p-2 items-center justify-center",
@@ -39,9 +14,7 @@ const iconButtonClass = cn(
 );
 
 const isSearchActive =
-  pathname === "/search" ||
-  pathname === PT_BR_PREFIX + "/search" ||
-  "/" + subpath?.[0] === "/search";
+  pathname === "/search" || "/" + subpath?.[0] === "/search";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -51,7 +24,7 @@ const isSearchActive =
         class="absolute left-0 top-1/2 -translate-y-1/2 flex gap-1 font-semibold"
       >
         <a
-          href={isPtBr ? PT_BR_PREFIX : "/"}
+          href="/"
           class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
         >
           <div>
@@ -63,21 +36,14 @@ const isSearchActive =
       <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
         <nav class="hidden md:flex items-center justify-center text-sm gap-1">
           {
-            visibleLinks.map((LINK) => {
-              const localizedHref = localizeHref(
-                LINK.HREF,
-                Astro.currentLocale,
-              );
+            LINKS.map((LINK) => {
               const isActive =
-                pathname === localizedHref ||
-                pathname + "/" === localizedHref ||
-                "/" + subpath?.[0] === LINK.HREF ||
-                (isPtBr &&
-                  ("/" + subpath?.[1] === LINK.HREF ||
-                    pathname === PT_BR_PREFIX + LINK.HREF));
+                pathname === LINK.HREF ||
+                pathname + "/" === LINK.HREF ||
+                "/" + subpath?.[0] === LINK.HREF;
               return (
                 <a
-                  href={localizedHref}
+                  href={LINK.HREF}
                   class={cn(
                     "h-8 rounded-full px-3 text-current",
                     "flex items-center justify-center",
@@ -87,7 +53,7 @@ const isSearchActive =
                       : "hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white",
                   )}
                 >
-                  {navTranslations[LINK.HREF] ?? LINK.TEXT}
+                  {LINK.TEXT}
                 </a>
               );
             })
@@ -97,7 +63,7 @@ const isSearchActive =
 
       <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1">
         <a
-          href={isPtBr ? PT_BR_PREFIX + "/search" : "/search"}
+          href="/search"
           aria-label={`Search garden posts and projects on ${SITE.TITLE}`}
           class={cn(
             "hidden md:flex",
@@ -135,24 +101,6 @@ const isSearchActive =
           </svg>
         </button>
 
-        <a
-          id="lang-switcher"
-          href={switchUrl}
-          aria-label="Switch language"
-          style={`--lang-hover-width: ${isPtBr ? "12rem" : "5.5rem"}`}
-          class={cn(
-            "hidden md:flex",
-            "relative size-9 items-center justify-center",
-            "hover:text-black dark:hover:text-white",
-            "text-xs font-semibold",
-          )}
-        >
-          <span class="lang-pill">
-            <span class="lang-short">{t("lang.current")}</span>
-            <span class="lang-full">{fullLangName}</span>
-          </span>
-        </a>
-
         <button
           id="header-drawer-button"
           aria-label={`Toggle drawer open and closed`}
@@ -171,67 +119,6 @@ const isSearchActive =
 </header>
 
 <style>
-  /* The <a> is fixed-size so it never displaces siblings.
-     The pill is absolutely anchored to the left edge and expands rightward. */
-  .lang-pill {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 2.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 9999px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 0;
-    transition:
-      width 0.35s ease-in-out,
-      padding 0.35s ease-in-out,
-      background-color 0.3s ease-in-out;
-  }
-
-  :global(.dark) .lang-pill {
-    border-color: rgba(255, 255, 255, 0.25);
-  }
-
-  #lang-switcher:hover .lang-pill {
-    width: var(--lang-hover-width);
-    padding: 0 0.75rem;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  :global(.dark) #lang-switcher:hover .lang-pill {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-
-  /* Short label is absolute so its width never pushes the pill's content wider */
-  .lang-short {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.2s ease-in-out;
-  }
-
-  .lang-full {
-    opacity: 0;
-    white-space: nowrap;
-    transition: opacity 0.2s ease-in-out;
-  }
-
-  #lang-switcher:hover .lang-short {
-    opacity: 0;
-  }
-
-  #lang-switcher:hover .lang-full {
-    opacity: 1;
-    transition-delay: 0.15s;
-  }
-
   #header-drawer-button > #drawer-open {
     @apply block;
   }
