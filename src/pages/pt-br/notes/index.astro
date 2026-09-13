@@ -18,7 +18,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
     return !notesTags.includes(tag);
   });
 
-const t = useTranslations("pt-br");
+const t = useTranslations(Astro.currentLocale);
 const notesStrings = {
   filter: t("notes.filter"),
   sectionTags: t("notes.notesTags"),
@@ -29,9 +29,9 @@ const notesStrings = {
 };
 ---
 
-<PageLayout title="Notas" description="Textos menores que textos.">
+<PageLayout title={t("notes.title")} description={t("notes.description")}>
   <TopLayout>
-    <div class="animate page-heading">Notas</div>
+    <div class="animate page-heading">{t("notes.title")}</div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">

@@ -33,7 +33,7 @@ export async function GET(context: Context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
-      link: `/notes/${item.id}/`,
+      link: `/pt-br/notes/${item.id}/`,
     })),
   });
 }

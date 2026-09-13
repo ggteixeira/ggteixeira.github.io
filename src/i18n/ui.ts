@@ -37,6 +37,8 @@ const en = {
   "garden.of": "OF",
   "garden.posts": "POSTS",
   "garden.noResults": "No posts match the selected filters.",
+  "notes.title": "Notes",
+  "notes.description": "Texts smaller than texts",
   // notes component
   "notes.filter": "Filter",
   "notes.notesTags": "Notes Tags",
@@ -107,6 +109,8 @@ const ptBr = {
   "garden.of": "DE",
   "garden.posts": "POSTS",
   "garden.noResults": "Nenhum post corresponde aos filtros selecionados.",
+  "notes.title": "Notas",
+  "notes.description": "Textos menores que textos.",
   "notes.filter": "Filtrar",
   "notes.notesTags": "Tags das Notas",
   "notes.showing": "MOSTRANDO",
