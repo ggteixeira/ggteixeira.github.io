@@ -4,7 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Search from "@components/Search";
-import { useTranslations } from "@i18n/utils";
+import { useTranslations, getCardStrings } from "@i18n/utils";
 
 const posts = (await getCollection("garden")).filter(
   (post) => !post.data.draft,
@@ -23,13 +23,7 @@ const searchStrings = {
   placeholder: t("search.placeholder"),
   results: t("search.results"),
 };
-const cardStrings = {
-  typePost: t("arrowcard.typePost"),
-  typeNote: t("arrowcard.typeNote"),
-  typeProject: t("arrowcard.typeProject"),
-  updated: t("arrowcard.updated"),
-  new: t("arrowcard.new"),
-};
+const cardStrings = getCardStrings(t);
 ---
 
 <PageLayout title={t("search.title")} description={t("search.description")}>

@@ -2,14 +2,7 @@ import type { CollectionEntry } from "astro:content";
 import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
-
-type CardStrings = {
-  typePost: string;
-  typeNote: string;
-  typeProject: string;
-  updated: string;
-  new: string;
-};
+import type { CardStrings } from "@i18n/utils";
 
 type ProjectsStrings = {
   filter: string;

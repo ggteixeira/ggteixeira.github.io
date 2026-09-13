@@ -2,6 +2,7 @@ import type { CollectionEntry } from "astro:content";
 import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
+import type { CardStrings } from "@i18n/utils";
 
 type GardenStrings = {
   filter: string;
@@ -10,14 +11,6 @@ type GardenStrings = {
   of: string;
   posts: string;
   noResults: string;
-};
-
-type CardStrings = {
-  typePost: string;
-  typeNote: string;
-  typeProject: string;
-  updated: string;
-  new: string;
 };
 
 type Props = {

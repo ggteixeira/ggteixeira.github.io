@@ -2,18 +2,11 @@ import type { CollectionEntry } from "astro:content";
 import { createEffect, createSignal, For } from "solid-js";
 import Fuse from "fuse.js";
 import ArrowCard from "@components/ArrowCard";
+import type { CardStrings } from "@i18n/utils";
 
 type SearchStrings = {
   placeholder: string;
   results: string;
-};
-
-type CardStrings = {
-  typePost: string;
-  typeNote: string;
-  typeProject: string;
-  updated: string;
-  new: string;
 };
 
 type SearchableEntry =

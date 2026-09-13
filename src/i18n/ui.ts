@@ -71,6 +71,8 @@ const en = {
     "I've been working with programming languages like JavaScript, TypeScript, Python, C#, and with frameworks like ReactJS, GatsbyJS, Astro, NodeJS, Django, .NET Core, and spaCy.",
   "about.p3":
     "I am also interested in Generative Syntax and Formal Semantics, and I am experienced in NLP (Natural Language Processing)",
+  "projects.title": "Projects",
+  "projects.description": "Recent projects I have worked on.",
   // projects component
   "projects.filter": "Filter",
   "projects.showing": "SHOWING",
@@ -155,6 +157,8 @@ const ptBr = {
     "Trabalhei com linguagens de programação como JavaScript, TypeScript, Python, C#, e com frameworks como ReactJS, GatsbyJS, Astro, NodeJS, Django, .NET Core e spaCy.",
   "about.p3":
     "Também me interesso por Sintaxe Gerativa e Semântica Formal, e tenho experiência em NLP (Processamento de Linguagem Natural).",
+  "projects.title": "Projetos",
+  "projects.description": "Projetos recentes em que trabalhei.",
   "projects.filter": "Filtrar",
   "projects.showing": "MOSTRANDO",
   "projects.of": "DE",

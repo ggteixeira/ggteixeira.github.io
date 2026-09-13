@@ -5,6 +5,7 @@ import {
   type Lang,
   type TranslationKey,
 } from "./ui";
+import { LINKS } from "@consts";
 
 export function getLang(locale: string | undefined): Lang {
   return (locale as Lang) in ui ? (locale as Lang) : LOCALES.EN;
@@ -23,6 +24,33 @@ export function localizeHref(path: string, locale: string | undefined): string {
     return path === "/" ? PT_BR_PREFIX : PT_BR_PREFIX + path;
   }
   return path;
+}
+
+export function getVisibleLinks(locale: string | undefined) {
+  const lang = getLang(locale);
+  return LINKS.filter((LINK) => !LINK.LOCALES || LINK.LOCALES.includes(lang));
+}
+
+// Card chrome labels for ArrowCard, shared by every page that lists
+// garden/notes/project entries so the mapping isn't retyped per page.
+export type CardStrings = {
+  typePost: string;
+  typeNote: string;
+  typeProject: string;
+  updated: string;
+  new: string;
+};
+
+export function getCardStrings(
+  t: ReturnType<typeof useTranslations>,
+): CardStrings {
+  return {
+    typePost: t("arrowcard.typePost"),
+    typeNote: t("arrowcard.typeNote"),
+    typeProject: t("arrowcard.typeProject"),
+    updated: t("arrowcard.updated"),
+    new: t("arrowcard.new"),
+  };
 }
 
 // Each content collection has one true locale — garden/notes are

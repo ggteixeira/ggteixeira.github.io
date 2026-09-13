@@ -1,15 +1,7 @@
 import { daysSince, formatDate, readingTime } from "@lib/utils";
-import { getEntryHref, getEntryLocale } from "@i18n/utils";
+import { getEntryHref, getEntryLocale, type CardStrings } from "@i18n/utils";
 import type { CollectionEntry } from "astro:content";
 import { For } from "solid-js";
-
-type CardStrings = {
-  typePost: string;
-  typeNote: string;
-  typeProject: string;
-  updated: string;
-  new: string;
-};
 
 type Props = {
   entry:
