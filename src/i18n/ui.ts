@@ -19,6 +19,8 @@ const en = {
   "home.job2": "Software Artisan.",
   "home.cta.garden": "Read my digital garden",
   "home.cta.work": "View my work",
+  "work.title": "Work",
+  "work.description": "Places I have worked.",
   // article layout
   "article.backTo": "Back to",
   "article.updatedIn": "Updated in",
@@ -93,6 +95,8 @@ const ptBr = {
   "home.job2": "Artesão de Software.",
   "home.cta.garden": "Leia meu jardim digital",
   "home.cta.work": "Ver meu trabalho",
+  "work.title": "Trabalho",
+  "work.description": "Lugares onde trabalhei.",
   "article.backTo": "Voltar para",
   "article.updatedIn": "Atualizado em",
   "article.humanWritten": "Artigo escrito por humano",

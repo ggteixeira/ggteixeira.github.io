@@ -3,7 +3,9 @@ import { getCollection, render } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
-import { WORK } from "@consts";
+import { useTranslations } from "@i18n/utils";
+
+const t = useTranslations(Astro.currentLocale);
 
 const collection = await getCollection("work");
 
@@ -31,10 +33,10 @@ function formatWorkDate(input: Date | string) {
 }
 ---
 
-<PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
+<PageLayout title={t("work.title")} description={t("work.description")}>
   <TopLayout>
     <div class="animate page-heading">
-      {WORK.TITLE}
+      {t("work.title")}
     </div>
   </TopLayout>
   <BottomLayout>

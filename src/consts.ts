@@ -7,12 +7,6 @@ export const SITE: Site = {
   AUTHOR: "Guilherme Teixeira",
 };
 
-// Work Page
-export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
-};
-
 // Projects Page
 export const PROJECTS: Page = {
   TITLE: "Projects",
