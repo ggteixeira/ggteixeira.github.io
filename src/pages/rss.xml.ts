@@ -32,7 +32,7 @@ export async function GET(context: Context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
-      link: `/garden/${item.id}/`,
+      link: `/pt-br/garden/${item.id}/`,
       // link: item.slug.startsWith("garden")
       //   ? `/garden/${item.slug}/`
       //   : `/projects/${item.slug}/`,

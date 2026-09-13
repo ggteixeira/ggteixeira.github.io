@@ -28,6 +28,8 @@ const en = {
   "article.prev": "Prev",
   "article.next": "Next",
   "article.toc": "Contents",
+  "garden.title": "Digital Garden",
+  "garden.description": "Writing on topics I am passionate about.",
   // garden component
   "garden.filter": "Filter",
   "garden.gardenTags": "Digital Garden Tags",
@@ -97,6 +99,8 @@ const ptBr = {
   "article.prev": "Anterior",
   "article.next": "Próximo",
   "article.toc": "Conteúdo",
+  "garden.title": "Jardim Digital",
+  "garden.description": "Escrita sobre tópicos que me apaixonam.",
   "garden.filter": "Filtrar",
   "garden.gardenTags": "Tags do Jardim Digital",
   "garden.showing": "MOSTRANDO",

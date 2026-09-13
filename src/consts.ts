@@ -13,12 +13,6 @@ export const WORK: Page = {
   DESCRIPTION: "Places I have worked.",
 };
 
-// GARDEN Page
-export const GARDEN: Page = {
-  TITLE: "Digital Garden",
-  DESCRIPTION: "Writing on topics I am passionate about.",
-};
-
 // NOTES Page
 export const NOTES: Page = {
   TITLE: "Notes",
@@ -50,6 +44,7 @@ export const LINKS: Links = [
   {
     TEXT: "Garden",
     HREF: "/garden",
+    LOCALES: ["pt-br"],
   },
   {
     TEXT: "Notes",

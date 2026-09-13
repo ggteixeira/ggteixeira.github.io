@@ -1,7 +1,7 @@
 ---
 import { SITE, LINKS } from "@consts";
 import { cn } from "@lib/utils";
-import { useTranslations, getOtherLocaleUrl } from "@i18n/utils";
+import { useTranslations, getOtherLocaleUrl, getLang } from "@i18n/utils";
 import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
@@ -23,6 +23,11 @@ const navTranslations: Record<string, string> = {
 const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
 const linkHrefPrefix = isPtBr ? PT_BR_PREFIX : "";
 const fullLangName = t("lang.full");
+
+const currentLang = getLang(Astro.currentLocale);
+const visibleLinks = LINKS.filter(
+  (LINK) => !LINK.LOCALES || LINK.LOCALES.includes(currentLang),
+);
 
 const iconButtonClass = cn(
   "size-9 rounded-full p-2 items-center justify-center",
@@ -57,7 +62,7 @@ const isSearchActive =
       <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
         <nav class="hidden md:flex items-center justify-center text-sm gap-1">
           {
-            LINKS.map((LINK) => {
+            visibleLinks.map((LINK) => {
               const localizedHref = linkHrefPrefix + LINK.HREF;
               const isActive =
                 pathname === localizedHref ||

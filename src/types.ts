@@ -1,3 +1,5 @@
+import type { Lang } from "@i18n/ui";
+
 export type Page = {
   TITLE: string;
   DESCRIPTION: string;
@@ -10,6 +12,7 @@ export interface Site extends Page {
 export type Links = {
   TEXT: string;
   HREF: string;
+  LOCALES?: Lang[];
 }[];
 
 export type Socials = {

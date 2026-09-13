@@ -18,7 +18,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
     return !gardenTags.includes(tag);
   });
 
-const t = useTranslations("pt-br");
+const t = useTranslations(Astro.currentLocale);
 const gardenStrings = {
   filter: t("garden.filter"),
   sectionTags: t("garden.gardenTags"),
@@ -29,12 +29,9 @@ const gardenStrings = {
 };
 ---
 
-<PageLayout
-  title="Jardim Digital"
-  description="Escrita sobre tópicos que me apaixonam."
->
+<PageLayout title={t("garden.title")} description={t("garden.description")}>
   <TopLayout>
-    <div class="animate page-heading">Jardim Digital</div>
+    <div class="animate page-heading">{t("garden.title")}</div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">
