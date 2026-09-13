@@ -17,15 +17,6 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
   .filter((tag) => {
     return !gardenTags.includes(tag);
   });
-
-const gardenStrings = {
-  filter: "Filter",
-  sectionTags: "Digital Garden Tags",
-  showing: "SHOWING",
-  of: "OF",
-  posts: "POSTS",
-  noResults: "No posts match the selected filters.",
-};
 ---
 
 <PageLayout title={GARDEN.TITLE} description={GARDEN.DESCRIPTION}>
@@ -41,7 +32,8 @@ const gardenStrings = {
         tags={tags}
         data={posts}
         sectionTags={gardenTags}
-        strings={gardenStrings}
+        postsLabel="POSTS"
+        noResultsLabel="No posts match the selected filters."
       />
     </div>
   </BottomLayout>

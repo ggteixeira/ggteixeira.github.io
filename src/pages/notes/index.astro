@@ -17,15 +17,6 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
   .filter((tag) => {
     return !notesTags.includes(tag);
   });
-
-const notesStrings = {
-  filter: "Filter",
-  sectionTags: "Notes Tags",
-  showing: "SHOWING",
-  of: "OF",
-  posts: "NOTES",
-  noResults: "No notes match the selected filters.",
-};
 ---
 
 <PageLayout title={NOTES.TITLE} description={NOTES.DESCRIPTION}>
@@ -41,7 +32,8 @@ const notesStrings = {
         tags={tags}
         data={posts}
         sectionTags={notesTags}
-        strings={notesStrings}
+        postsLabel="NOTES"
+        noResultsLabel="No notes match the selected filters."
       />
     </div>
   </BottomLayout>

@@ -17,11 +17,6 @@ const projects = (await getCollection("projects")).filter(
 );
 
 const data = [...posts, ...notes, ...projects];
-
-const searchStrings = {
-  placeholder: "What are you looking for?",
-  results: "Found {count} results for '{query}'",
-};
 ---
 
 <PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>
@@ -32,7 +27,7 @@ const searchStrings = {
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Search client:load data={data} strings={searchStrings} />
+      <Search client:load data={data} />
     </div>
   </BottomLayout>
 </PageLayout>

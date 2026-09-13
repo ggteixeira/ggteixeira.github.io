@@ -13,14 +13,6 @@ const projects = (await getCollection("projects"))
 const tags = [
   ...new Set(projects.flatMap((project) => project.data.tags)),
 ].sort((a, b) => a.localeCompare(b));
-
-const projectsStrings = {
-  filter: "Filter",
-  showing: "SHOWING",
-  of: "OF",
-  label: "PROJECTS",
-  noResults: "No projects match the selected filters.",
-};
 ---
 
 <PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
@@ -31,12 +23,7 @@ const projectsStrings = {
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Projects
-        client:load
-        tags={tags}
-        data={projects}
-        strings={projectsStrings}
-      />
+      <Projects client:load tags={tags} data={projects} />
     </div>
   </BottomLayout>
 </PageLayout>

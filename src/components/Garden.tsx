@@ -3,20 +3,12 @@ import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
 
-type GardenStrings = {
-  filter: string;
-  sectionTags: string;
-  showing: string;
-  of: string;
-  posts: string;
-  noResults: string;
-};
-
 type Props = {
   tags: string[];
   sectionTags: string[];
   data: CollectionEntry<"garden">[] | CollectionEntry<"notes">[];
-  strings: GardenStrings;
+  postsLabel: string;
+  noResultsLabel: string;
 };
 
 export default function Garden(props: Props) {
@@ -46,7 +38,7 @@ export default function Garden(props: Props) {
         <div class="col-span-3 sm:col-span-1">
           <div class="sticky top-24">
             <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">
-              {props.strings.filter}
+              Filter
             </div>
             <ul class="flex flex-wrap sm:flex-col gap-1.5 mb-8">
               <For each={props.tags}>
@@ -92,8 +84,7 @@ export default function Garden(props: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            {props.strings.showing} {posts().length} {props.strings.of}{" "}
-            {props.data.length} {props.strings.posts}
+            SHOWING {posts().length} OF {props.data.length} {props.postsLabel}
           </div>
           <ul class="flex flex-col gap-3">
             <For each={posts()}>
@@ -105,7 +96,7 @@ export default function Garden(props: Props) {
             </For>
             <Show when={posts().length === 0}>
               <li class="text-sm text-black/50 dark:text-white/50">
-                {props.strings.noResults}
+                {props.noResultsLabel}
               </li>
             </Show>
           </ul>
