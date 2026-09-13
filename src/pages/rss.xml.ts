@@ -4,7 +4,6 @@ import { SITE } from "@consts";
 import sanitizeHtml from "sanitize-html";
 import MarkdownIt from "markdown-it";
 import { isRssEligible } from "@lib/rss";
-import { getEntryHref } from "@i18n/utils";
 const parser = new MarkdownIt();
 
 type Context = {
@@ -33,7 +32,7 @@ export async function GET(context: Context) {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
       }),
       pubDate: item.data.date,
-      link: `${getEntryHref(item)}/`,
+      link: `/garden/${item.id}/`,
     })),
   });
 }
