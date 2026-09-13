@@ -11,6 +11,7 @@ const en = {
   "nav.garden": "Garden",
   "nav.notes": "Notes",
   "nav.about": "About",
+  "home.description": "Welcome to my website.",
   // home hero
   "home.greeting": "Hello, my name is",
   "home.role": "and I am a",
@@ -79,6 +80,7 @@ const ptBr = {
   "nav.garden": "Jardim",
   "nav.notes": "Notas",
   "nav.about": "Sobre",
+  "home.description": "Bem-vindo ao meu site.",
   "home.greeting": "Olá, meu nome é",
   "home.role": "e eu sou",
   "home.job1": "Desenvolvedor de Software",
