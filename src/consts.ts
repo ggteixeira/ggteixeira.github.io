@@ -1,16 +1,10 @@
-import type { Links, Page, Site, Socials } from "@types";
+import type { Links, Site, Socials } from "@types";
 
 // Global
 export const SITE: Site = {
   TITLE: "Guilherme Teixeira",
   DESCRIPTION: "Welcome to my website.",
   AUTHOR: "Guilherme Teixeira",
-};
-
-// Projects Page
-export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
 };
 
 // Links

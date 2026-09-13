@@ -4,8 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Projects from "@components/Projects";
-import { PROJECTS } from "@consts";
-import { useTranslations } from "@i18n/utils";
+import { useTranslations, getCardStrings } from "@i18n/utils";
 
 const projects = (await getCollection("projects"))
   .filter((project) => !project.data.draft)
@@ -23,19 +22,13 @@ const projectsStrings = {
   label: t("projects.label"),
   noResults: t("projects.noResults"),
 };
-const cardStrings = {
-  typePost: t("arrowcard.typePost"),
-  typeNote: t("arrowcard.typeNote"),
-  typeProject: t("arrowcard.typeProject"),
-  updated: t("arrowcard.updated"),
-  new: t("arrowcard.new"),
-};
+const cardStrings = getCardStrings(t);
 ---
 
-<PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
+<PageLayout title={t("projects.title")} description={t("projects.description")}>
   <TopLayout>
     <div class="animate page-heading">
-      {PROJECTS.TITLE}
+      {t("projects.title")}
     </div>
   </TopLayout>
   <BottomLayout>
