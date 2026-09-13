@@ -4,8 +4,7 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "@*": ["src/*"],
-      "@i18n/*": ["src/i18n/*"]
+      "@*": ["src/*"]
     },
     "jsx": "preserve",
     "jsxImportSource": "solid-js"
