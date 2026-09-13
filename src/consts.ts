@@ -1,10 +1,46 @@
-import type { Links, Site, Socials } from "@types";
+import type { Links, Page, Site, Socials } from "@types";
 
 // Global
 export const SITE: Site = {
   TITLE: "Guilherme Teixeira",
   DESCRIPTION: "Welcome to my website.",
   AUTHOR: "Guilherme Teixeira",
+};
+
+// Work Page
+export const WORK: Page = {
+  TITLE: "Work",
+  DESCRIPTION: "Places I have worked.",
+};
+
+// About Page
+export const ABOUT: Page = {
+  TITLE: "About",
+  DESCRIPTION: "About me",
+};
+
+// GARDEN Page
+export const GARDEN: Page = {
+  TITLE: "Digital Garden",
+  DESCRIPTION: "Writing on topics I am passionate about.",
+};
+
+// NOTES Page
+export const NOTES: Page = {
+  TITLE: "Notes",
+  DESCRIPTION: "Texts smaller than texts",
+};
+
+// Projects Page
+export const PROJECTS: Page = {
+  TITLE: "Projects",
+  DESCRIPTION: "Recent projects I have worked on.",
+};
+
+// Search Page
+export const SEARCH: Page = {
+  TITLE: "Search",
+  DESCRIPTION: "Search all posts and projects by keyword.",
 };
 
 // Links
@@ -20,12 +56,10 @@ export const LINKS: Links = [
   {
     TEXT: "Garden",
     HREF: "/garden",
-    LOCALES: ["pt-br"],
   },
   {
     TEXT: "Notes",
     HREF: "/notes",
-    LOCALES: ["pt-br"],
   },
   // {
   //   TEXT: "Projects",
