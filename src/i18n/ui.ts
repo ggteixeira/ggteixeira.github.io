@@ -54,6 +54,8 @@ const en = {
   "footer.github.loading": "Checking status…",
   "footer.terms": "Terms",
   "footer.privacy": "Privacy",
+  "about.title": "About",
+  "about.description": "About me",
   // about bio paragraphs
   "about.p1":
     "Software Developer with experience in Front-End Development with React (JavaScript/TypeScript), and also interested in Back-End Development with ASP.NET Core, NodeJS, and Django.",
@@ -117,6 +119,8 @@ const ptBr = {
   "footer.github.loading": "Verificando status…",
   "footer.terms": "Termos",
   "footer.privacy": "Privacidade",
+  "about.title": "Sobre",
+  "about.description": "Sobre mim",
   "about.p1":
     "Desenvolvedor de Software com experiência em Desenvolvimento Front-End com React (JavaScript/TypeScript), e também interessado em Desenvolvimento Back-End com ASP.NET Core, NodeJS e Django.",
   "about.p2":

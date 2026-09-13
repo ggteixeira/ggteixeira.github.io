@@ -13,12 +13,6 @@ export const WORK: Page = {
   DESCRIPTION: "Places I have worked.",
 };
 
-// About Page
-export const ABOUT: Page = {
-  TITLE: "About",
-  DESCRIPTION: "About me",
-};
-
 // GARDEN Page
 export const GARDEN: Page = {
   TITLE: "Digital Garden",
