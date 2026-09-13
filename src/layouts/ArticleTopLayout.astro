@@ -2,7 +2,6 @@
 import type { CollectionEntry } from "astro:content";
 import { formatDate, readingTime } from "@lib/utils";
 import { useTranslations, localizeHref } from "@i18n/utils";
-import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 
 type Props = {
   entry:
@@ -20,10 +19,7 @@ const demoUrl = collection === "projects" ? data.demoUrl : null;
 const repoUrl = collection === "projects" ? data.repoUrl : null;
 
 const t = useTranslations(Astro.currentLocale);
-const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
-const collectionHref = isPtBr
-  ? `${PT_BR_PREFIX}/${collection}`
-  : `/${collection}`;
+const collectionHref = localizeHref(`/${collection}`, Astro.currentLocale);
 ---
 
 <div>
