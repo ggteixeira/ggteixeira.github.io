@@ -16,6 +16,13 @@ const tags = [
 ].sort((a, b) => a.localeCompare(b));
 
 const t = useTranslations(Astro.currentLocale);
+const projectsStrings = {
+  filter: t("projects.filter"),
+  showing: t("projects.showing"),
+  of: t("projects.of"),
+  label: t("projects.label"),
+  noResults: t("projects.noResults"),
+};
 const cardStrings = {
   typePost: t("arrowcard.typePost"),
   typeNote: t("arrowcard.typeNote"),
@@ -37,6 +44,7 @@ const cardStrings = {
         client:load
         tags={tags}
         data={projects}
+        strings={projectsStrings}
         cardStrings={cardStrings}
       />
     </div>

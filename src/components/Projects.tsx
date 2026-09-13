@@ -11,9 +11,18 @@ type CardStrings = {
   new: string;
 };
 
+type ProjectsStrings = {
+  filter: string;
+  showing: string;
+  of: string;
+  label: string;
+  noResults: string;
+};
+
 type Props = {
   tags: string[];
   data: CollectionEntry<"projects">[];
+  strings: ProjectsStrings;
   cardStrings: CardStrings;
 };
 
@@ -43,7 +52,7 @@ export default function Projects(props: Props) {
       <div class="col-span-3 sm:col-span-1">
         <div class="sticky top-24">
           <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">
-            Filter
+            {props.strings.filter}
           </div>
           <ul class="flex flex-wrap sm:flex-col gap-1.5">
             <For each={props.tags}>
@@ -88,7 +97,8 @@ export default function Projects(props: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {projects().length} OF {props.data.length} PROJECTS
+            {props.strings.showing} {projects().length} {props.strings.of}{" "}
+            {props.data.length} {props.strings.label}
           </div>
           <ul class="flex flex-col gap-3">
             <For each={projects()}>
@@ -100,7 +110,7 @@ export default function Projects(props: Props) {
             </For>
             <Show when={projects().length === 0}>
               <li class="text-sm text-black/50 dark:text-white/50">
-                No projects match the selected filters.
+                {props.strings.noResults}
               </li>
             </Show>
           </ul>
