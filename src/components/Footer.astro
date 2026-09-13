@@ -3,7 +3,7 @@ import { Icon } from "astro-icon/components";
 import { SITE, SOCIALS } from "@consts";
 import Container from "@components/Container.astro";
 import CopyrightDate from "@components/CopyrightDate.astro";
-import { useTranslations } from "@i18n/utils";
+import { useTranslations, localizeHref } from "@i18n/utils";
 import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 import GitHubStatus from "@components/GitHubStatus";
 
@@ -91,13 +91,13 @@ const isPtBr = Astro.currentLocale === LOCALES.PT_BR;
           >
             <div class="legal">
               <a
-                href="/legal/terms"
+                href={localizeHref("/legal/terms", Astro.currentLocale)}
                 class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
               >
                 {t("footer.terms")}
               </a> |
               <a
-                href="/legal/privacy"
+                href={localizeHref("/legal/privacy", Astro.currentLocale)}
                 class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
               >
                 {" "}

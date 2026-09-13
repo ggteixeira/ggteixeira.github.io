@@ -17,6 +17,14 @@ export function useTranslations(locale: string | undefined) {
   };
 }
 
+export function localizeHref(path: string, locale: string | undefined): string {
+  const lang = getLang(locale);
+  if (lang === LOCALES.PT_BR) {
+    return path === "/" ? PT_BR_PREFIX : PT_BR_PREFIX + path;
+  }
+  return path;
+}
+
 export function getOtherLocaleUrl(
   pathname: string,
   currentLocale: string,

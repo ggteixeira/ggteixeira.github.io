@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { formatDate, readingTime } from "@lib/utils";
-import { useTranslations } from "@i18n/utils";
+import { useTranslations, localizeHref } from "@i18n/utils";
 import { LOCALES, PT_BR_PREFIX } from "@i18n/ui";
 
 type Props = {
@@ -78,7 +78,7 @@ const collectionHref = isPtBr
       {readingTime(body ?? "", Astro.currentLocale)}
     </div>
     <div class="flex items-center gap-2">
-      <a href="/disclaimer">
+      <a href={localizeHref("/disclaimer", Astro.currentLocale)}>
         <p
           class="h-6 rounded-full px-2 flex items-center justify-center transition-colors duration-300 ease-in-out border border-black/25 dark:border-white/25 text-black dark:text-white text-xs font-thin hover:dark:bg-white/20"
         >
