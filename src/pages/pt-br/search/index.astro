@@ -18,19 +18,16 @@ const projects = (await getCollection("projects")).filter(
 
 const data = [...posts, ...notes, ...projects];
 
-const t = useTranslations("pt-br");
+const t = useTranslations(Astro.currentLocale);
 const searchStrings = {
   placeholder: t("search.placeholder"),
   results: t("search.results"),
 };
 ---
 
-<PageLayout
-  title="Busca"
-  description="Busque todos os posts e projetos por palavra-chave."
->
+<PageLayout title={t("search.title")} description={t("search.description")}>
   <TopLayout>
-    <div class="animate page-heading">Busca</div>
+    <div class="animate page-heading">{t("search.title")}</div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">

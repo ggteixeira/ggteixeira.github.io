@@ -48,6 +48,8 @@ const en = {
   "notes.of": "OF",
   "notes.posts": "NOTES",
   "notes.noResults": "No notes match the selected filters.",
+  "search.title": "Search",
+  "search.description": "Search all posts and projects by keyword.",
   // search
   "search.placeholder": "What are you looking for?",
   "search.results": "Found {count} results for '{query}'",
@@ -121,6 +123,8 @@ const ptBr = {
   "notes.of": "DE",
   "notes.posts": "NOTAS",
   "notes.noResults": "Nenhuma nota corresponde aos filtros selecionados.",
+  "search.title": "Busca",
+  "search.description": "Busque todos os posts e projetos por palavra-chave.",
   "search.placeholder": "O que você está procurando?",
   "search.results": "Encontrados {count} resultados para '{query}'",
   "footer.backToTop": "Voltar ao topo",

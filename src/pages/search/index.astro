@@ -4,20 +4,13 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import Search from "@components/Search";
-import { SEARCH } from "@consts";
 import { useTranslations } from "@i18n/utils";
-
-const posts = (await getCollection("garden")).filter(
-  (post) => !post.data.draft,
-);
-
-const notes = (await getCollection("notes")).filter((post) => !post.data.draft);
 
 const projects = (await getCollection("projects")).filter(
   (post) => !post.data.draft,
 );
 
-const data = [...posts, ...notes, ...projects];
+const data = [...projects];
 
 const t = useTranslations(Astro.currentLocale);
 const searchStrings = {
@@ -26,10 +19,10 @@ const searchStrings = {
 };
 ---
 
-<PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>
+<PageLayout title={t("search.title")} description={t("search.description")}>
   <TopLayout>
     <div class="animate page-heading">
-      {SEARCH.TITLE}
+      {t("search.title")}
     </div>
   </TopLayout>
   <BottomLayout>
