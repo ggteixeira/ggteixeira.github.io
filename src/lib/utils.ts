@@ -24,4 +24,14 @@ export function daysSince(date: Date): number {
   return (Date.now() - date.getTime()) / 86_400_000;
 }
 
+export function isActiveLink(
+  pathname: string,
+  subpath: string[] | null,
+  href: string,
+): boolean {
+  return (
+    pathname === href || pathname + "/" === href || "/" + subpath?.[0] === href
+  );
+}
+
 export const currentYear = new Date().getFullYear();

@@ -1,6 +1,6 @@
 ---
 import { SITE, LINKS } from "@consts";
-import { cn } from "@lib/utils";
+import { cn, isActiveLink } from "@lib/utils";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 ---
@@ -12,10 +12,7 @@ const subpath = pathname.match(/[^/]+/g);
   <nav class="flex flex-col items-center space-y-2">
     {
       LINKS.map((LINK) => {
-        const isActive =
-          pathname === LINK.HREF ||
-          pathname + "/" === LINK.HREF ||
-          "/" + subpath?.[0] === LINK.HREF;
+        const isActive = isActiveLink(pathname, subpath, LINK.HREF);
         return (
           <a
             href={LINK.HREF}

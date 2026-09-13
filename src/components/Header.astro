@@ -1,6 +1,6 @@
 ---
 import { SITE, LINKS } from "@consts";
-import { cn } from "@lib/utils";
+import { cn, isActiveLink } from "@lib/utils";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
@@ -37,10 +37,7 @@ const isSearchActive =
         <nav class="hidden md:flex items-center justify-center text-sm gap-1">
           {
             LINKS.map((LINK) => {
-              const isActive =
-                pathname === LINK.HREF ||
-                pathname + "/" === LINK.HREF ||
-                "/" + subpath?.[0] === LINK.HREF;
+              const isActive = isActiveLink(pathname, subpath, LINK.HREF);
               return (
                 <a
                   href={LINK.HREF}
