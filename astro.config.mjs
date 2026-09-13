@@ -33,11 +33,6 @@ export default defineConfig({
     tailwind({ applyBaseStyles: false }),
     icon(),
   ],
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "pt-br"],
-    routing: { prefixDefaultLocale: false },
-  },
   vite: {
     plugins: [fixViteEnvPlugin],
   },
