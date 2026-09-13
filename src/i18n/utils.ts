@@ -25,6 +25,29 @@ export function localizeHref(path: string, locale: string | undefined): string {
   return path;
 }
 
+// Each content collection has one true locale — garden/notes are
+// Portuguese-only content, projects is English-only content. Entry
+// hrefs/dates should reflect the content's locale, not the viewing page's.
+const ENTRY_COLLECTION_LOCALE: Record<string, Lang> = {
+  garden: LOCALES.PT_BR,
+  notes: LOCALES.PT_BR,
+  projects: LOCALES.EN,
+};
+
+export function getEntryLocale(collection: string): Lang {
+  return ENTRY_COLLECTION_LOCALE[collection] ?? LOCALES.EN;
+}
+
+export function getEntryHref(entry: {
+  collection: string;
+  id: string;
+}): string {
+  return localizeHref(
+    `/${entry.collection}/${entry.id}`,
+    getEntryLocale(entry.collection),
+  );
+}
+
 export function getOtherLocaleUrl(
   pathname: string,
   currentLocale: string,

@@ -71,6 +71,12 @@ const en = {
     "I've been working with programming languages like JavaScript, TypeScript, Python, C#, and with frameworks like ReactJS, GatsbyJS, Astro, NodeJS, Django, .NET Core, and spaCy.",
   "about.p3":
     "I am also interested in Generative Syntax and Formal Semantics, and I am experienced in NLP (Natural Language Processing)",
+  // arrow card
+  "arrowcard.typePost": "post",
+  "arrowcard.typeNote": "note",
+  "arrowcard.typeProject": "project",
+  "arrowcard.updated": "updated:",
+  "arrowcard.new": "new",
   // disclaimer page
   "disclaimer.title": "Disclaimer",
   "disclaimer.backToArticle": "Back to article",
@@ -143,6 +149,11 @@ const ptBr = {
     "Trabalhei com linguagens de programação como JavaScript, TypeScript, Python, C#, e com frameworks como ReactJS, GatsbyJS, Astro, NodeJS, Django, .NET Core e spaCy.",
   "about.p3":
     "Também me interesso por Sintaxe Gerativa e Semântica Formal, e tenho experiência em NLP (Processamento de Linguagem Natural).",
+  "arrowcard.typePost": "post",
+  "arrowcard.typeNote": "nota",
+  "arrowcard.typeProject": "projeto",
+  "arrowcard.updated": "atualizado:",
+  "arrowcard.new": "novo",
   "disclaimer.title": "Aviso Legal",
   "disclaimer.backToArticle": "Voltar ao artigo",
   "disclaimer.body": "Este site não utiliza AI.",

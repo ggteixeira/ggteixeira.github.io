@@ -1,12 +1,22 @@
 import { daysSince, formatDate, readingTime } from "@lib/utils";
+import { getEntryHref, getEntryLocale } from "@i18n/utils";
 import type { CollectionEntry } from "astro:content";
 import { For } from "solid-js";
+
+type CardStrings = {
+  typePost: string;
+  typeNote: string;
+  typeProject: string;
+  updated: string;
+  new: string;
+};
 
 type Props = {
   entry:
     | CollectionEntry<"garden">
     | CollectionEntry<"notes">
     | CollectionEntry<"projects">;
+  cardStrings: CardStrings;
   pill?: boolean;
   minimal?: boolean;
 };
@@ -40,9 +50,11 @@ const ArrowIcon = () => {
 };
 
 export default function ArrowCard(props: Props) {
+  const entryLocale = () => getEntryLocale(props.entry.collection);
+
   return (
     <a
-      href={`/${props.entry.collection}/${props.entry.id}`}
+      href={getEntryHref(props.entry)}
       class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out"
     >
       <div class="w-full group-hover:text-black group-hover:dark:text-white blend">
@@ -50,18 +62,18 @@ export default function ArrowCard(props: Props) {
           {props.pill && (
             <div class="text-sm capitalize px-2 py-0.5 rounded-full border border-black/15 dark:border-white/25">
               {props.entry.collection === "garden"
-                ? "post"
+                ? props.cardStrings.typePost
                 : props.entry.collection === "notes"
-                  ? "note"
-                  : "project"}
+                  ? props.cardStrings.typeNote
+                  : props.cardStrings.typeProject}
             </div>
           )}
 
           {!props.minimal && (
             <div class="flex justify-between w-full">
               <div class="text-sm uppercase">
-                {formatDate(props.entry.data.date)} -{" "}
-                {readingTime(props.entry.body ?? "")}
+                {formatDate(props.entry.data.date, entryLocale())} -{" "}
+                {readingTime(props.entry.body ?? "", entryLocale())}
               </div>
 
               <div class="flex items-center gap-2">
@@ -70,14 +82,15 @@ export default function ArrowCard(props: Props) {
                   props.entry.data.updatedDate &&
                   daysSince(props.entry.data.updatedDate) <= 30 && (
                     <div class="text-sm uppercase">
-                      updated: {formatDate(props.entry.data.updatedDate)}
+                      {props.cardStrings.updated}{" "}
+                      {formatDate(props.entry.data.updatedDate, entryLocale())}
                     </div>
                   )}
 
                 {(props.entry.collection === "garden" ||
                   props.entry.collection === "notes") &&
                   daysSince(props.entry.data.date) <= 14 && (
-                    <div class="text-sm uppercase">new</div>
+                    <div class="text-sm uppercase">{props.cardStrings.new}</div>
                   )}
 
                 <ArrowIcon />
@@ -89,7 +102,8 @@ export default function ArrowCard(props: Props) {
         <div
           class={`font-semibold ${!props.minimal ? "mt-3" : "mt-0"} text-black dark:text-white`}
         >
-          {props.entry.data.title ?? formatDate(props.entry.data.date)}
+          {props.entry.data.title ??
+            formatDate(props.entry.data.date, entryLocale())}
         </div>
         {!props.minimal && props.entry.data.summary && (
           <div class="text-sm line-clamp-2">{props.entry.data.summary}</div>

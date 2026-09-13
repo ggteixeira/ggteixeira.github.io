@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
-import { useTranslations, localizeHref } from "@i18n/utils";
+import { useTranslations, getEntryHref } from "@i18n/utils";
 import TableOfContents from "@components/TableOfContents";
 
 type Props = {
@@ -43,7 +43,7 @@ const t = useTranslations(Astro.currentLocale);
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <a
-      href={localizeHref(`/${prev.collection}/${prev.id}`, Astro.currentLocale)}
+      href={getEntryHref(prev)}
       class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 blend"
     >
       <div
@@ -81,7 +81,7 @@ const t = useTranslations(Astro.currentLocale);
       </svg>
     </a>
     <a
-      href={localizeHref(`/${next.collection}/${next.id}`, Astro.currentLocale)}
+      href={getEntryHref(next)}
       class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out"
     >
       <div

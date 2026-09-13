@@ -27,6 +27,13 @@ const notesStrings = {
   posts: t("notes.posts"),
   noResults: t("notes.noResults"),
 };
+const cardStrings = {
+  typePost: t("arrowcard.typePost"),
+  typeNote: t("arrowcard.typeNote"),
+  typeProject: t("arrowcard.typeProject"),
+  updated: t("arrowcard.updated"),
+  new: t("arrowcard.new"),
+};
 ---
 
 <PageLayout title={t("notes.title")} description={t("notes.description")}>
@@ -41,6 +48,7 @@ const notesStrings = {
         data={posts}
         sectionTags={notesTags}
         strings={notesStrings}
+        cardStrings={cardStrings}
       />
     </div>
   </BottomLayout>

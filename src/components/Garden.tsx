@@ -12,11 +12,20 @@ type GardenStrings = {
   noResults: string;
 };
 
+type CardStrings = {
+  typePost: string;
+  typeNote: string;
+  typeProject: string;
+  updated: string;
+  new: string;
+};
+
 type Props = {
   tags: string[];
   sectionTags: string[];
   data: CollectionEntry<"garden">[] | CollectionEntry<"notes">[];
   strings: GardenStrings;
+  cardStrings: CardStrings;
 };
 
 export default function Garden(props: Props) {
@@ -99,7 +108,7 @@ export default function Garden(props: Props) {
             <For each={posts()}>
               {(post) => (
                 <li>
-                  <ArrowCard entry={post} />
+                  <ArrowCard entry={post} cardStrings={props.cardStrings} />
                 </li>
               )}
             </For>

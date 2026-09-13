@@ -3,9 +3,18 @@ import { createMemo, createSignal, For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 import { cn } from "@lib/utils";
 
+type CardStrings = {
+  typePost: string;
+  typeNote: string;
+  typeProject: string;
+  updated: string;
+  new: string;
+};
+
 type Props = {
   tags: string[];
   data: CollectionEntry<"projects">[];
+  cardStrings: CardStrings;
 };
 
 export default function Projects(props: Props) {
@@ -85,7 +94,7 @@ export default function Projects(props: Props) {
             <For each={projects()}>
               {(project) => (
                 <li>
-                  <ArrowCard entry={project} />
+                  <ArrowCard entry={project} cardStrings={props.cardStrings} />
                 </li>
               )}
             </For>

@@ -27,6 +27,13 @@ const gardenStrings = {
   posts: t("garden.posts"),
   noResults: t("garden.noResults"),
 };
+const cardStrings = {
+  typePost: t("arrowcard.typePost"),
+  typeNote: t("arrowcard.typeNote"),
+  typeProject: t("arrowcard.typeProject"),
+  updated: t("arrowcard.updated"),
+  new: t("arrowcard.new"),
+};
 ---
 
 <PageLayout title={t("garden.title")} description={t("garden.description")}>
@@ -41,6 +48,7 @@ const gardenStrings = {
         data={posts}
         sectionTags={gardenTags}
         strings={gardenStrings}
+        cardStrings={cardStrings}
       />
     </div>
   </BottomLayout>

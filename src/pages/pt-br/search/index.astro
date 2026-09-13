@@ -23,6 +23,13 @@ const searchStrings = {
   placeholder: t("search.placeholder"),
   results: t("search.results"),
 };
+const cardStrings = {
+  typePost: t("arrowcard.typePost"),
+  typeNote: t("arrowcard.typeNote"),
+  typeProject: t("arrowcard.typeProject"),
+  updated: t("arrowcard.updated"),
+  new: t("arrowcard.new"),
+};
 ---
 
 <PageLayout title={t("search.title")} description={t("search.description")}>
@@ -31,7 +38,12 @@ const searchStrings = {
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Search client:load data={data} strings={searchStrings} />
+      <Search
+        client:load
+        data={data}
+        strings={searchStrings}
+        cardStrings={cardStrings}
+      />
     </div>
   </BottomLayout>
 </PageLayout>

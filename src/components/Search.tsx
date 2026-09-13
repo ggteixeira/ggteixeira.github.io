@@ -8,6 +8,14 @@ type SearchStrings = {
   results: string;
 };
 
+type CardStrings = {
+  typePost: string;
+  typeNote: string;
+  typeProject: string;
+  updated: string;
+  new: string;
+};
+
 type SearchableEntry =
   | CollectionEntry<"garden">
   | CollectionEntry<"notes">
@@ -16,6 +24,7 @@ type SearchableEntry =
 type Props = {
   data: SearchableEntry[];
   strings: SearchStrings;
+  cardStrings: CardStrings;
 };
 
 export default function Search(props: Props) {
@@ -71,7 +80,11 @@ export default function Search(props: Props) {
             <For each={results()}>
               {(result) => (
                 <li>
-                  <ArrowCard entry={result} pill={true} />
+                  <ArrowCard
+                    entry={result}
+                    pill={true}
+                    cardStrings={props.cardStrings}
+                  />
                 </li>
               )}
             </For>
