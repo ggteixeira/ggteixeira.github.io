@@ -4,6 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import { formatDate } from "@lib/utils";
+import { useTranslations } from "@i18n/utils";
 import { SITE } from "@consts";
 
 // Create the static pages for legal docs
@@ -22,16 +23,18 @@ type Props = CollectionEntry<"legal">;
 const doc = Astro.props;
 const { title, date } = doc.data;
 const { Content } = await render(doc);
+
+const t = useTranslations(Astro.currentLocale);
 ---
 
-<PageLayout title={title} description={`${title} for ${SITE.TITLE}`}>
+<PageLayout title={title} description={`${title} — ${SITE.TITLE}`}>
   <TopLayout>
     <div class="animate">
       <div class="page-heading">
         {title}
       </div>
       <p class="font-normal opacity-75">
-        Last updated: {formatDate(date)}
+        {t("legal.updatedLabel")}{formatDate(date, Astro.currentLocale)}
       </p>
     </div>
   </TopLayout>

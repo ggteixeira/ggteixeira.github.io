@@ -64,6 +64,8 @@ const en = {
   "disclaimer.title": "Disclaimer",
   "disclaimer.backToArticle": "Back to article",
   "disclaimer.body": "This site does not use AI.",
+  // legal pages
+  "legal.updatedLabel": "Last updated: ",
   // lang switcher
   "lang.switchTo": "PT",
   "lang.current": "en",
@@ -122,6 +124,7 @@ const ptBr = {
   "disclaimer.title": "Aviso Legal",
   "disclaimer.backToArticle": "Voltar ao artigo",
   "disclaimer.body": "Este site não utiliza AI.",
+  "legal.updatedLabel": "Última atualização: ",
   "lang.switchTo": "EN",
   "lang.current": "br",
   "lang.full": "Português Brasileiro",

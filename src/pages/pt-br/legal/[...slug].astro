@@ -4,6 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import { formatDate } from "@lib/utils";
+import { useTranslations } from "@i18n/utils";
 import { SITE } from "@consts";
 
 export async function getStaticPaths() {
@@ -20,6 +21,8 @@ type Props = CollectionEntry<"legal">;
 const doc = Astro.props;
 const { title, date } = doc.data;
 const { Content } = await render(doc);
+
+const t = useTranslations(Astro.currentLocale);
 ---
 
 <PageLayout title={title} description={`${title} — ${SITE.TITLE}`}>
@@ -29,7 +32,7 @@ const { Content } = await render(doc);
         {title}
       </div>
       <p class="font-normal opacity-75">
-        Última atualização: {formatDate(date, "pt-br")}
+        {t("legal.updatedLabel")}{formatDate(date, Astro.currentLocale)}
       </p>
     </div>
   </TopLayout>
