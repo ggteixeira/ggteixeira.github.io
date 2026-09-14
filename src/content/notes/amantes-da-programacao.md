@@ -2,8 +2,7 @@
 title: Amantes da programação
 summary: ""
 date: 05 sep 2026
-updatedDate: 5 sep 2026
-tags: []
+updatedDate: 13 sep 2026
 draft: false
 ---
 
