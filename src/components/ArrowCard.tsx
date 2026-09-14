@@ -9,6 +9,7 @@ type Props = {
     | CollectionEntry<"projects">;
   pill?: boolean;
   minimal?: boolean;
+  dense?: boolean;
 };
 
 const ArrowIcon = () => {
@@ -65,8 +66,9 @@ export default function ArrowCard(props: Props) {
               </div>
 
               <div class="flex items-center gap-2">
-                {(props.entry.collection === "garden" ||
-                  props.entry.collection === "notes") &&
+                {!props.dense &&
+                  (props.entry.collection === "garden" ||
+                    props.entry.collection === "notes") &&
                   props.entry.data.updatedDate &&
                   daysSince(props.entry.data.updatedDate) <= 30 && (
                     <div class="text-sm uppercase">
@@ -94,7 +96,7 @@ export default function ArrowCard(props: Props) {
         {!props.minimal && props.entry.data.summary && (
           <div class="text-sm line-clamp-2">{props.entry.data.summary}</div>
         )}
-        {!props.minimal && (
+        {!props.minimal && !props.dense && (
           <ul class="flex flex-wrap mt-2 gap-1">
             <For each={props.entry.data.tags}>
               {(tag: string) => (

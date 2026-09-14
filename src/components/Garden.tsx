@@ -6,7 +6,7 @@ import { cn } from "@lib/utils";
 type Props = {
   tags: string[];
   sectionTags: string[];
-  data: CollectionEntry<"garden">[] | CollectionEntry<"notes">[];
+  data: CollectionEntry<"garden">[];
   postsLabel: string;
   noResultsLabel: string;
 };
