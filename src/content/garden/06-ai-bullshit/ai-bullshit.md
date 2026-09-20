@@ -27,6 +27,9 @@ tags:
 - [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
 - [Tech 24 - AI is already getting boring](https://www.france24.com/en/tv-shows/tech-24/20260426-ai-is-already-getting-boring)
 - [Ford hired AI and sacked humans. It backfired badly](https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html)
+- [Please Use AI](https://shawnsmucker.substack.com/p/please-use-ai)
+- [Almost No Skill Required to Cook a Steak (Though You Probably Can’t Make a Decent One)](https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/)
+- [The AI Productivity Illusion](https://www.hardresetmedia.com/p/the-ai-productivity-illusion)
 
 #### 2025
 
