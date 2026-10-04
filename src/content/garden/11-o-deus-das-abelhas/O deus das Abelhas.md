@@ -23,17 +23,17 @@ Se existe um ser com volição responsável por definir o destino da vida de uma
 
 ---
 
-Se você pensar exclusivamente na natureza do advento da consciência, é possível afirmar — sem necessariamente abandonar a racionalidade — que, como diz a citação do filósofo Alan Watts, no final do disco [_Language_](https://thecontortionistband.bandcamp.com/album/language)[^1], do Contortionist, o despertar da consciência da consciência (i.e., o surgimento do _Homo sapiens_) é o resultado direto do próprio Universo tornando-se consciente de si mesmo. O problema dessa interpretação é que ela encontra apoio entre autores considerados mais místicos do que... científicos, como por exemplo Alan Watts:
+Se você pensar exclusivamente na natureza do advento da consciência, é possível afirmar — sem necessariamente abandonar a racionalidade — que, como diz a citação do filósofo Alan Watts, no final do disco [_Language_](https://thecontortionistband.bandcamp.com/album/language)[^1], do Contortionist, o despertar da consciência da consciência (i.e., o surgimento do _Homo sapiens_) é o resultado direto do próprio Universo tornando-se consciente de si mesmo. O problema dessa interpretação é que ela encontra apoio entre autores considerados mais místicos do que... científicos, como por exemplo Alan Watts[^1]:
 
-> _In other words, the so-called involuntary circulation of your blood is one continuous process with the stars shining. If you find out it's you who circulates your blood, you will at the same moment find out that you are shining the sun. Because your physical organism is one continuous process with everything else that's going on, just as the waves are continuous with the ocean. Your body is continuous with the total energy system of the cosmos, and it's all you. Only you're playing the game that you're only this bit of it"._
+> _In other words, the so-called involuntary circulation of your blood is one continuous process with the stars shining. If you find out it's you who circulates your blood, you will at the same moment find out that you are shining the sun. Because your physical organism is one continuous process with everything else that's going on, just as the waves are continuous with the ocean. Your body is continuous with the total energy system of the cosmos, and it's all you. Only you're playing the game that you're only this bit of it._
 
-Uma outra citação parecida é uma fala do autor de livros de autoajuda Eckhart Tolle:
+Uma outra citação parecida é uma fala do autor de livros de autoajuda Eckhart Tolle[^2]:
 
 > _You are not IN the universe, you ARE the universe, an intrinsic part of it. Ultimately you are not a person, but a focal point where the universe is becoming conscious of itself. What an amazing miracle._
 
-O único exemplo discrepante que conheço é a frase em que Carl Sagan afirma que "somos poeira de estrelas" e em seguida tece uma conclusão próxima à de Tolle:
+O único exemplo discrepante que conheço é a frase em que Carl Sagan afirma que "somos poeira de estrelas" e em seguida tece uma conclusão próxima à de Tolle[^3]:
 
-> _The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself._
+> _The cosmos is within us. We are made of star-stuff. We are a way for the cosmos to know itself._
 
 Similar a isso é a proto-hipótese do Deus das Abelhas, na qual as abelhas-operárias trabalham sem saber o que é trabalho, sem saber que o resultado do seu trabalho é a ponta de uma cadeia de produção de bens de consumo; sem saber o que são bens de consumo; tampouco o que é o sistema econômico responsável pela exploração do bem de consumo produzido por elas. As abelhas-operárias mal sabem que trabalham incansavelmente, posto que o trabalho é apenas o reflexo da natureza ditando o que precisa ser feito. Não há escolha individual. 
 
@@ -49,4 +49,8 @@ E o que seria a magia, assim como a religião, apenas o nosso desconhecimento do
 
 # Referências e Notas de Rodapé
 
-[^1]: The Contortionist. "[The Parable](https://thecontortionistband.bandcamp.com/track/the-parable)", faixa 9 de _Language_. eOne Music, 2014.
+[^1]: THE PARABLE. Intérprete: The Contortionist. In: **LANGUAGE**. Intérprete: The Contortionist. [*S. l.*]: eOne Music, 2014. Faixa 9. Contém trecho de palestra de Alan Watts. Disponível em: <https://thecontortionistband.bandcamp.com/track/the-parable>. Acesso em: 4 out. 2026.
+
+[^2]: TOLLE, Eckhart. **A new earth**: awakening to your life's purpose. New York: Dutton, 2005.
+
+[^3]: COSMOS: a personal voyage. Episódio 1: The shores of the cosmic ocean. Apresentação: Carl Sagan. [*S. l.*]: KCET; PBS, 28 set. 1980.
