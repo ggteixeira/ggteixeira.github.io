@@ -2,7 +2,7 @@
 title: "O Deus das Abelhas"
 summary: "O incognoscível é um argumento em favor da existência de deuses"
 date: "02 oct 2026"
-updatedDate: 02 oct 2026
+updatedDate: 04 oct 2026
 tags:
   - seedling
 ---
@@ -23,7 +23,7 @@ Se existe um ser com volição responsável por definir o destino da vida de uma
 
 ---
 
-Se você pensar exclusivamente na natureza do advento da consciência, é possível afirmar — sem necessariamente abandonar a racionalidade — que, como diz a citação do filósofo Alan Watts, no final do disco _Language_, do Contortionist, o despertar da consciência da consciência (i.e., o surgimento do _Homo sapiens_) é o resultado direto do próprio Universo tornando-se consciente de si mesmo. O problema dessa interpretação é que ela encontra apoio entre autores considerados mais místicos do que... científicos, como por exemplo Alan Watts:
+Se você pensar exclusivamente na natureza do advento da consciência, é possível afirmar — sem necessariamente abandonar a racionalidade — que, como diz a citação do filósofo Alan Watts, no final do disco [_Language_](https://thecontortionistband.bandcamp.com/album/language)[^1], do Contortionist, o despertar da consciência da consciência (i.e., o surgimento do _Homo sapiens_) é o resultado direto do próprio Universo tornando-se consciente de si mesmo. O problema dessa interpretação é que ela encontra apoio entre autores considerados mais místicos do que... científicos, como por exemplo Alan Watts:
 
 > _In other words, the so-called involuntary circulation of your blood is one continuous process with the stars shining. If you find out it's you who circulates your blood, you will at the same moment find out that you are shining the sun. Because your physical organism is one continuous process with everything else that's going on, just as the waves are continuous with the ocean. Your body is continuous with the total energy system of the cosmos, and it's all you. Only you're playing the game that you're only this bit of it"._
 
@@ -44,3 +44,9 @@ Pensando bem, chamar o deus de "capitalismo" não é correto. É mais correto ch
 Voltando à ideia de um deus incognoscível, cuja existência podemos de fato atestar, mas que as abelhas-operárias não, podemos extrapolar essa mesma estrutura de níveis de cognoscibilidade ao supor que para além da nossa capacidade de pensamento existem deuses para nós invisíveis. Da mesma forma que uma abelha-operária que acabou de tomar consciência de si poderia se perguntar "para onde vai o meu mel que some todo mês?", o Homem pode se perguntar coisas como "o que foi que existiu antes do Universo existir?", ambos sem chegar a conclusão plausível alguma. A ideia de que podemos observar tanto o limite do cognoscível nas abelhas-operárias quanto no Ser Humano é importante porque nos permite extrapolações sem apelar para a magia.
 
 E o que seria a magia, assim como a religião, apenas o nosso desconhecimento do que seja a Natureza? Se deixarmos de lado os deuses locais que criamos para amenizar a nossa incapacidade de suportar um Universo antigo o suficiente para que todas as explicações de todos os fatos que já aconteceram ou acontecerão são completa e absolutamente aleatórios, existe uma classe de deuses muito mais interessantes, que são os deuses incognoscíveis. Eles nada têm a ver com a salvação das nossas almas, a felicidade ou o destino. O fato de ser impossível pensar na existência deles atesta a existência deles em si. Basta lembrarmo-nos que a mera ideia da existência do apicultor é tão absolutamente distante da compreensão da abelha-operária que é possível afirmar que ele não só seria um deus com relação a ela, mas também um deus não compreensível e não pensável, ou seja, incognoscível.
+
+---
+
+# Referências e Notas de Rodapé
+
+[^1]: The Contortionist. "[The Parable](https://thecontortionistband.bandcamp.com/track/the-parable)", faixa 9 de _Language_. eOne Music, 2014.
