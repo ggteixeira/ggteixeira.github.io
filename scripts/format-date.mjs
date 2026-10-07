@@ -15,7 +15,7 @@ const MONTHS = [
 ];
 
 export function formatDate(date = new Date()) {
-  return `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
+  return `${String(date.getDate()).padStart(2, "0")} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
