@@ -43,7 +43,7 @@
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/solid-js": "^7.0.2",
     "@astrojs/tailwind": "^6.0.2",
-    "@iconify-json/lucide": "^1.2.124",
+    "@iconify-json/lucide": "^1.2.129",
     "@tailwindcss/typography": "^0.5.20",
     "astro": "^7.2.9",
     "astro-icon": "^1.2.0",
