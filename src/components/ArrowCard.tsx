@@ -41,6 +41,28 @@ const ArrowIcon = () => {
 };
 
 export default function ArrowCard(props: Props) {
+  const isRecentUpdated = (threshold: number) => {
+    if (
+      props.entry.collection !== "garden" &&
+      props.entry.collection !== "notes"
+    )
+      return false;
+
+    const { updatedDate } = props.entry.data;
+    return !!updatedDate && daysSince(updatedDate) <= threshold;
+  };
+
+  const isRecent = (threshold: number) => {
+    if (
+      props.entry.collection !== "garden" &&
+      props.entry.collection !== "notes"
+    )
+      return false;
+
+    const { date } = props.entry.data;
+    return !!date && daysSince(date) <= threshold;
+  };
+
   return (
     <a
       href={`/${props.entry.collection}/${props.entry.id}`}
@@ -70,7 +92,7 @@ export default function ArrowCard(props: Props) {
                   (props.entry.collection === "garden" ||
                     props.entry.collection === "notes") &&
                   props.entry.data.updatedDate &&
-                  daysSince(props.entry.data.updatedDate) <= 30 && (
+                  isRecentUpdated(30) && (
                     <div class="text-sm uppercase">
                       updated: {formatDate(props.entry.data.updatedDate)}
                     </div>
@@ -78,9 +100,7 @@ export default function ArrowCard(props: Props) {
 
                 {(props.entry.collection === "garden" ||
                   props.entry.collection === "notes") &&
-                  daysSince(props.entry.data.date) <= 14 && (
-                    <div class="text-sm uppercase">new</div>
-                  )}
+                  isRecent(14) && <div class="text-sm uppercase">new</div>}
 
                 <ArrowIcon />
               </div>
