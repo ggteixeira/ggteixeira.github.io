@@ -26,8 +26,13 @@
 }
 
 html {
+  color-scheme: light;
   overflow-y: scroll;
   font-family: "Atkinson", sans-serif;
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 html,
