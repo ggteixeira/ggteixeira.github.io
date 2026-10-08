@@ -3,7 +3,7 @@ title: AI Bullshit
 summary: There is no Generative AI
 draft: true
 date: 11 jun 2025
-updatedDate: 23 apr 2026
+updatedDate: 08 oct 2026
 tags:
   - seedling
   - tecnopessimismo
@@ -72,6 +72,7 @@ tags:
 #### 2026
 
 - [Diderot, IA e os novos reis: insurgência epistêmica no século 21 (Silvio Meira)](https://www.poder360.com.br/opiniao/diderot-ia-e-os-novos-reis-insurgencia-epistemica-no-seculo-21/)
+- [A papelada da Anthropic para o IPO: Desastre em números](https://manualdousuario.net/prospecto-s-1-anthropic-ipo/)
 
 #### 2025
 
