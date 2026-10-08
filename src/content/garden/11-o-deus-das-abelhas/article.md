@@ -11,7 +11,7 @@ O incognoscível é um argumento em favor da existência de deuses. O único deu
 
 Dia desses, minha namorada me explicou por que a dieta vegana restringe o consumo do mel. Embora pareça óbvia a noção de que a restrição acontece porque "mel vem da abelha", o alimento não vem exatamente da carne de abelha, e sim **do seu trabalho**.
 
-Longe de mim discutir lógica com veganos, até porque é cruel por si só subtraírmos o fruto do trabalho incansável das abelhas-operárias em favor de uma ou outra dieta — e fazemos mesmo assim (e eu adoro mel). O interessante aqui é perceber que, a partir da invenção da apicultura, as abelhas passaram a ser operárias não de uma Abelha-Rainha, e sim **de um sistema econômico**. E tudo isso sem sua ciência ou sua anuência.
+Longe de mim discutir lógica com veganos, até porque é cruel por si só subtrairmos o fruto do trabalho incansável das abelhas-operárias em favor de uma ou outra dieta — e fazemos mesmo assim (e eu adoro mel). O interessante aqui é perceber que, a partir da invenção da apicultura, as abelhas passaram a ser operárias não de uma Abelha-Rainha, e sim **de um sistema econômico**. E tudo isso sem sua ciência ou sua anuência.
 
 Abelhas não sabem o que é apicultura ou o que é sistema econômico, não porque não se interessam, **e sim porque isso está para além de sua capacidade de pensar tais coisas**.
 
@@ -21,7 +21,7 @@ Quais seres são capazes de saber que não sabem o que desconhecem?
 
 É uma reflexão sobre deus. Quem seria o deus do qual todas as abelhas são ateias? Ora, a natureza de um deus necessita de algumas premissas: a primeira é existir; a segunda é agir direta ou indiretamente no destino de outro ser. Minha hipótese é a de adicionar uma premissa adicional: a de não ser pensável.
 
-Se existe um ser com **volição**, responsável por definir o destino da vida de uma abelha-operária sem que ela se dê conta disso, esse ser não apenas deve ser considerado um deus em relação a ela, mas também um deus que está para além do pensamento dela. E, diferentemente dos deuses locais — que criamos para atenuar nossa incapacidade de suportar a realidade de que o Universo não se importa conosco — a existência desse deus é atestável por nós, mas não pelas abelhas. Isso significa que o fato delas não serem capazes de pensar nele não significa que ele não seja pensável ou que não exista. É uma hierarquia de classes de deuses: no Nível 0 (zero) há os deuses que criamos para que o adoremos e peçamos por suas bênçãos. No Nível 1 habitam os deuses que existem porque pode-se supor que existem, independentemente da nossa capacidade de pensar neles — justamente porque somos capazes de pensar neles.
+Se existe um ser com **volição**, responsável por definir o destino da vida de uma abelha-operária sem que ela se dê conta disso, esse ser não apenas deve ser considerado um deus em relação a ela, mas também um deus que está para além do pensamento dela. E, diferentemente dos deuses locais — que criamos para atenuar nossa incapacidade de suportar a realidade de que o Universo não se importa conosco — a existência desse deus é atestável por nós, mas não pelas abelhas. Isso significa que o fato delas não serem capazes de pensar nele não significa que ele não seja pensável ou que não exista. É uma hierarquia de classes de deuses: no Nível 0 (zero) há os deuses que criamos para que os adoremos e peçamos por suas bênçãos. No Nível 1 habitam os deuses que existem porque pode-se supor que existem, independentemente da nossa capacidade de pensar neles — justamente porque somos capazes de pensar neles.
 
 ---
 
@@ -41,7 +41,7 @@ A proto-hipótese do Deus das Abelhas é similar a essa ideia. Abelhas-operária
 
 ---
 
-As duas ideias se aproximam na medida em que é possível extrapolar a ideia de um deus que de fato existe, posto que dita toda a mecânica da vida de uma abelha-operária sem que ela se dê conta. Podemos chamá-lo de Apicultura, de Ação Antrópica, do que quisermos; o fato é que, embora exista, sua existência é incognoscível, ou seja, impossível de ser percebida pela abelha-operaária.
+As duas ideias se aproximam na medida em que é possível extrapolar a ideia de um deus que de fato existe, posto que dita toda a mecânica da vida de uma abelha-operária sem que ela se dê conta. Podemos chamá-lo de Apicultura, de Ação Antrópica, do que quisermos; o fato é que, embora exista, sua existência é incognoscível, ou seja, impossível de ser percebida pela abelha-operária.
 
 Podemos extrapolar a estrutura de níveis de cognoscibilidade e da hierarquia de níveis de deuses e supor que, para além da nossa própria capacidade de pensar, existam deuses que para nós são invisíveis.
 
@@ -51,7 +51,7 @@ Se a proposta de hierarquização se mantiver em pé, podemos tentar supor a exi
 
 ---
 
-E o que seria a magia senão nosso desconhecimento do que seja a Natureza?[^4] Se deixarmos de lado os deuses locais que criamos para amenizar a nossa incapacidade de suportar um Universo antigo o suficiente para que todas as explicações de todos os fatos que já aconteceram ou acontecerão são completa e absolutamente aleatórios, existe uma classe de deuses muito mais interessantes, que são os deuses incognoscíveis. Eles nada têm a ver com a salvação das nossas almas, a felicidade ou o destino. O fato de ser impossível pensar na existência deles atesta a existência deles em si. Basta lembrarmo-nos que a mera ideia da existência do apicultor é tão absolutamente distante da compreensão da abelha-operária que é possível afirmar que ele não só seria um deus com relação a ela, mas também um deus não compreensível e não pensável, ou seja, incognoscível.
+E o que seria a magia senão nosso desconhecimento do que seja a Natureza?[^4] Se deixarmos de lado os deuses locais que criamos para amenizar a nossa incapacidade de suportar um Universo antigo o suficiente para que todas as explicações de todos os fatos que já aconteceram ou acontecerão sejam completa e absolutamente aleatórios, existe uma classe de deuses muito mais interessantes, que são os deuses incognoscíveis. Eles nada têm a ver com a salvação das nossas almas, a felicidade ou o destino. O fato de ser impossível pensar na existência deles atesta a existência deles em si. Basta lembrarmo-nos que a mera ideia da existência do apicultor é tão absolutamente distante da compreensão da abelha-operária que é possível afirmar que ele não só seria um deus com relação a ela, mas também um deus não compreensível e não pensável, ou seja, incognoscível.
 
 ---
 
@@ -61,6 +61,6 @@ E o que seria a magia senão nosso desconhecimento do que seja a Natureza?[^4] S
 
 [^2]: TOLLE, Eckhart. **A new earth**: awakening to your life's purpose. New York: Dutton, 2005.
 
-[^3]: COSMOS: a personal voyage. Episódio 1: The shores of the cosmic ocean. Apresentação: Carl Sagan. [*S. l.*]: KCET; PBS, 28 set. 1980.
+[^3]: COSMOS: a personal voyage. Episódio 1: The shores of the cosmic ocean. Apresentação: Carl Sagan. Los Angeles: KCET; PBS, 28 set. 1980.
 
-[^4]: https://soundcloud.com/anticastdesign/anticast-160-sobre-magia-e-demonios
+[^4]: ANTICAST 160: sobre magia e demônios. [*S. l.*]: Anticast, [20--]. Podcast. Disponível em: <https://soundcloud.com/anticastdesign/anticast-160-sobre-magia-e-demonios>. Acesso em: 7 out. 2026.
