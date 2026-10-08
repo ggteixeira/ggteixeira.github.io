@@ -14,13 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
       - name: Sync Instapaper bookmarks
         run: node scripts/instapaper-sync.js
         env:
-          INSTAPAPER_CONSUMER_KEY: ${{ secrets.INSTAPAPER_CONSUMER_KEY }}
-          INSTAPAPER_CONSUMER_SECRET: ${{ secrets.INSTAPAPER_CONSUMER_SECRET }}
-          INSTAPAPER_USERNAME: ${{ secrets.INSTAPAPER_USERNAME }}
-          INSTAPAPER_PASSWORD: ${{ secrets.INSTAPAPER_PASSWORD }}
+          INSTAPAPER_ACCESS_TOKEN: ${{ secrets.INSTAPAPER_ACCESS_TOKEN }}
 
       - name: Commit and push
         run: |
