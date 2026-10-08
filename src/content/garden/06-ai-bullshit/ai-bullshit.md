@@ -30,6 +30,8 @@ tags:
 - [Please Use AI](https://shawnsmucker.substack.com/p/please-use-ai)
 - [Almost No Skill Required to Cook a Steak (Though You Probably Can’t Make a Decent One)](https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/)
 - [The AI Productivity Illusion](https://www.hardresetmedia.com/p/the-ai-productivity-illusion)
+- [the normalization of inexplicable failures](https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html)
+- [Mythos: not the magical AI hacking tool after all](https://pivot-to-ai.com/2026/10/07/mythos-not-the-magical-ai-hacking-tool-after-all/)
 
 #### 2025
 
