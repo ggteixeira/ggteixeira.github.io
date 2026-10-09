@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>ggteixeira/renovate-config"],
+  "packageRules": [
+    {
+      "description": "Tailwind v4 is a major migration; hold until upgrading on purpose",
+      "matchPackageNames": ["tailwindcss"],
+      "allowedVersions": "<4"
+    },
+    {
+      "matchPackageNames": ["@tailwindcss/vite"],
+      "enabled": false
+    }
+  ]
+}
