@@ -1,7 +1,8 @@
 ---
-title: "TIL: hoje eu aprendi a calcular números binários"
+title: "Como calcular números binários"
 summary: ""
 date: 15 oct 2026
+updatedDate: 15 oct 2026
 tags: []
 ---
 
