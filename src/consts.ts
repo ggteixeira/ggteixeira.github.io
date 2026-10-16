@@ -31,6 +31,12 @@ export const NOTES: Page = {
   DESCRIPTION: "Texts smaller than texts",
 };
 
+// TIL Page
+export const TIL: Page = {
+  TITLE: "TIL",
+  DESCRIPTION: "Today I learned: snapshots of things I learned.",
+};
+
 // Projects Page
 export const PROJECTS: Page = {
   TITLE: "Projects",
@@ -60,6 +66,10 @@ export const LINKS: Links = [
   {
     TEXT: "Notes",
     HREF: "/notes",
+  },
+  {
+    TEXT: "TIL",
+    HREF: "/til",
   },
   // {
   //   TEXT: "Projects",

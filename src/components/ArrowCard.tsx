@@ -6,6 +6,7 @@ type Props = {
   entry:
     | CollectionEntry<"garden">
     | CollectionEntry<"notes">
+    | CollectionEntry<"til">
     | CollectionEntry<"projects">;
   pill?: boolean;
   minimal?: boolean;
@@ -44,7 +45,8 @@ export default function ArrowCard(props: Props) {
   const isRecentUpdated = (threshold: number) => {
     if (
       props.entry.collection !== "garden" &&
-      props.entry.collection !== "notes"
+      props.entry.collection !== "notes" &&
+      props.entry.collection !== "til"
     )
       return false;
 
@@ -55,7 +57,8 @@ export default function ArrowCard(props: Props) {
   const isRecent = (threshold: number) => {
     if (
       props.entry.collection !== "garden" &&
-      props.entry.collection !== "notes"
+      props.entry.collection !== "notes" &&
+      props.entry.collection !== "til"
     )
       return false;
 
@@ -76,7 +79,9 @@ export default function ArrowCard(props: Props) {
                 ? "post"
                 : props.entry.collection === "notes"
                   ? "note"
-                  : "project"}
+                  : props.entry.collection === "til"
+                    ? "til"
+                    : "project"}
             </div>
           )}
 
@@ -90,7 +95,8 @@ export default function ArrowCard(props: Props) {
               <div class="flex items-center gap-2">
                 {!props.dense &&
                   (props.entry.collection === "garden" ||
-                    props.entry.collection === "notes") &&
+                    props.entry.collection === "notes" ||
+                    props.entry.collection === "til") &&
                   props.entry.data.updatedDate &&
                   isRecentUpdated(30) && (
                     <div class="text-sm uppercase">
@@ -99,7 +105,8 @@ export default function ArrowCard(props: Props) {
                   )}
 
                 {(props.entry.collection === "garden" ||
-                  props.entry.collection === "notes") &&
+                  props.entry.collection === "notes" ||
+                  props.entry.collection === "til") &&
                   isRecent(14) && <div class="text-sm uppercase">new</div>}
 
                 <ArrowIcon />

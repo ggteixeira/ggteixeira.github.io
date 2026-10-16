@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+import Notes from "@components/Notes";
+import { TIL } from "@consts";
+
+const posts = (await getCollection("til"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<PageLayout title={TIL.TITLE} description={TIL.DESCRIPTION}>
+  <TopLayout>
+    <div class="animate page-heading">
+      {TIL.TITLE}
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate">
+      <Notes
+        client:only="solid-js"
+        data={posts}
+        postsLabel="TIL"
+        noResultsLabel="No TILs yet."
+      />
+    </div>
+  </BottomLayout>
+</PageLayout>

@@ -47,6 +47,21 @@ const notes = defineCollection({
   }),
 });
 
+const til = defineCollection({
+  loader: glob({
+    pattern: "*.{md,mdx}",
+    base: "./src/content/til",
+  }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string().optional(),
+    date: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    tags: z.array(z.string()).optional().default([]),
+    draft: z.boolean().optional(),
+  }),
+});
+
 const projects = defineCollection({
   loader: glob({
     pattern: "**/*.{md,mdx}",
@@ -75,4 +90,4 @@ const legal = defineCollection({
   }),
 });
 
-export const collections = { work, garden, projects, legal, notes };
+export const collections = { work, garden, projects, legal, notes, til };

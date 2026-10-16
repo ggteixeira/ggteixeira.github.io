@@ -3,7 +3,7 @@ import { For, Show } from "solid-js";
 import ArrowCard from "@components/ArrowCard";
 
 type Props = {
-  data: CollectionEntry<"notes">[];
+  data: CollectionEntry<"notes" | "til">[];
   postsLabel: string;
   noResultsLabel: string;
 };

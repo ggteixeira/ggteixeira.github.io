@@ -12,11 +12,13 @@ const posts = (await getCollection("garden")).filter(
 
 const notes = (await getCollection("notes")).filter((post) => !post.data.draft);
 
+const til = (await getCollection("til")).filter((post) => !post.data.draft);
+
 const projects = (await getCollection("projects")).filter(
   (post) => !post.data.draft,
 );
 
-const data = [...posts, ...notes, ...projects];
+const data = [...posts, ...notes, ...til, ...projects];
 ---
 
 <PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>

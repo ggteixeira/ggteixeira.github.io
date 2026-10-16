@@ -6,6 +6,7 @@ import ArrowCard from "@components/ArrowCard";
 type SearchableEntry =
   | CollectionEntry<"garden">
   | CollectionEntry<"notes">
+  | CollectionEntry<"til">
   | CollectionEntry<"projects">;
 
 type Props = {
