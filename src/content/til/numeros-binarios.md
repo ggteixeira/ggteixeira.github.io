@@ -2,9 +2,7 @@
 title: "TIL: hoje eu aprendi a calcular números binários"
 summary: ""
 date: 15 oct 2026
-tags:
-  - TIL
-  - seedling
+tags: []
 ---
 
 Hoje eu aprendi a converter números inteiros positivos em binários, primeiro usando o cérebro e depois usando Python. Embora ainda não tenha entendido completamente o formalismo por trás da ideia, entendi o método de conversão em si.
