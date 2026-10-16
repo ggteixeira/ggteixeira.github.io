@@ -24,6 +24,9 @@
     "src/content/notes/**/*.md": [
       "node scripts/validate-garden.mjs"
     ],
+    "src/content/til/**/*.md": [
+      "node scripts/validate-garden.mjs"
+    ],
     "*.{ts,tsx}": [
       "eslint --fix",
       "prettier --write"
