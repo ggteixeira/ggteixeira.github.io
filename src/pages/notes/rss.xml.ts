@@ -3,7 +3,6 @@ import { getCollection } from "astro:content";
 import { SITE } from "@consts";
 import sanitizeHtml from "sanitize-html";
 import MarkdownIt from "markdown-it";
-import { isRssEligible } from "@lib/rss";
 import { formatDate } from "@lib/utils";
 const parser = new MarkdownIt();
 
@@ -14,7 +13,7 @@ type Context = {
 export async function GET(context: Context) {
   const posts = await getCollection("notes");
 
-  const publishedPosts = posts.filter(isRssEligible);
+  const publishedPosts = posts.filter((post) => !post.data.draft);
 
   const items = [...publishedPosts];
 
