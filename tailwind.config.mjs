@@ -14,6 +14,15 @@ export default {
         DEFAULT: {
           css: {
             maxWidth: "full",
+            code: {
+              backgroundColor: "rgb(127 127 127 / 0.20)",
+              padding: "0.15em 0.35em",
+              borderRadius: "0.25rem",
+              fontWeight: "400",
+            },
+
+            "code::before": { content: '""' },
+            "code::after": { content: '""' },
           },
         },
       },
