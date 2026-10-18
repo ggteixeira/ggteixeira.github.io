@@ -7,19 +7,6 @@ tags: []
 draft: false
 ---
 
-<!--toc:start-->
-
-- [Nível 1](#nível-1)
-  - [Sujeito](#sujeito)
-  - [Predicado](#predicado)
-    - [Predicativo do Sujeito](#predicativo-do-sujeito)
-  - [Adjunto Adnominal](#adjunto-adnominal)
-  - [Aposto](#aposto)
-  - [Recursividade](#recursividade)
-- [Nível 2: Orações Subordinadas](#nível-2-orações-subordinadas)
-
-<!--toc:end-->
-
 Um dos meus arrependimentos como linguista é não ter estudado de verdade as orações subordinadas e os conceitos que orbitam à sua volta, como apostos, predicados, predicativos do sujeito, adjuntos adnominais, adjuntos adverbiais etc.
 
 Especialmente ao longo da graduação, ignorei boa parte dos conhecimentos sobre Gramática Tradicional porque, em boa parte do tempo, eles são ignorados para darem lugar a outras teorias gramaticais mais alinhadas com o fazer científico do linguista. Isso, porém, não é pretexto para deixar de estudar a GT. Embora a critiquemos constantemente, conhecê-la para poder criticá-la é uma questão de brio. O resto é preguiça e covardia. Como ex-covarde, estou revendo esses conceitos, com paciência e coração aberto.
