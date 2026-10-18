@@ -2,9 +2,9 @@
 title: Período composto por subordinação
 summary: ""
 date: 17 oct 2026
-updatedDate: 17 oct 2026
+updatedDate: 18 oct 2026
 tags: []
-draft: true
+draft: false
 ---
 
 Uma das minhas maiores vergonhas como linguista é não ter estudado de verdade todas as orações subordinadas e os conceitos que orbitam em volta, como apostos, predicados, predicativos do sujeito, adjuntos adnominais, adjuntos adverbiais, entre outros. Especialmente durante a graduação, ignorei boa parte dos conhecimentos sobre Gramática Tradicional porque, em boa parte do tempo, eles são ignorados para darem lugar a outras teorias gramaticais mais alinhadas com o fazer científico do linguista. Isso, porém, não é pretexto para deixar de estudar a GT. Embora a critiquemos constantemente, conhecê-la para poder criticá-la é uma questão de brio. O resto é preguiça e covardia. Como ex-covarde, estou revendo esses conceitos, com paciência e coração aberto.
