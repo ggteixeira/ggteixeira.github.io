@@ -61,9 +61,9 @@ Aqui, "Recife" e "capital de Pernambuco" apontam para o mesmo objeto, sendo "Rec
 
 Um detalhe que causou confusão é o de que o aposto se adjunge a qualquer substantivo da oração, ou seja, tanto substantivos dentro do sujeito quanto substantivos dentro do predicado.
 
-> "Meu irmão é **engenheiro**." -> predicativo do sujeito
-> "Meu irmão, **engenheiro**, mora em Recife." -> aposto
-> "Meu irmão **mais velho** mora em Recife." -> adjunto adnominal
+- "Meu irmão é **engenheiro**." -> predicativo do sujeito
+- "Meu irmão, **engenheiro**, mora em Recife." -> aposto
+- "Meu irmão **mais velho** mora em Recife." -> adjunto adnominal
 
 Outra fonte de confusão foi sempre considerar que apostos e predicados são categorias contrastantes. Na verdade, eles pertencem a diferentes camadas de análise. O predicado é uma das duas metades de uma oração e é obrigatório. Já o aposto é um termo adjungido a um nome e é opcional. Quando existe, está sempre dentro de uma das metades. É por isso que pode estar ligado ao núcleo do sujeito ou a um nome do predicado, indiferentemente.
 
@@ -73,14 +73,15 @@ O último conceito importante antes do Nível 2 é o de recursividade. As funç�
 
 > A casa de madeira, a antiga sede da fazenda, foi tombada.
 
-- "A casa de madeira, a antiga sede da fazenda": sujeito da oração
+- "A casa de madeira": sujeito da oração
   - "A": artigo que é adjunto adnominal de "casa"
   - "casa": núcleo do sujeito
   - "de madeira": adjunto adnominal de "casa"
-  - "a antiga sede da fazenda": aposto de "casa"
-    - "a": artigo que é adjunto adnominal de "sede"
-    - "antiga": adjunto adnominal de "sede"
-    - "da fazenda": adjunto adnominal de "sede"
+
+- "a antiga sede da fazenda": aposto de "casa"
+  - "a": artigo que é adjunto adnominal de "sede"
+  - "antiga": adjunto adnominal de "sede"
+  - "da fazenda": adjunto adnominal de "sede"
 
 Para o nível 2, é expandido o conceito de "sintagma nominal dentro de outro" para "oração inteira ocupando o lugar de um termo dentro de outra oração".
 
